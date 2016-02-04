@@ -1,0 +1,29 @@
+table#cert-table.table.table-sm.table-hover
+  caption Certificate summary
+  thead
+    tr
+      th Client
+      th Certificates
+      th Estimated value
+      th Current value
+  tbody
+    - data.certificates.each do |cert|
+      tr
+        td
+          a
+            = cert["client"]
+        td.text-xs-right
+          = cert["count"]
+        td.text-xs-right
+          = "$#{cert["estimate"]}"
+        td.text-xs-right
+          = "$#{cert["current_value"]}"
+    tr
+      td Total
+      td.text-xs-right
+        = data.certificates.map{ |c| c["count"] }.inject(:+)
+      td.text-xs-right
+        = "$#{data.certificates.map{ |c| c["estimate"] }.inject(:+)}"
+      td.text-xs-right
+        = "$#{data.certificates.map{ |c| c["current_value"] }.inject(:+)}"
+      td

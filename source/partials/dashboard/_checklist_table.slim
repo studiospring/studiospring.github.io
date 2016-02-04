@@ -1,0 +1,12 @@
+button.btn.btn-default.mypopover data-toggle="popover" title="Mobile app receives notification of approval" ?
+table#checklist-table class="table table-sm table-hover"
+  thead
+    tr
+      th
+      th
+        | Evidence
+      th
+        | Approval
+  = partial "partials/dashboard/checklist_tbody", locals: { room: "Moe's Laundry", checklist: data.moes}
+  = partial "partials/dashboard/checklist_tbody", locals: { room: 'Laundry',checklist: data.laundry}
+  = partial "partials/dashboard/checklist_tbody", locals: { room: 'Office',checklist: data.office}

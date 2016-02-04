@@ -1,0 +1,46 @@
+#profits.costing-col.col-sm-4
+  .row
+    .col-sm-6
+      = label_tag :light_markup, class: ""
+    .col-sm-6.input-group
+      = text_field_tag :light_markup, class: 'form-control'
+      .input-group-addon
+        | %
+  .row
+    .col-sm-6
+      = label_tag :markup, class: ""
+    .col-sm-6.input-group
+      = text_field_tag :markup, class: 'form-control'
+      .input-group-addon
+        | %
+  h3 markup total:
+
+  h2 Certificates
+  .row
+    .col-sm-6 Certs created:
+    .col-sm-6 80
+  .row
+    .col-sm-6
+      = label_tag :estimated_cert_price, class: ""
+    .col-sm-6.input-group
+      .input-group-addon $
+      = text_field_tag :estimated_cert_price, class: 'form-control'
+  .row
+    .col-sm-6
+      = label_tag :break_even_cert_price, class: ""
+    .col-sm-6.input-group
+      .input-group-addon $
+      = text_field_tag :break_even_cert_price, class: 'form-control'
+  .row
+    .col-sm-6
+      = label_tag :estimated_cert_value, class: ""
+    .col-sm-6.input-group
+      .input-group-addon $
+      = text_field_tag :estimated_cert_value, class: 'form-control'
+  .row
+    .col-sm-6
+      = label_tag :clients_cert_share, class: ""
+    .col-sm-6.input-group
+      = text_field_tag :clients_cert_share, class: 'form-control'
+      .input-group-addon %
+  h3 certificate profit:

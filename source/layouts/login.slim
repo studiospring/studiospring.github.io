@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta[charset="UTF-8"]
+    meta[name="author" content="Design Studio Spring"]
+    meta[name="copyright" content="Design Studio Spring"]
+    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    title
+      = "#{current_page.data.title} ACP Dashboard"
+    = stylesheet_link_tag :dashboard
+    = javascript_include_tag "jquery-2.2.0.min"
+    = javascript_include_tag "bootstrap-4/bootstrap.min"
+    = javascript_include_tag :all
+    body
+      .container-fluid
+        .row.header
+          = partial "partials/dashboard/header"
+      .container
+        = yield
+      .container-fluid
+        = partial "partials/dashboard/footer"

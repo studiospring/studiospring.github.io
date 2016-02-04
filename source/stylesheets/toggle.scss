@@ -1,0 +1,117 @@
+/*
+ * 3 way Slider converted from:
+ *
+ * Copyright (c) 2012-2013 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin transition($property, $duration, $timing) {
+  -webkit-transition: $property $duration $timing;
+  -moz-transition: $property $duration $timing;
+  -o-transition: $property $duration $timing;
+  transition: $property $duration $timing;
+}
+
+@mixin linear-gradient($direction, $start, $stop) {
+  background-image: -webkit-linear-gradient($direction, $start, $stop);
+  background-image: -moz-linear-gradient($direction, $start, $stop);
+  background-image: -o-linear-gradient($direction, $start, $stop);
+  background-image: linear-gradient($direction, $start, $stop);
+}
+
+/* @mixin box-shadow($inset: false, $$direction, $left, $color, $blur) { */
+/*   @if $inset {                                                 */
+/*     -webkit-box-shadow:inset $top $left $blur $color;          */
+/*     -moz-box-shadow:inset $top $left $blur $color;             */
+/*     box-shadow:inset $top $left $blur $color;                  */
+/*   } @else {                                                    */
+/*     -webkit-box-shadow: $top $left $blur $color;               */
+/*     -moz-box-shadow: $top $left $blur $color;                  */
+/*     box-shadow: $top $left $blur $color;                       */
+/*   }                                                            */
+/* }                                                              */
+
+$labelWidth: 35px;
+
+.switch {
+  position: relative;
+  height: 26px;
+  width: $labelWidth * 3 + 4px;
+  background: rgba(black, .25);
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: $labelWidth;
+  line-height: 19px;
+  font-size: 1rem;
+  color: rgba(white, .35);
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(black, .45);
+  cursor: pointer;
+
+  &:active { font-weight: bold; }
+}
+
+.switch-label-off { padding-left: 2px; }
+.switch-label-on { padding-right: 2px; }
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       http://css-tricks.com/webkit-sibling-bug/
+ */
+
+.switch-input {
+  display: none;
+
+  &:checked + .switch-label {
+    font-weight: bold;
+    color: rgba(black, .65);
+    text-shadow: 0 1px rgba(white, .25);
+    @include transition(left, .15s, ease-out);
+  }
+
+  &:checked + .switch-label-off ~ .switch-selection {
+    left: 2px; /* Note: left: 50% doesn't transition in WebKit */
+  }
+
+  &:checked + .switch-label-on ~ .switch-selection {
+    left: $labelWidth * 2 + 2px; /* Note: left: 50% doesn't transition in WebKit */
+  }
+
+  &:checked + .your-new-label ~ .switch-selection { 
+    left: $labelWidth + 2px; 
+  }
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 36px;
+  width: $labelWidth;
+  height: 22px;
+  background: #65bd63;
+  border-radius: 3px;
+  @include linear-gradient(top, #9dd993, #65bd63);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  @include transition(left, .15s, ease-out);
+}

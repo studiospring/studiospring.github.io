@@ -1,0 +1,8 @@
+nav#progress-breadcrumbs
+  ul
+    - data.assessments.first["progress"].each do |a|
+      li.progress-container  class=("active-crumb" if curr_page == a['url'])
+        a href="#{a['url']}.html"
+          progress.progress value="#{a['percent']}" max="100"
+          span
+            = a["page"]
