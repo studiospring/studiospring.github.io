@@ -10,6 +10,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/*", :layout => :article
+page "/index.html", :layout => :main
 
 Time.zone = 'Sydney'
 
