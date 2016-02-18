@@ -1,4 +1,4 @@
-= wrap_layout :layout do
+= wrap_layout :main do
   article
     header
       h1
@@ -7,3 +7,5 @@
         time datetime="#{current_page.data.date}"
           = current_page.data.date
     = yield
+  div
+    | Related

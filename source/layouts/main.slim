@@ -13,13 +13,12 @@ html
     = javascript_include_tag :all
     body
       .container-fluid
-        .row.header
-          = partial "partials/header"
+        / .row.header
+        /   = partial "partials/header"
         .row
           div.col-md-2.sidebar.hidden-sm-down
             = partial "partials/sidebar"
 
           div.col-md-offset-2.main
-            = partial "partials/article"
             = yield
       = partial "partials/footer"

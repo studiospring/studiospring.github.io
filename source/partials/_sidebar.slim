@@ -1,18 +1,11 @@
+h1#logo UX
+p UX musings
 nav
   ul.nav.nav-sidebar
-    li class=('active' if current_page.data.curr_page == 'home')
+    li class=('active' if current_page.data.curr_page == 'index')
       a href="/index.html" Home
-    ul
-      li
-        a href="/index.html#brief" Brief
-        li
-          a href="/index.html#personas" Personas
-        li
-          a href="/index.html#sitemap" Sitemap
-        li
-          a href="/index.html#erd" ERD
-    li class=('active' if current_page.data.curr_page == 'mobile')
-      a  href="/wireframes/mobile.html" Mobile wireframes
+    li class=('active' if current_page.data.curr_page == 'about')
+      a  href="/about.html" About
     li class=('active' if current_page.data.curr_page == 'dashboard')
       a href="/wireframes/dashboard.html" Dashboard wireframes
     li

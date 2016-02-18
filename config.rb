@@ -9,7 +9,7 @@ require 'bootstrap'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "2016/*", :layout => :article
+page "/*", :layout => :article
 
 Time.zone = 'Sydney'
 
