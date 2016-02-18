@@ -1,0 +1,9 @@
+= wrap_layout :layout do
+  article
+    header
+      h1
+        = current_page.data.title
+      p
+        time datetime="#{current_page.data.date}"
+          = current_page.data.date
+    = yield
