@@ -6,20 +6,20 @@ html
     meta[name="copyright" content="Design Studio Spring"]
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
     title
-      = "#{current_page.data.title} UX Design"
-    = stylesheet_link_tag :intro
-    = stylesheet_link_tag :wireframes
-    = javascript_include_tag "jquery-2.2.0.min"
+      = "#{current_page.data.title} | RedUX"
+    = stylesheet_link_tag :index
+    / = javascript_include_tag "jquery-2.2.0.min"
     = javascript_include_tag "bootstrap-4/bootstrap.min"
     = javascript_include_tag :all
     body
       .container-fluid
         .row.header
-          = partial "partials/intro/header"
+          = partial "partials/header"
         .row
           div.col-md-2.sidebar.hidden-sm-down
-            = partial "partials/intro/sidebar"
+            = partial "partials/sidebar"
 
           div.col-md-offset-2.main
+            = partial "partials/article"
             = yield
-      = partial "partials/dashboard/footer"
+      = partial "partials/footer"
