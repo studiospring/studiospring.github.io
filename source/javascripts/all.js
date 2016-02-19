@@ -1,9 +1,19 @@
 //= require_tree .
 
-$(function(){
-  $('.carousel').carousel();
+window.onload = function() {
+  function addTriangleTo(target) {
+      var dimensions = target.getClientRects()[0];
+      var pattern = Trianglify({
+          width: dimensions.width,
+          height: dimensions.height,
+          variance: 0.9,
+          y_colors: 'RdBu',
+          x_colors: 'RdBu'
+      });
+      target.style['background-image'] = 'url(' + pattern.png() + ')';
+  }
 
-  $('.dropdown').attr({title: "Dummy link"});
+  addTriangleTo(document.getElementById('sidebar'));
 
   $('.nav-item').hover(function(){
     if ($(this).children().html() == 'Accounting') {
