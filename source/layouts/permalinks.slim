@@ -1,4 +1,10 @@
+---
+pageable: true
+per_page: 12
+---
+
 = wrap_layout :main do
+  = partial "partials/prev_page"
   - articles.each do |article|
     article
       header
@@ -10,3 +16,4 @@
             = article.date.strftime("%-d %b %Y")
       p
         = article.summary
+  = partial "partials/next_page"
