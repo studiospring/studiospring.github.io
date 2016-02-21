@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import "bootstrap-4/scss/bootstrap";
+@import "footer";
+$red: #85000D;
+$sidebar-text: #fff;
+
+@media (min-width: 768px) {
+
+  nav a {
+    color: $sidebar-text;
+    color: $sidebar-text;
+    &:hover{
+      color: $sidebar-text;
+      text-decoration: none;
+    }
+  }
+
+  .sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0rem;      
+    /* z-index: 1000; */
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: $red;
+    /* background-color: #d46a6a; */
+    /* border-right: 1px solid #eee; */
+  }
+
+  .nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+
+    li{
+      list-style-type: none;
+    }
+  }
+
+  .nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .nav-sidebar > .active > a,
+  .nav-sidebar > .active > a:hover,
+  .nav-sidebar > .active > a:focus {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    color: $sidebar-text;
+    background-color: #428bca;
+  }
+
+  #search{
+    width: 11rem;
+    width: 13vw;
+  }
+
+  #tags{
+    margin: 1rem 0;
+    background-color: #fff;
+    opacity: 0.5;          
+    border-radius: .5rem;
+    padding: .4rem .5rem;
+
+    h2 {
+      font-size: 1.4rem;
+      color: $sidebar-text;
+    }
+    a {
+      opacity: 1;
+    }
+  }
+}
