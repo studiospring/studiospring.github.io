@@ -19,8 +19,8 @@ html
     body
       .container-fluid
         .row
-          div#sidebar.col-md-2.sidebar.hidden-sm-down
+          div#sidebar.hidden-sm-down
             = partial "partials/sidebar"
 
-          div.col-md-offset-2.main
+          div#main
             = yield

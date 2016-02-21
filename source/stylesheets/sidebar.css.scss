@@ -5,6 +5,9 @@ $red: #85000D;
 $sidebar-text: #fff;
 
 @media (min-width: 768px) {
+  #sidebar{
+    width: 200px;
+  }
 
   nav a {
     color: $sidebar-text;
@@ -15,7 +18,7 @@ $sidebar-text: #fff;
     }
   }
 
-  .sidebar {
+  #sidebar {
     position: fixed;
     bottom: 0;
     left: 0;
