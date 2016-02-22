@@ -1,25 +1,27 @@
 ---
-layout: intro
 curr_page: home
+pageable: true
+per_page: 10
 ---
 
-#brief
-  = partial "partials/intro/brief.md"
-  caption Figure 1: Application workflow
-  = image_tag 'intro/app_workflow.gif', :class => ''
-#personas
-  = partial "partials/intro/personas.md"
-#sitemap
-  h2 Mobile sitemap
-  figure
-    figcaption Figure 2: Mobile sitemap
-    = image_tag 'intro/mobile_sitemap.gif', :class => ''
-  h2 Dashboard sitemap
-  figure
-    figcaption Figure 3: Dashboard sitemap
-    = image_tag 'intro/dashboard_sitemap.gif', :class => ''
-#erd
-  h2 Entity Relationship Diagram (ERD)
-  p This diagram shows the basic database structure used by the mobile and desktop applications.
-  caption Figure 4: Entity Relationship Diagram
-  = image_tag 'intro/erd.gif', :class => ''
+- if paginate && num_pages > 1
+  p
+    | Page
+    = page_number
+    |  of
+    = num_pages
+  - if prev_page
+    p
+      = link_to 'Previous page', prev_page
+
+- page_articles.each_with_index do |article, i|
+  h2
+    = link_to article.title, article
+    span
+      = article.date.strftime('%b %e')
+  = article.body
+
+- if paginate
+  - if next_page
+    p
+      = link_to 'Next page', next_page
