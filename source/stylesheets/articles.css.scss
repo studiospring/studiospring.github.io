@@ -1,0 +1,40 @@
+#main {
+  header{
+    h1 {
+      margin-bottom: 0;
+    }
+
+    h1 a{
+      font-family: $bold-font;
+      font-size: 1.5rem;
+      color: #111;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    time {
+      font-size: .4rem;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-left: 220px;
+    max-width: 38rem;
+
+    figure{
+      padding: 1rem 0 2rem 0;
+    }
+
+    header{
+      h2 {
+        padding: 2rem 2rem;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
