@@ -3,9 +3,8 @@
     header
       h1
         = current_page.data.title
-      p
-        time datetime="#{current_page.data.date}"
-          = current_page.data.date
+      time datetime="#{current_page.data.date}"
+        = current_page.data.date
     = yield
   section
     | Related
