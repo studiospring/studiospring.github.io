@@ -6,14 +6,13 @@ per_page: 12
 = wrap_layout :main do
   = partial "partials/prev_page"
   - articles.each do |article|
-    article
+    article.permalink
       header
         h1
           a href="#{article.url}"
             = article.title
-        p
-          time datetime="#{article.date.strftime("%Y-%m-%d")}"
-            = article.date.strftime("%-d %b %Y")
+        time datetime="#{article.date.strftime("%Y-%m-%d")}"
+          = article.date.strftime("%-d %b %Y")
       p
         = article.summary
   = partial "partials/next_page"
