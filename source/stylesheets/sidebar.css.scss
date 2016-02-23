@@ -1,19 +1,79 @@
 @charset "utf-8";
 @import "variables";
 
+@media (min-width: 768px) {
+  /* overflow-y: auto; */
+}
+
+#sidebar {
+  width: 200px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0rem;
+  /* z-index: 1000; */
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  /* background-color: #ccc; */
+  background-color: #a61c1c;
+  /* background-color: #d46a6a; */
+  /* border-right: 1px solid #eee; */
+}
+
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+
+  li{
+    list-style-type: none;
+  }
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  padding-top: .2em;
+  padding-bottom: .2em;
+  color: $sidebar-text;
+  background-color: #428bca;
+}
+
+#search{
+  width: 10rem;
+}
+
+#tags{
+  margin: 1rem 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: .4rem .5rem;
+
+  h2 {
+    font-size: 1.4rem;
+    color: $sidebar-text;
+  }
+}
 #logo{
-  a:hover {
+  color: red;
+
+  &:hover {
     text-decoration: none;
   }
 
   h1, p{
-    color: $sidebar-text;
-    &:hover {
-      text-decoration: none;
-    }
+    color: $red;
   }
 
   h1 {
+    font-family: $bold-font;
     font-size: 6rem;
   }
 }
@@ -28,60 +88,3 @@ nav a {
 }
 
 
-@media (min-width: 768px) {
-  #sidebar {
-    width: 200px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    top: 0rem;      
-    /* z-index: 1000; */
-    display: block;
-    padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: $red;
-    /* background-color: #d46a6a; */
-    /* border-right: 1px solid #eee; */
-  }
-
-  .nav-sidebar {
-    margin-right: -21px; /* 20px padding + 1px border */
-    margin-bottom: 20px;
-    margin-left: -20px;
-
-    li{
-      list-style-type: none;
-    }
-  }
-
-  .nav-sidebar > li > a {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .nav-sidebar > .active > a,
-  .nav-sidebar > .active > a:hover,
-  .nav-sidebar > .active > a:focus {
-    padding-top: .2em;
-    padding-bottom: .2em;
-    color: $sidebar-text;
-    background-color: #428bca;
-  }
-
-  #search{
-    width: 10rem;
-  }
-
-  #tags{
-    margin: 1rem 0;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    padding: .4rem .5rem;
-
-    h2 {
-      font-size: 1.4rem;
-      color: $sidebar-text;
-    }
-  }
-}
