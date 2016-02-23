@@ -1,0 +1,27 @@
+@import "variables";
+/* Do not touch these three lines! */
+@media (min-width: 768px) {
+  /* overflow-y: auto; */
+}
+
+#main{
+  header {                     
+    h1 {                      
+      margin-bottom: 0;       
+    }                         
+
+    h1 a {
+      font-family: $bold-font;
+      font-size: 1.6rem;      
+      color: #111;            
+
+      &:hover {               
+        text-decoration: none;
+      }                       
+    }                         
+  }                           
+
+  .permalink p {                  
+    font-size: 1.1rem;      
+  }                               
+}
