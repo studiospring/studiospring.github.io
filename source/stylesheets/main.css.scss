@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import "bootstrap-4/scss/bootstrap";
+@import "variables";
+
+@font-face {
+  font-family: "Fira Sans Book";
+  src: url("/type/fira/FiraSans-Book.otf") format('opentype');
+}
+@font-face {
+  font-family: "Fira Sans Medium";
+  src: url("/type/fira/FiraSans-Medium.otf") format('opentype');
+}
+
+body{
+  background-color: #eee;
+}
+
+.container-fluid {                             
+  margin-top: 1rem;                            
+}                                              
+
+/* @include media-breakpoint-up(sm) {              */
+/*   html {                                        */
+/*     font-size: 20px;                            */
+/*   }                                             */
+/* }                                               */
+
+/* @include media-breakpoint-up(md) {              */
+/*   html {                                        */
+/*     font-size: 20px;                            */
+/*   }                                             */
+/* }                                               */
+
+/* @include media-breakpoint-up(lg) {              */
+/*   html {                                        */
+/*     font-size: 28px;                            */
+/*   }                                             */
+/* }                                               */
+
+#main {
+  @include media-breakpoint-up(md) {
+    margin-left: 220px;             
+    max-width: 38rem;               
+  }                                 
+}                                              
