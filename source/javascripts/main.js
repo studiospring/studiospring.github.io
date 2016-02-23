@@ -3,33 +3,33 @@
 //= require lunr.min
 
 window.onload = function() {
-  // function addTriangleTo(target) {
-  //     var dimensions = target.getClientRects()[0];
-  //     var pattern = Trianglify({
-  //         width: dimensions.width,
-  //         height: dimensions.height,
-  //         variance: 0.9,
-  //         y_colors: 'RdBu',
-  //         x_colors: 'RdBu'
-  //     });
-  //     target.style['background-image'] = 'url(' + pattern.png() + ')';
-  // }
+  function addTriangleTo(target) {
+      var dimensions = target.getClientRects()[0];
+      var pattern = Trianglify({
+          width: dimensions.width,
+          height: dimensions.height,
+          variance: 0.9,
+          // x_colors: ['#550000','#550000', '#fff'],
+          x_colors: 'Reds',
+          y_colors: 'RdBu'
+      });
+      target.style['background-image'] = 'url(' + pattern.png() + ')';
+  }
 
-  // addTriangleTo(document.getElementById('sidebar'));
+  addTriangleTo(document.getElementById('sidebar'));
 
-  // var lunrIndex = null;
-  // var lunrData  = null;
+  var lunrIndex = null;
+  var lunrData  = null;
 
-  // $.ajax({
-  //   url: "search.json",
-  //   cache: true,
-  //   method: 'GET',
-  //   success: function(data) {
-  //     lunrData = data;
-  //     lunrIndex = lunr.Index.load(lunrData.index);
-  //   }
-  // });
-
+  $.ajax({
+    url: "search.json",
+    cache: true,
+    method: 'GET',
+    success: function(data) {
+      lunrData = data;
+      lunrIndex = lunr.Index.load(lunrData.index);
+    }
+  });
 }
 
 
