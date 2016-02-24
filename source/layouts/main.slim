@@ -21,8 +21,7 @@ html
     = javascript_include_tag :all
     body
       .container-fluid
-        div#sidebar.hidden-sm-down
-          = partial "partials/sidebar"
+        = partial "partials/sidebar"
 
         div#main
           = yield

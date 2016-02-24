@@ -1,19 +1,23 @@
-a#logo href="/" UX
-p UX musings
+div#sidebar.hidden-sm-down
+  a#logo href="/"
+    span#red RED
+    span#ux U
+    | X
+  p UX musings
 
-nav
-  input#search.ui-autocomplete-input placeholder="Search" type="text"
+  nav
+    input#search.ui-autocomplete-input placeholder="Search" type="text"
 
-  section#tags
-    h2 Tags
+    section#tags
+      h2 Tags
 
-    - blog.tags.keys.sort.join(', ').split(' ').each do |tag|
-      a href=(tag_path(tag))
-        = "#{tag} "
+      - blog.tags.keys.sort.join(', ').split(' ').each do |tag|
+        a href=(tag_path(tag))
+          = "#{tag} "
 
-  ul.nav.nav-sidebar
-    li class=('active' if current_page.data.curr_page == 'about')
-      a  href="/about.html" About
+    ul.nav.nav-sidebar
+      li class=('active' if current_page.data.curr_page == 'about')
+        a  href="/about.html" About
 
-  footer.footer
-    span#copyright © Design Studio Spring
+    footer.footer
+      span#copyright © Design Studio Spring
