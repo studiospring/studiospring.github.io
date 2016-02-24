@@ -61,30 +61,17 @@
     color: $sidebar-text;
   }
 }
-#logo{
-  color: red;
 
-  &:hover {
-    text-decoration: none;
-  }
+.footer {
+  position: absolute;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 
-  h1, p{
-    color: $red;
-  }
-
-  h1 {
-    font-family: $bold-font;
-    font-size: 6rem;
+  #copyright {
+    color: #fff;
+    font-family: $extralight-font;
+    font-size: .6rem;
+    /* margin-left: -0.8rem; */
   }
 }
-
-nav a {
-  color: $sidebar-text;
-
-  &:hover{
-    color: $sidebar-text;
-    /* text-decoration: none; */
-  }
-}
-
-
