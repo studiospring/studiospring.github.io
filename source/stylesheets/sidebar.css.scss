@@ -5,6 +5,47 @@
   /* overflow-y: auto; */
 }
 
+#logo{
+  color: #fff;
+  font-size: 8rem;
+  line-height: 1.3;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+#red {
+  z-index: 5;
+  display: block;
+  position: absolute;
+  /* top: 5rem;    */
+  /* left: -.1rem; */
+  top: 3.3rem;  
+  left: -1.7rem;
+  /* border: 1px solid black; */
+  font-family: $extralight-font;
+  font-size: 2rem;
+  color: $red;
+  letter-spacing: 1.2rem;
+  transform: rotate(-90deg);
+}
+
+#ux {
+  font-family: $ultralight-font;
+  z-index: 1;
+  margin-left: 1.5rem;
+}
+
+nav a {
+  color: $sidebar-text;
+
+  &:hover{
+    color: $sidebar-text;
+    /* text-decoration: none; */
+  }
+}
+
 #sidebar {
   width: 200px;
   position: fixed;
@@ -13,13 +54,19 @@
   top: 0rem;
   /* z-index: 1000; */
   display: block;
-  padding: 20px;
+  padding: 0 20px;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
   /* background-color: #ccc; */
   background-color: #a61c1c;
   /* background-color: #d46a6a; */
   /* border-right: 1px solid #eee; */
+
+  p {
+    margin: -1rem 0 2rem 0;
+    color: #fff;
+    font-family: $base-font;
+  }
 }
 
 .nav-sidebar {
