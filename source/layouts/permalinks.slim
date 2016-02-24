@@ -13,6 +13,5 @@ per_page: 12
             = article.title
         time datetime="#{article.date.strftime("%Y-%m-%d")}"
           = article.date.strftime("%-d %b %Y")
-      p
-        = article.summary
+      = article.summary
   = partial "partials/next_page"
