@@ -1,7 +1,29 @@
+@font-face {
+  font-family: "Fira Sans Book";
+  src: url("/type/fira/FiraSans-Book.otf") format('opentype');
+}
+@font-face {
+  font-family: "Fira Sans Light";
+  src: url("/type/fira/FiraSans-Light.otf") format('opentype');
+}
+@font-face {
+  font-family: "Fira Sans Extralight";
+  src: url("/type/fira/FiraSans-UltraLight.otf") format('opentype');
+}
+@font-face {
+  font-family: "Fira Sans Ultralight";
+  src: url("/type/fira/FiraSans-UltraLight.otf") format('opentype');
+}
+@font-face {
+  font-family: "Fira Sans Medium";
+  src: url("/type/fira/FiraSans-Medium.otf") format('opentype');
+}
+
 $red: #85000D;
 $base-font: "Fira Sans Book";
 $bold-font: "Fira Sans Medium";
 $light-font: "Fira Sans Light";
+$extralight-font: "Fira Sans Extralight";
 $ultralight-font: "Fira Sans Ultralight";
 $sidebar-text: #fff;
 $font-family-base: $base-font !default;

@@ -2,23 +2,6 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-@font-face {
-  font-family: "Fira Sans Book";
-  src: url("/type/fira/FiraSans-Book.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Light";
-  src: url("/type/fira/FiraSans-Light.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Ultralight";
-  src: url("/type/fira/FiraSans-UltraLight.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Medium";
-  src: url("/type/fira/FiraSans-Medium.otf") format('opentype');
-}
-
 body{
   background-color: #eee;
 }
