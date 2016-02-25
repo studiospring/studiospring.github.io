@@ -15,8 +15,10 @@ div#sidebar.hidden-sm-down role="navigation"
           = "#{tag} "
 
     ul.nav.nav-sidebar
-      li class=('active' if current_page.data.curr_page == 'about')
+      li.nav-item class=('active' if current_page.data.curr_page == 'about')
         a  href="/about.html" About
+      li.nav-item
+        a.nav-link href="/feed.xml" RSS
 
     footer.footer
       span#copyright © Design Studio Spring
