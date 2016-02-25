@@ -1,6 +1,4 @@
 //= require_tree .
-// For Middleman-search
-//= require lunr.min
 
 window.onload = function() {
   function addTriangleTo(target) {
