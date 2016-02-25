@@ -1,10 +1,6 @@
 @charset "utf-8";
 @import "variables";
 
-@media (min-width: 768px) {
-  /* overflow-y: auto; */
-}
-
 #logo{
   color: #fff;
   font-size: 8rem;
@@ -66,7 +62,6 @@ nav a {
 
 nav a:visited {
   color: #fff;
-  text-decoration: none;
 }
 
 #search{
