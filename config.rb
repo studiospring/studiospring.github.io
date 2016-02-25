@@ -53,6 +53,25 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+# Middleman-search
+activate :search do |search|
+
+  search.resources = ['2016/', 'index.html']
+
+  # search.index_path = 'source/search.json' # defaults to `search.json`
+
+  search.fields = {
+    title:   {boost: 100, store: true, required: true},
+    content: {boost: 50},
+    url:     {index: false, store: true},
+    author:  {boost: 30}
+  }
+end
+
+activate :asset_hash do |asset_hash|
+  asset_hash.exts << '.json'
+end
+
 page "/feed.xml", layout: false
 
 # Build-specific configuration

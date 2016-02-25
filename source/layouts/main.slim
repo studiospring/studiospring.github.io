@@ -9,18 +9,22 @@ html
       - if current_page.data.title
         = "#{current_page.data.title } | RedUX: UX Design Blog"
       -else
-        | RedUX: Thoughts and Musings on UX Design
+        | RedUX: User eXperience Design from the frontlines
     = stylesheet_link_tag :main
     = stylesheet_link_tag :sidebar
     = stylesheet_link_tag :permalinks
     = stylesheet_link_tag :articles
-    / = javascript_include_tag "jquery-2.2.0.min"
-    / = javascript_include_tag "bootstrap-4/bootstrap.min"
-    = javascript_include_tag "trianglify.min"
-    = javascript_include_tag :main
+    = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
     body
       .container-fluid
         = partial "partials/sidebar"
 
         div#main role="main"
           = yield
+    = javascript_include_tag "trianglify.min"
+    = javascript_include_tag "jquery-2.2.0.min"
+    = javascript_include_tag "jquery-ui/jquery-ui.min"
+    / = javascript_include_tag "bootstrap-4/bootstrap.min"
+    = javascript_include_tag "lodash"
+    = javascript_include_tag "lunr.min"
+    = javascript_include_tag :main
