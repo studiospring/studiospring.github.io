@@ -56,7 +56,7 @@ end
 # Middleman-search
 activate :search do |search|
 
-  search.resources = ['2016/', 'index.html']
+  search.resources = ['2016/']
 
   # search.index_path = 'source/search.json' # defaults to `search.json`
 
