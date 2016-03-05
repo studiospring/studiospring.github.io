@@ -18,7 +18,7 @@ window.onload = function() {
       target.style['background-image'] = 'url(' + pattern.png() + ')';
   }
 
-  addTriangleTo(document.getElementById('sidebar'));
+  addTriangleTo(document.getElementById('banner'));
 
   var lunrIndex = null;
   var lunrData  = null;

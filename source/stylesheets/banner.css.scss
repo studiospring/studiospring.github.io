@@ -34,10 +34,10 @@
 
 nav a {
   float: right;
-  color: $sidebar-text;
+  color: $banner-text;
 
   &:hover{
-    color: $sidebar-text;
+    color: $banner-text;
   }
 }
 
@@ -70,7 +70,7 @@ nav a {
     margin-left: 1.5rem;
   }
 
-  #sidebar {
+  #banner {
     width: 200px;
     position: fixed;
     bottom: 0;
@@ -105,7 +105,7 @@ nav a {
 
     h2 {
       font-size: 1.4rem;
-      color: $sidebar-text;
+      color: $banner-text;
     }
   }
 
