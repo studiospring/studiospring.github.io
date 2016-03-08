@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "bootstrap-4/scss/bootstrap";
+@import "variables";
+
+#p1{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("/images/harbour.jpg");
+  background-color: #FF5900;
+
+  h1 {
+    color: #fff;
+    font-size: 8rem;
+
+  }
+}
+
+#p2{
+  background-color: red;
+} 
+
+#p3{
+  background-color: green;
+} 
