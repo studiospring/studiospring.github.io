@@ -2,7 +2,8 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-#p1{
+/* Questions */
+#slide1, #slide8{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -24,10 +25,24 @@
   }
 }
 
-#p2{
+/* Questions */
+#slide8{
+  background-image: url('/images/lego_pirate.jpg');
+  justify-content: flex-end;
+  align-items: stretch;
+} 
+
+#hamburger {
+  display: block;
+  width: 128px;
+  height: 128px;
+  background-image: url('/images/hamburger.png');
+} 
+
+#slide2{
   background-color: red;
 } 
 
-#p3{
+#slide3{
   background-color: green;
 } 
