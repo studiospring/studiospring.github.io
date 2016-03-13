@@ -62,11 +62,11 @@
   }
 
   #carousel-example-generic{
-    position: absolute;
-    top: 135px;
-    left: 31px;
-    width: 321px;         
-    height: 484px;        
+    /* position: absolute; */
+    /* top: 135px;         */
+    /* left: 31px;         */
+    width: 90vw;
+    height: 80vh;
     border: 1px solid black;
 
     .carousel-control.left, 
@@ -78,7 +78,6 @@
 
 /* Questions */
 #questions{
-  flex-direction: column;
   background-image: url('/images/chameleon/lego_pirate.jpg');
   justify-content: flex-end;
   align-items: stretch;
