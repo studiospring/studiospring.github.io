@@ -24,8 +24,23 @@ body{
     color: $red;
   }
 
+  .slide {
+    display: flex;
+    height: 100vh;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: $bold-font;
+      color: #fff;
+      margin: 1rem 1rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+  }
 }                                              
+
 .slide {
-  display: flex;
-  height: 100vh;
+  background-color: #4E778F;
 }
