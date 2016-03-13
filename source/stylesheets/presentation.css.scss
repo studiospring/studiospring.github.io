@@ -24,6 +24,7 @@ body{
     color: $red;
   }
 
+  /* Stuff that should not be overridden */
   .slide {
     display: flex;
     height: 100vh;
@@ -41,6 +42,9 @@ body{
   }
 }                                              
 
+/* Stuff that may be overridden */
 .slide {
   background-color: #4E778F;
+  padding-left: 1rem;
+  flex-direction: column;
 }
