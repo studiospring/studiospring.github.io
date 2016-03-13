@@ -7,7 +7,7 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("/images/harbour.jpg");
+  background-image: url("/images/chameleon/harbour.jpg");
   background-color: #FF5900;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,8 @@
 
 /* Questions */
 #questions{
-  background-image: url('/images/lego_pirate.jpg');
+  flex-direction: column;
+  background-image: url('/images/chameleon/lego_pirate.jpg');
   justify-content: flex-end;
   align-items: stretch;
 } 
@@ -87,5 +88,5 @@
   display: block;
   width: 128px;
   height: 128px;
-  background-image: url('/images/hamburger.png');
+  background-image: url('/images/chameleon/hamburger.png');
 } 
