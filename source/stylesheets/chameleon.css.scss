@@ -43,7 +43,7 @@
   }
 }
 
-#mobile-wireframe{
+#sketch-carousel {
   position: relative;
   height: 743px;
 
@@ -61,16 +61,13 @@
     color: green;
   }
 
-  #phone-img{
-    position: absolute;
-  }
-
   #carousel-example-generic{
     position: absolute;
     top: 135px;
     left: 31px;
     width: 321px;         
     height: 484px;        
+    border: 1px solid black;
 
     .carousel-control.left, 
     .carousel-control.right {
