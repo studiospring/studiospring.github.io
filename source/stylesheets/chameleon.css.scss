@@ -25,6 +25,16 @@
   }
 }
 
+#user-types-table, #IA-table {
+  width: 95%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+
+  tr {
+    width: 12%;
+  }
+}
+
 /* Questions */
 #slide8{
   background-image: url('/images/lego_pirate.jpg');
