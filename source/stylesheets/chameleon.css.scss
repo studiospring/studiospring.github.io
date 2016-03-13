@@ -91,6 +91,7 @@
 /* Questions */
 #questions{
   background-image: url('/images/chameleon/lego_pirate.jpg');
+  flex-direction: row;
   justify-content: flex-end;
   align-items: stretch;
 } 
