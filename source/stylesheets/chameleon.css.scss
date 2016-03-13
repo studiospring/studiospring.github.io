@@ -3,7 +3,7 @@
 @import "variables";
 
 /* Questions */
-#slide1, #slide8{
+#intro, #questions{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -24,6 +24,14 @@
 
   }
 }
+
+#ia{
+  background-color: green;
+} 
+
+#user-types{
+  background-color: red;
+} 
 
 #user-types-table, #IA-table {
   width: 95%;
@@ -72,7 +80,7 @@
 }
 
 /* Questions */
-#slide8{
+#questions{
   background-image: url('/images/lego_pirate.jpg');
   justify-content: flex-end;
   align-items: stretch;
@@ -83,12 +91,4 @@
   width: 128px;
   height: 128px;
   background-image: url('/images/hamburger.png');
-} 
-
-#slide2{
-  background-color: red;
-} 
-
-#slide3{
-  background-color: green;
 } 
