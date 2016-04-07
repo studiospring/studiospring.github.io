@@ -14,4 +14,8 @@ window.onload = function() {
   }
 
   addTriangleTo(document.getElementById('banner'));
+
+  $('#questions-link').click(function(){
+    $('#questions-placeholder').append("<h1>Questions?</h1>");
+  });
 }
