@@ -2,7 +2,7 @@
 # the following line to use 'http://'
 source 'https://rubygems.org'
 
-ruby "2.3.0"
+ruby "2.4.0"
 
 gem 'rack-contrib'
 gem 'puma'
