@@ -12,8 +12,23 @@ curr_page: portfolio
     button.navbar-toggler data-target="#navbar-header" data-toggle="collapse" type="button"
       | ☰
 .container
-  section#splash.page
+  section#splash
     p Hola
-  section#team.page
-    p The Team
-    #research_role
+  section#toc
+    h2 Projects
+    a#lindt href="/portfolio/lindt.html" role="button" aria-haspopup="true" aria-expanded="false"
+      | Lindt cafe
+  section#team
+    h2 The Team
+    #ceo_role.flex-item
+      .mugshot
+      p CEO
+    #research_role.flex-item
+      .mugshot
+      p Researcher
+    #ux_role.flex-item
+      .mugshot
+      p UX designer
+    #dev_role.flex-item
+      .mugshot
+      p Dev
