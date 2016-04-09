@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta[charset="UTF-8"]
+    meta[name="author" content="Design Studio Spring"]
+    meta[name="copyright" content="Design Studio Spring"]
+    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    title
+      | Portfolio
+    = stylesheet_link_tag :presentation
+    body
+      div#main role="main"
+        = yield
+    = javascript_include_tag "jquery-2.2.0.min"
+    = javascript_include_tag "bootstrap-4/bootstrap.min"
