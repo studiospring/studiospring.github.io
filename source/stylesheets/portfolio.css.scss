@@ -28,21 +28,38 @@ section {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  /* height: 80vh; */
-  /* width: 100vw; */
   background-image: url('/images/spring_logo.svg');
 
 }
 
 #team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: yellow;
 
-  #research_role {
-    border: 1px solid red;
+  .flex-item {
+  }
+
+  .mugshot {
     width: 178px;
     height: 178px;
     background-repeat: no-repeat;
-    /* background-size: 30vw; */
+  }
+
+  #ceo_role .mugshot {
+    background-image: url('/images/mugshot.jpg');
+  }
+
+  #research_role .mugshot {
+    background-image: url('/images/mugshot.jpg');
+  }
+
+  #ux_role .mugshot {
+    background-image: url('/images/mugshot.jpg');
+  }
+
+  #dev_role .mugshot {
     background-image: url('/images/mugshot.jpg');
   }
 }
