@@ -42,12 +42,37 @@ section {
   justify-content: space-around;
 
   padding: 1rem 1rem 2rem 1rem;
-  background-color: yellow;
 
   .flex-item {
   }
 }
 
+/* ***** TOC section ***** */
+.portfolio-img {
+  width: 178px;
+  height: 178px;
+  background-repeat: no-repeat;
+}
+
+#lindt0 {
+  .portfolio-img {
+    background-image: url('/images/persona_michelle.jpg');
+  }
+}
+
+#lindt1 {
+  .portfolio-img {
+    background-image: url('/images/persona_michelle.jpg');
+  }
+}
+
+#lindt {
+  .portfolio-img {
+    background-image: url('/images/persona_michelle.jpg');
+  }
+}
+
+/* ***** Team section ***** */
 #team {
   .mugshot {
     width: 178px;
