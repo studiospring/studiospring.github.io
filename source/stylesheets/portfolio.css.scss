@@ -22,6 +22,10 @@ section {
   height:    -moz-calc(100vh - 54px);
   height:         calc(100vh - 54px);
   background-color: #ccc;
+
+  h2 {
+    width: 100%;
+  }
 }
 
 #splash{
