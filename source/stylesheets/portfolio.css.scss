@@ -32,15 +32,19 @@ section {
 
 }
 
-#team {
+#toc, #team {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  padding: 1rem 1rem 2rem 1rem;
   background-color: yellow;
 
   .flex-item {
   }
+}
 
+#team {
   .mugshot {
     width: 178px;
     height: 178px;
