@@ -1,5 +1,5 @@
 ---
-title: Portfolio
+title: Sean Loughman's UX Portfolio | Mobiux
 layout: portfolio
 curr_page: portfolio
 ---
@@ -11,13 +11,23 @@ curr_page: portfolio
   .navbar.navbar-light.bg-faded.navbar-static-top
     button.navbar-toggler data-target="#navbar-header" data-toggle="collapse" type="button"
       | ☰
+
 .container
   section#splash
     p Hola
+
   section#toc
     h2 Projects
-    a#lindt href="/portfolio/lindt.html" role="button" aria-haspopup="true" aria-expanded="false"
-      | Lindt cafe
+    a#lindt0.flex-item href="/portfolio/lindt.html" role="button"
+      .portfolio-img
+       p Lindt cafe
+    a#lindt1.flex-item href="/portfolio/lindt.html" role="button"
+      .portfolio-img
+       p Lindt cafe
+    a#lindt.flex-item href="/portfolio/lindt.html" role="button"
+      .portfolio-img
+       p Lindt cafe
+
   section#team
     h2 The Team
     #ceo_role.flex-item
