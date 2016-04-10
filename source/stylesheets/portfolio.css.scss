@@ -23,6 +23,7 @@ body{
 
 section {
   background-color: #ccc;
+  padding: 1rem 1rem 2rem 1rem;
 
   h2 {
     width: 100%;
@@ -37,21 +38,20 @@ section {
   }
 }
 
-#splash{
-  height: calc(100vh - 54px);
+section:first-child {
   margin-top: 54px;
+}
+
+#splash{
   background-size: cover;
   background-position: center center;
   background-image: url('/images/spring_logo.svg');
-
 }
 
 #toc, #team {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
-  padding: 1rem 1rem 2rem 1rem;
 
   a {
     /* left aligns anchor */
