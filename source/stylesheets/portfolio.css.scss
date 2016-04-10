@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
-$nav-height: 54px;
 
 body{
 
@@ -19,9 +18,9 @@ body{
 }                                              
 
 section {
-  height: -webkit-calc(100vh - $nav-height);
-  height:    -moz-calc(100vh - $nav-height);
-  height:         calc(100vh - $nav-height);
+  height: -webkit-calc(100vh - 54px);
+  height:    -moz-calc(100vh - 54px);
+  height:         calc(100vh - 54px);
   background-color: #ccc;
 
   h2 {
@@ -30,7 +29,7 @@ section {
 }
 
 #splash{
-  /* margin-top: $nav-height; */
+  /* margin-top: 54px; */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
