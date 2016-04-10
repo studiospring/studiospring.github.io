@@ -11,6 +11,10 @@ body{
   span, p, a {
     font-family: $base-font;
   }
+
+  img {
+    background-repeat: no-repeat;
+  }
 }
 
 .container-fluid {                             
@@ -38,7 +42,6 @@ section {
   margin-top: 54px;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
   background-image: url('/images/spring_logo.svg');
 
 }
@@ -61,7 +64,6 @@ section {
 .portfolio-img {
   width: 178px;
   height: 178px;
-  background-repeat: no-repeat;
   border: 1px solid red;
   background-image: url('/images/mugshot.jpg');
 }
@@ -80,7 +82,6 @@ section {
   .mugshot {
     width: 178px;
     height: 178px;
-    background-repeat: no-repeat;
   }
 
   #ceo_role .mugshot {
