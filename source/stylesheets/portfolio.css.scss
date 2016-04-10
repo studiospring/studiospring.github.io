@@ -18,9 +18,6 @@ body{
 }                                              
 
 section {
-  height: -webkit-calc(100vh - 54px);
-  height:    -moz-calc(100vh - 54px);
-  height:         calc(100vh - 54px);
   background-color: #ccc;
 
   h2 {
@@ -28,7 +25,16 @@ section {
   }
 }
 
+@media (min-width: 48em) {
+  section {
+    height: -webkit-calc(100vh - 54px);
+    height:    -moz-calc(100vh - 54px);
+    height:         calc(100vh - 54px);
+  }
+}
+
 #splash{
+  height: calc(100vh - 54px);
   margin-top: 54px;
   background-size: cover;
   background-position: center center;
