@@ -8,9 +8,9 @@ html
     title
       | Portfolio
     = stylesheet_link_tag :portfolio
-    body
-      = partial "partials/portfolio_nav"
-      div#main role="main"
-        = yield
+  body
+    = partial "partials/portfolio_nav"
+    div#main role="main"
+      = yield
     = javascript_include_tag "jquery-2.2.0.min"
     = javascript_include_tag "bootstrap-4/bootstrap.min"
