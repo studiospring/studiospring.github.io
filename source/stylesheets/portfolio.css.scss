@@ -29,7 +29,7 @@ section {
 }
 
 #splash{
-  /* margin-top: 54px; */
+  margin-top: 54px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -45,6 +45,7 @@ section {
   padding: 1rem 1rem 2rem 1rem;
 
   a {
+    flex: 1;
     display: block;
   }
 }
