@@ -9,6 +9,7 @@ html
       | Portfolio
     = stylesheet_link_tag :portfolio
     body
+      = partial "partials/portfolio_nav"
       div#main role="main"
         = yield
     = javascript_include_tag "jquery-2.2.0.min"
