@@ -2,47 +2,18 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-body{
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: $light-font;
-  }
-
-  span, p, a {
-    font-family: $base-font;
-  }
-
-  img {
-    background-repeat: no-repeat;
-  }
-}
-
-.container-fluid {                             
-  padding: 0 0 !important;
-}                                              
-
-section {
-  background-color: #ccc;
-  padding: 1rem 1rem 2rem 1rem;
-
-  h2 {
-    width: 100%;
-  }
-}
-
-@media (min-width: 48em) {
-  section {
-    height: -webkit-calc(100vh - 54px);
-    height:    -moz-calc(100vh - 54px);
-    height:         calc(100vh - 54px);
-  }
-}
-
-section:first-child {
-  margin-top: 54px;
-}
+/* @media (min-width: 48em) { */
+  /* section { */
+    /* height: -webkit-calc(100vh - 54px); */
+    /* height:    -moz-calc(100vh - 54px); */
+    /* height:         calc(100vh - 54px); */
+  /* } */
+/* } */
 
 #splash{
+  height: -webkit-calc(100vh - 54px);
+  height:    -moz-calc(100vh - 54px);
+  height:         calc(100vh - 54px);
   background-size: cover;
   background-position: center center;
   background-image: url('/images/spring_logo.svg');

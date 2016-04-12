@@ -2,6 +2,12 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #venn {
   img {
     max-width: 80%;
