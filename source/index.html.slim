@@ -1,27 +1,35 @@
 ---
-curr_page: home
-pageable: true
-per_page: 10
+title: Sean Loughman's UX Portfolio | Moebiux
+layout: portfolio
+curr_page: index
 ---
+.container-fluid
+  section#splash
+    p Hola
 
-- if paginate && num_pages > 1
-  p
-    | Page
-    = page_number
-    |  of
-    = num_pages
-  - if prev_page
-    p
-      = link_to 'Previous page', prev_page
+  section#toc
+    h2 Projects
+    a#lindt0 href="/portfolio/lindt.html" role="button"
+      .portfolio-img alt=""
+      p Lindt cafe
+    a#lindt1 href="/portfolio/lindt.html" role="button"
+      .portfolio-img alt=""
+      p Lindt cafe
+    a#lindt href="/portfolio/lindt.html" role="button"
+      .portfolio-img alt=""
+      p Lindt cafe
 
-- page_articles.each_with_index do |article, i|
-  h2
-    = link_to article.title, article
-    span
-      = article.date.strftime('%b %e')
-  = article.body
-
-- if paginate
-  - if next_page
-    p
-      = link_to 'Next page', next_page
+  section#team
+    h2 The Team
+    #ceo_role
+      .mugshot alt=""
+      p CEO
+    #research_role
+      .mugshot alt=""
+      p Researcher
+    #ux_role
+      .mugshot alt=""
+      p UX designer
+    #dev_role
+      .mugshot alt=""
+      p Dev
