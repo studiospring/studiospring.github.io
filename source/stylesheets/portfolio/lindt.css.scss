@@ -3,14 +3,15 @@
 @import "variables";
 
 section{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  /* display: flex;                 */
+  /* flex-wrap: wrap;               */
+  /* justify-content: space-around; */
+
+  img {
+    width: 100%;
+    height: auto;  
+  }
 }
 
-#venn {
-  img {
-    max-width: 80%;
-    height: auto;
-  }
+#swot, #venn {
 }
