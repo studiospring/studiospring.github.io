@@ -8,6 +8,8 @@ html
     title
       | Portfolio
     = stylesheet_link_tag :portfolio
+    - if current_page.data.curr_page
+      = stylesheet_link_tag "portfolio/#{current_page.data.curr_page}"
   body
     = partial "partials/portfolio_nav"
     div#main role="main"
