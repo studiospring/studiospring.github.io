@@ -18,6 +18,10 @@
   font-family: "Fira Sans Medium";
   src: url("/type/fira/FiraSans-Medium.otf") format('opentype');
 }
+@font-face {
+  font-family: "Fira Sans Heavy";
+  src: url("/type/fira/FiraSans-Heavy.otf") format('opentype');
+}
 
 $red: #85000D;
 $base-font: "Fira Sans Book";
