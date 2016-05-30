@@ -33,6 +33,26 @@
   src: url("/type/dosis/Dosis-Bold.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: "Sansation Light";
+  src: url("../type/sansation/Sansation-light.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Sansation Regular";
+  src: url("../type/sansation/Sansation-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Sansation Bold";
+  src: url("../type/sansation/Sansation-Bold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Cantarell Regular";
+  src: url("../type/cantarell/Cantarell-Regular.otf") format('opentype');
+}
+@font-face {
+  font-family: "Cantarell Bold";
+  src: url("../type/cantarell/Cantarell-Bold.otf") format('opentype');
+}
 
 $red: #85000D;
 $base-font: "Dosis Book";
@@ -51,3 +71,11 @@ $moebius-primary-colour: #869618;
 /* Colours from Ellsworth Kelly */
 $spring-sky: #2563A0;
 $spring-stone: #DA170A;
+
+// Unused
+$brand-primary: #DA170A;
+$brand-danger: #e74c3c;
+$gray-darkest: #222;
+$gray: #777;
+$gray-lighter: #f7f7f7;
+$placeholder-text: #bbbbbb;
