@@ -1,5 +1,5 @@
-Doctype html
-html lang="en"
+doctype html
+html
   head
     meta charset="utf-8" /
     meta content=("Responsive Bootstrap Landing Page Template") name="description" /
@@ -9,15 +9,15 @@ html lang="en"
     title
       | Engadge - Free Bootstrap 4 Template
     /! Bootstrap
-    link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" /
+    link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css" /
     /! Main Style
-    link href="assets/css/main.css" rel="stylesheet" type="text/css" /
+    link href="../assets/css/main.css" rel="stylesheet" type="text/css" /
     /! Responsive Style
-    link href="assets/css/responsive.css" rel="stylesheet" type="text/css" /
+    link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" /
     /! Icon Fonts
-    link href="assets/fonts/font-awesome/font-awesome.min.css" media="screen" rel="stylesheet" /
+    link href="../assets/fonts/font-awesome/font-awesome.min.css" media="screen" rel="stylesheet" /
     /! Extras
-    link href="assets/extras/animate.css" rel="stylesheet" type="text/css" /
+    link href="../assets/extras/animate.css" rel="stylesheet" type="text/css" /
   body
     /! HEADER
     header#home
@@ -31,7 +31,7 @@ html lang="en"
                 .navbar-header
                   .logo
                     a href=""
-                      img alt="" src="assets/img/logo.png" /
+                      img alt="" src="../assets/img/logo.png" /
               .col-sm-6.col-md-6.col-xs-8
                 .pull-right
                   h2
@@ -52,17 +52,7 @@ html lang="en"
     /! HEADER END
     /! Features Section
     section#main-features
-      .feature-list.item-1
-        .container
-          .row
-            .col-sm-6.col-md-6
-              img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="assets/img/features/img1.png" /
-            .col-md-6
-              .feature-content.wow.fadeInRight data-wow-duration="0.80s"
-                h3.small-title Clean and Responsive Design, Get it for FREE!
-                p
-                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. Vivamus faucibus eros sed ligula rhoncus varius. Fusce quis sodales mi, at imperdiet nulla. Maecenas libero turpis, suscipit non odio eget, rutrum sollicitudin odio. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-                a.btn.btn-common href="#home"  Give a Try
+      = yield
       .feature-list.item-2
         .container
           .row
@@ -73,12 +63,12 @@ html lang="en"
                   | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. Vivamus faucibus eros sed ligula rhoncus varius. Fusce quis sodales mi, at imperdiet nulla. Maecenas libero turpis, suscipit non odio eget, rutrum sollicitudin odio. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                 a.btn.btn-common href="#"  Download Now
             .col-sm-6.col-md-6
-              img.wow.fadeInRight alt="" data-wow-duration="0.80s" src="assets/img/features/img2.png" /
+              img.wow.fadeInRight alt="" data-wow-duration="0.80s" src="../assets/img/features/img2.png" /
       .feature-list.item-3
         .container
           .row
             .col-sm-6.col-md-6
-              img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="assets/img/features/img3.png" /
+              img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="../assets/img/features/img3.png" /
             .col-md-6
               .feature-content.wow.fadeInRight data-wow-duration="0.80s"
                 h3.small-title Crafted-with Bootstrap 4, HTML5 and Other Trendy Addons
@@ -94,7 +84,7 @@ html lang="en"
           .col-sm-6.col-md-6.wow.fadeIn data-wow-duration="0.80s"
             .client
               .client-img
-                img alt="" src="assets/img/clients/img1.jpg" /
+                img alt="" src="../assets/img/clients/img1.jpg" /
               .info-client
                 p " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue."
                 h4.name
@@ -103,7 +93,7 @@ html lang="en"
           .col-sm-6.col-md-6.wow.fadeIn data-wow-delay=".40s" data-wow-duration="0.80s"
             .client
               .client-img
-                img alt="" src="assets/img/clients/img2.jpg" /
+                img alt="" src="../assets/img/clients/img2.jpg" /
               .info-client
                 p " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue."
                 h4.name
@@ -174,13 +164,13 @@ html lang="en"
     /! footer Section End
     /! Bootstrap JS
     /! jQuery Load
-    script src="assets/js/jquery-min.js"
+    script src="../assets/js/jquery-min.js"
     /! Bootstrap
-    script src="assets/js/bootstrap.min.js"
+    script src="../assets/js/bootstrap.min.js"
     /! WOW Scroll Spy
-    script src="assets/js/wow.js"
+    script src="../assets/js/wow.js"
     /! Smooth Scroll
-    script src="assets/js/smooth-on-scroll.js"
-    script src="assets/js/smooth-scroll.js"
+    script src="../assets/js/smooth-on-scroll.js"
+    script src="../assets/js/smooth-scroll.js"
     /! All JS plugin Triggers
-    script src="assets/js/main.js"
+    script src="../assets/js/main.js"
