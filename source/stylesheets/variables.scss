@@ -35,28 +35,31 @@
 
 @font-face {
   font-family: "Sansation Light";
-  src: url("../type/sansation/Sansation-light.ttf") format('truetype');
+  src: url("/type/sansation/Sansation-light.ttf") format('truetype');
 }
 @font-face {
   font-family: "Sansation Regular";
-  src: url("../type/sansation/Sansation-Regular.ttf") format('truetype');
+  src: url("/type/sansation/Sansation-Regular.ttf") format('truetype');
 }
 @font-face {
   font-family: "Sansation Bold";
-  src: url("../type/sansation/Sansation-Bold.ttf") format('truetype');
+  src: url("/type/sansation/Sansation-Bold.ttf") format('truetype');
 }
 @font-face {
   font-family: "Cantarell Regular";
-  src: url("../type/cantarell/Cantarell-Regular.otf") format('opentype');
+  src: url("/type/cantarell/Cantarell-Regular.otf") format('opentype');
 }
 @font-face {
   font-family: "Cantarell Bold";
-  src: url("../type/cantarell/Cantarell-Bold.otf") format('opentype');
+  src: url("/type/cantarell/Cantarell-Bold.otf") format('opentype');
 }
 
 $red: #85000D;
 $base-font: "Dosis Book";
 /* $base-font: "Fira Sans Book"; */
+$display-light-font: "Sansation Light";
+$display-regular-font: "Sansation Regular";
+$display-bold-font: "Sansation Bold";
 $bold-font: "Dosis Bold";
 $heavy-font: "Fira Sans Heavy";
 $light-font: "Dosis Bold";
@@ -67,7 +70,6 @@ $font-family-base: $base-font !default;
 $presentation-chrome-width: 7%;
 $slide-colour: #4E778F;
 $nav-height: 2rem;
-$moebius-primary-colour: #869618;
 /* Colours from Ellsworth Kelly */
 $spring-blue: #2563A0;
 $spring-red: #DA170A;
