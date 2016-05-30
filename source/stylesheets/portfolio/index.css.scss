@@ -2,14 +2,14 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-#splash{
-  height: -webkit-calc(100vh - 54px);
-  height:    -moz-calc(100vh - 54px);
-  height:         calc(100vh - 54px);
-  background-size: cover;
-  background-position: center center;
-  background-image: url('/images/spring_logo.svg');
-}
+// #splash{
+//   height: -webkit-calc(100vh - 54px);
+//   height:    -moz-calc(100vh - 54px);
+//   height:         calc(100vh - 54px);
+//   background-size: cover;
+//   background-position: center center;
+//   background-image: url('/images/spring_logo.svg');
+// }
 
 #toc, #team {
   display: flex;
