@@ -1,0 +1,186 @@
+Doctype html
+html lang="en"
+  head
+    meta charset="utf-8" /
+    meta content=("Responsive Bootstrap Landing Page Template") name="description" /
+    meta content="Bootstrap, Landing page, Template, Registration, Landing" name="keywords" /
+    meta content="GrayGrids" name="author" /
+    meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" /
+    title
+      | Engadge - Free Bootstrap 4 Template
+    /! Bootstrap
+    link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" /
+    /! Main Style
+    link href="assets/css/main.css" rel="stylesheet" type="text/css" /
+    /! Responsive Style
+    link href="assets/css/responsive.css" rel="stylesheet" type="text/css" /
+    /! Icon Fonts
+    link href="assets/fonts/font-awesome/font-awesome.min.css" media="screen" rel="stylesheet" /
+    /! Extras
+    link href="assets/extras/animate.css" rel="stylesheet" type="text/css" /
+  body
+    /! HEADER
+    header#home
+      /! Color over Image
+      .color-overlay
+        /! navbar log
+        .navbar.logo-nav
+          .container
+            .row
+              .col-sm-6.col-md-6.col-xs-4
+                .navbar-header
+                  .logo
+                    a href=""
+                      img alt="" src="assets/img/logo.png" /
+              .col-sm-6.col-md-6.col-xs-8
+                .pull-right
+                  h2
+                    i.fa.fa-phone
+                    | +6698545
+                    a href="http://landingbow.com" title=("Bootstrap Landing Page")  Toll Free
+        /! Heading And Texts
+        .container
+          .row
+            .col-md-10.col-md-offset-1.intro-section
+              h1.intro A Product That can Change Your Life
+              p.sub-heading
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+              /! button
+              a.btn.btn-common.wow.bounceIn href="#main-features"  Explore Features
+        /! Heading And Texts End
+      /! Color over Image  End
+    /! HEADER END
+    /! Features Section
+    section#main-features
+      .feature-list.item-1
+        .container
+          .row
+            .col-sm-6.col-md-6
+              img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="assets/img/features/img1.png" /
+            .col-md-6
+              .feature-content.wow.fadeInRight data-wow-duration="0.80s"
+                h3.small-title Clean and Responsive Design, Get it for FREE!
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. Vivamus faucibus eros sed ligula rhoncus varius. Fusce quis sodales mi, at imperdiet nulla. Maecenas libero turpis, suscipit non odio eget, rutrum sollicitudin odio. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+                a.btn.btn-common href="#home"  Give a Try
+      .feature-list.item-2
+        .container
+          .row
+            .col-sm-6.col-md-6
+              .feature-content.wow.fadeInLeft data-wow-duration="0.80s"
+                h3.small-title Minimal Product Landing Page for Your Product Page
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. Vivamus faucibus eros sed ligula rhoncus varius. Fusce quis sodales mi, at imperdiet nulla. Maecenas libero turpis, suscipit non odio eget, rutrum sollicitudin odio. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                a.btn.btn-common href="#"  Download Now
+            .col-sm-6.col-md-6
+              img.wow.fadeInRight alt="" data-wow-duration="0.80s" src="assets/img/features/img2.png" /
+      .feature-list.item-3
+        .container
+          .row
+            .col-sm-6.col-md-6
+              img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="assets/img/features/img3.png" /
+            .col-md-6
+              .feature-content.wow.fadeInRight data-wow-duration="0.80s"
+                h3.small-title Crafted-with Bootstrap 4, HTML5 and Other Trendy Addons
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. Vivamus faucibus eros sed ligula rhoncus varius. Fusce quis sodales mi, at imperdiet nulla. Maecenas libero turpis, suscipit non odio eget, rutrum sollicitudin odio.
+                a.btn.btn-common href="#"  Give a Try
+    /! Features Section End
+    /! About Section
+    #about
+      .container
+        .row
+          h2.section-title Users Opinion
+          .col-sm-6.col-md-6.wow.fadeIn data-wow-duration="0.80s"
+            .client
+              .client-img
+                img alt="" src="assets/img/clients/img1.jpg" /
+              .info-client
+                p " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue."
+                h4.name
+                  span Arman
+                  | DotPoint
+          .col-sm-6.col-md-6.wow.fadeIn data-wow-delay=".40s" data-wow-duration="0.80s"
+            .client
+              .client-img
+                img alt="" src="assets/img/clients/img2.jpg" /
+              .info-client
+                p " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue."
+                h4.name
+                  span Sabuj
+                  | Evatix Inc.
+    /! About Section End
+    /! Contact Section Start
+    section#contact
+      .container
+        .row
+          h2.section-title Love to Hear From You
+          .col-md-6.wow.fadeInUp data-wow-duration="0.80s"
+            .contact-form
+              /! Form
+              form.contact-form action="send.php" method="post" role="form"
+                .col-md-12
+                  input.form-control name="name" placeholder="Name" type="text" /
+                .col-md-12
+                  input.form-control name="EMAIL" placeholder="Email" type="email" /
+                .col-md-12
+                  input.form-control name="subject" placeholder="Subject" type="text" /
+                .col-md-12
+                  textarea.form-control placeholder="Message" rows="4"
+                .col-md-6
+                  button#submit.btn.btn-common.lg type="submit"  Send
+                  #success style="color:#000;"
+          .col-md-6.wow.fadeInUp data-wow-delay="1s" data-wow-duration="0.80s"
+            .map
+              iframe height="350px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2673.793186905526!2d-122.27026199999999!3d47.921039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aaa98e7706fcd%3A0xdce29d6d3f457ae8!2sHVACUSA!5e0!3m2!1sen!2sbd!4v1419537987498" style="border:0" width="100%"
+    /! Contact Section End
+    /! Subscribe Form Section
+    section#subscribe
+      .container
+        .row
+          .col-md-8.col-md-offset-2.wow.zoomIn
+            h2.section-title Don't Miss Anything
+            /! Subscribe
+            .subscribe
+              form.subscription-form action="http://wingthemes.us8.list-manage.com/subscribe/post?u=5b65981fba825059fd5e58269&amp;id=d1724a3f2a" method="post" novalidate="" role="form" target="_blank"
+                /! Search Input Box
+                input.form-control.input-box name="EMAIL" placeholder="you@yourdomain.com" type="email" /
+                /! Subscribe Button
+                button.btn.btn-common name="subscribe" type="submit"  Subscribe
+            /! Subscribe End
+          /! Social Section
+          #social.col-md-12.wow.fadeIn
+            ul.social
+              li
+                a href=""
+                  i.fa.fa-facebook
+              li
+                a href=""
+                  i.fa.fa-twitter
+              li
+                a href=""
+                  i.fa.fa-google-plus
+              li
+                a href=""
+                  i.fa.fa-linkedin
+          /! Social Section End
+    /! Subscribe Form Section End
+    /! Footer Section
+    footer#footer
+      .container
+        p
+          | Designed and Develped by
+          a href="http://graygrids.com" title=("Bootstrap Templates")  GrayGrids
+    /! footer Section End
+    /! Bootstrap JS
+    /! jQuery Load
+    script src="assets/js/jquery-min.js"
+    /! Bootstrap
+    script src="assets/js/bootstrap.min.js"
+    /! WOW Scroll Spy
+    script src="assets/js/wow.js"
+    /! Smooth Scroll
+    script src="assets/js/smooth-on-scroll.js"
+    script src="assets/js/smooth-scroll.js"
+    /! All JS plugin Triggers
+    script src="assets/js/main.js"
