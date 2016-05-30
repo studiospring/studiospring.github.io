@@ -23,11 +23,23 @@
   src: url("/type/fira/FiraSans-Heavy.otf") format('opentype');
 }
 
+@font-face {
+  font-family: "Dosis Book";
+  src: url("/type/dosis/Dosis-Book.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Dosis Bold";
+  src: url("/type/dosis/Dosis-Bold.ttf") format('truetype');
+}
+
+
 $red: #85000D;
-$base-font: "Fira Sans Book";
-$bold-font: "Fira Sans Medium";
+$base-font: "Dosis Book";
+/* $base-font: "Fira Sans Book"; */
+$bold-font: "Dosis Bold";
 $heavy-font: "Fira Sans Heavy";
-$light-font: "Fira Sans Light";
+$light-font: "Dosis Bold";
 $extralight-font: "Fira Sans Extralight";
 $ultralight-font: "Fira Sans Ultralight";
 $banner-text: #fff;
