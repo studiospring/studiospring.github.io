@@ -2,9 +2,10 @@ doctype html
 html
   head
     meta charset="utf-8" /
-    meta content=("Responsive Bootstrap Landing Page Template") name="description" /
-    meta content="Bootstrap, Landing page, Template, Registration, Landing" name="keywords" /
-    meta content="GrayGrids" name="author" /
+    meta[name="author" content="Design Studio Spring."]
+    meta[name="copyright" content="Design Studio Spring."]
+    meta[name="keywords" content="UX, design"]
+    meta[name="description" content="UX, design"]
     meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" /
     title
       - if current_page.data.title
@@ -107,11 +108,8 @@ html
           | Designed and Develped by
           a href="http://graygrids.com" title=("Bootstrap Templates")  GrayGrids
     /! footer Section End
-    /! Bootstrap JS
-    /! jQuery Load
-    script src="../assets/js/jquery-min.js"
-    /! Bootstrap
-    script src="../assets/js/bootstrap.min.js"
+    = javascript_include_tag "jquery-2.2.0.min"
+    = javascript_include_tag "bootstrap-4/bootstrap.min"
     /! WOW Scroll Spy
     script src="../assets/js/wow.js"
     /! Smooth Scroll
