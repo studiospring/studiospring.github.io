@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    meta charset="utf-8" /
+    meta[charset="UTF-8"]
     meta[name="author" content="Design Studio Spring."]
     meta[name="copyright" content="Design Studio Spring."]
     meta[name="keywords" content="UX, design"]
@@ -20,37 +20,7 @@ html
     /! Extras
     link href="../assets/extras/animate.css" rel="stylesheet" type="text/css" /
   body
-    /! HEADER
-    header#home
-      /! Color over Image
-      .color-overlay
-        /! navbar log
-        .navbar.logo-nav
-          .container
-            .row
-              .col-sm-6.col-md-6.col-xs-4
-                .navbar-header
-                  .logo
-                    a href=""
-                      img alt="" src="../assets/img/logo.png" /
-              .col-sm-6.col-md-6.col-xs-8
-                .pull-right
-                  h2
-                    i.fa.fa-phone
-                    | +6698545
-                    a href="http://landingbow.com" title=("Bootstrap Landing Page")  Toll Free
-        /! Heading And Texts
-        .container
-          .row
-            .col-md-10.col-md-offset-1.intro-section
-              h1.intro A Product That can Change Your Life
-              p.sub-heading
-                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
-              /! button
-              a.btn.btn-common.wow.bounceIn href="#main-features"  Explore Features
-        /! Heading And Texts End
-      /! Color over Image  End
-    /! HEADER END
+    = partial "partials/engage/nav"
     /! Features Section
     section#main-features
       = yield
