@@ -7,9 +7,11 @@ html
     meta content="GrayGrids" name="author" /
     meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" /
     title
-      | Engadge - Free Bootstrap 4 Template
-    /! Bootstrap
-    link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css" /
+      - if current_page.data.title
+        = "#{current_page.data.title} | Studio Spring"
+      - else
+        | Studio Spring
+
     = stylesheet_link_tag "engage/main"
     = stylesheet_link_tag "engage/responsive"
     /! Icon Fonts
