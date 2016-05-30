@@ -309,14 +309,14 @@ i {
   }
 }
 
-#footer {
-  background: #353B47;
+.footer {
+  padding: 2rem 2rem;
+  background-color: $spring-blue;
 
-  p {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 10px;
-    line-height: 60px;
+  #copyright {
+    color: #fff;
+    font-family: $light-font;
+    font-size: .6rem;
   }
 }
 
