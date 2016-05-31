@@ -5,7 +5,14 @@ curr_page: portfolio
 ---
 
 section#portfolio-section
-  = partial "partials/kidsgive_portfolio"
-  = partial "partials/lindt_portfolio"
+  - data.portfolio_splash.each do |project|
+    = partial "partials/portfolio_splash",
+      :locals => { \
+        :title => project.title,
+        :body => project.body,
+        :href => project.href,
+        :img => project.img,
+      }
+
 section#blog-section
   = partial "partials/blog_feed"
