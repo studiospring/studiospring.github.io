@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #e74c3c;
+  color: #999;
   text-decoration: none;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -49,8 +49,18 @@ ul, ol {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $body-semibold-font, sans-serif;
-  margin-bottom: 0;
-  margin-top: 0;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 .btn {
@@ -91,11 +101,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-  text-align: center;
-  font-weight: 800;
-  font-size: 50px;
-  padding-bottom: 30px;
-  position: relative;
+  // text-align: center;
+  // font-weight: 800;
+  font-size: 1.4rem;
+  padding-bottom: .8rem;
+  // position: relative;
   color: #454545;
 }
 
@@ -156,8 +166,12 @@ i {
   background: $spring-blue;
   color: #fff;
 
-  .section-title {
+  a {
     color: #fff;
+
+    &:focus, &:hover {
+      color: #999;
+    }
   }
 }
 
@@ -184,7 +198,7 @@ i {
 
 .footer {
   background-color: $spring-red;
-  padding: 1rem 1rem;
+  padding: .5rem .5rem;
 
   #copyright {
     // background-image: url('/images/spring_logo_red_25x25.png'), no-repeat;

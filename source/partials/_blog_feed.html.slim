@@ -1,9 +1,11 @@
 .container
   .row
-    h2.section-title Latest articles
+    h2 Latest articles
     - blog.articles[0...5].each do |article|
-      h3
-        = link_to article.title, article
-        span
-          = article.date.strftime('%b %e')
-        = article.summary
+      a href="#{article}"
+        h3
+          = article.title
+          span
+            = article.date.strftime('%b %e')
+        p
+          = article.summary
