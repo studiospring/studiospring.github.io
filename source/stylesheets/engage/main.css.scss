@@ -82,10 +82,10 @@ h1, h2, h3, h4, h5, h6 {
 .btn-common {
   color: #ffffff;
   font-weight: 400;
-  background: #e74c3c;
+  background: $spring-red;
 
   &:hover {
-    background: #FF7B6B;
+    background: $spring-pale-red;
     color: #fff;
   }
 }
