@@ -114,61 +114,6 @@ i {
   transition: all 0.2s linear;
 }
 
-#social {
-  background: #ecf0f1;
-  margin-top: 30px;
-
-  .social {
-    text-align: center;
-
-    li {
-      display: inline-block;
-
-      a i {
-        border: 2px solid #e74c3c;
-        color: #e74c3c;
-        padding: 10px;
-        font-size: 18px;
-        line-height: 28px;
-        margin-right: 5px;
-        width: 50px;
-        height: 50px;
-        vertical-align: middle;
-        border-radius: 50%;
-
-        &:hover {
-          color: #fff;
-        }
-      }
-    }
-
-    .fa-facebook:hover {
-      background: #3b5998;
-      border: 2px solid #3b5998;
-    }
-
-    .fa-twitter:hover {
-      background: #00CAFB;
-      border: 2px solid #00CAFB;
-    }
-
-    .fa-google-plus:hover {
-      background: #D23A1D;
-      border: 2px solid #D23A1D;
-    }
-
-    .fa-linkedin:hover {
-      background: #007bb6;
-      border: 2px solid #007bb6;
-    }
-
-    .fa-pinterest:hover {
-      background: #008ED6;
-      border: 2px solid #008ED6;
-    }
-  }
-}
-
 #home {
   background: url(/assets/img/backgrounds/bg.jpg);
   -webkit-background-size: cover;
@@ -214,57 +159,6 @@ i {
   .section-title {
     color: #fff;
   }
-
-  .company-logo {
-    width: 100%;
-    display: block;
-    height: 152px;
-    margin-bottom: 62px;
-
-    .item {
-      float: left;
-      width: 234px;
-      min-height: 50px;
-      margin: 15px 0px;
-    }
-  }
-
-  .client {
-    position: relative;
-
-    .client-img {
-      float: left;
-      width: 120px;
-      margin-right: 30px;
-      height: 120px;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .info-client {
-      padding: 10px 36px;
-
-      p {
-        font-size: 16px;
-        line-height: 25px;
-        font-weight: 300;
-      }
-
-      .name {
-        padding-top: 20px;
-        font-size: 16px;
-        font-weight: 800;
-
-        span {
-          color: #fff;
-          font-size: 14px;
-          font-weight: 400;
-        }
-      }
-    }
-  }
 }
 
 #main-features {
@@ -285,57 +179,6 @@ i {
 
   .item-2 {
     background: #ecf0f1;
-  }
-}
-
-#contact .map {
-  margin-top: 15px;
-}
-
-#subscribe {
-  color: #ffffff;
-  background: #ecf0f1;
-  text-align: center;
-
-  .section-subtitle {
-    color: #999;
-  }
-}
-
-.form-control, .textarea-box {
-  margin-bottom: 15px;
-  margin-top: 15px;
-  outline: 0;
-  border-radius: 0px;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: 1px solid #e3e3e3;
-  color: #e74c3c;
-  padding-left: 12px;
-  line-height: auto;
-}
-
-.form-control {
-  min-height: 50px;
-  -webkit-backface-visibility: hidden;
-  text-align: center;
-  font-size: 20px;
-
-  &:active, &:focus {
-    border: 1px solid #e74c3c;
-    color: #323232;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-}
-
-.textarea-box {
-  &:active, &:focus {
-    border: 1px solid #e74c3c;
-    color: #323232;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
 }
 
