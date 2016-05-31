@@ -7,6 +7,9 @@
           h3
             = article.title
           span.date
-            = article.date.strftime('%b %e %Y')
+            - if article.date.strftime('%Y') == DateTime.now.strftime('%Y')
+              = article.date.strftime('%b %e')
+            - else
+              = article.date.strftime('%Y %b %e')
           p
             = article.summary
