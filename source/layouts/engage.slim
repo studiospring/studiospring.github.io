@@ -6,7 +6,8 @@ html
     meta[name="copyright" content="Design Studio Spring."]
     meta[name="keywords" content="UX, design"]
     meta[name="description" content="UX, design"]
-    meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" /
+    meta[name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"]
+
     title
       - if current_page.data.title
         = "#{current_page.data.title} | Studio Spring"
@@ -15,10 +16,8 @@ html
 
     = stylesheet_link_tag "engage/main"
     = stylesheet_link_tag "engage/responsive"
-    /! Icon Fonts
-    <!-- link href="../assets/fonts/font-awesome/font-awesome.min.css" media="screen" rel="stylesheet" / -->
-    /! Extras
-    link href="../assets/extras/animate.css" rel="stylesheet" type="text/css" /
+    = stylesheet_link_tag "engage/animate"
+
   body
     = partial "partials/engage/nav"
     = yield
@@ -33,9 +32,9 @@ html
     = javascript_include_tag "jquery-2.2.0.min"
     = javascript_include_tag "bootstrap-4/bootstrap.min"
     /! WOW Scroll Spy
-    script src="../assets/js/wow.js"
+    script src="/assets/js/wow.js"
     /! Smooth Scroll
-    script src="../assets/js/smooth-on-scroll.js"
-    script src="../assets/js/smooth-scroll.js"
+    script src="/assets/js/smooth-on-scroll.js"
+    script src="/assets/js/smooth-scroll.js"
     /! All JS plugin Triggers
-    script src="../assets/js/main.js"
+    script src="/assets/js/main.js"
