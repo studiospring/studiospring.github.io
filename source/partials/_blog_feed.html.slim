@@ -1,11 +1,12 @@
 .container
   .row
-    h2 Latest articles
-    - blog.articles[0...5].each do |article|
-      a href="#{article}"
-        h3
-          = article.title
-          span
-            = article.date.strftime('%b %e')
-        p
-          = article.summary
+    .col-xs-12.col-sm-12.col-md-6
+      h2 Latest articles
+      - blog.articles[0...5].each do |article|
+        a href="#{article}"
+          h3
+            = article.title
+          span.date
+            = article.date.strftime('%b %e %Y')
+          p
+            = article.summary
