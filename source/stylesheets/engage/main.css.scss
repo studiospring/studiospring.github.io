@@ -2,11 +2,9 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,800);
-
 body {
   background: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  font-family: $body-regular-font, sans-serif;
   font-size: 14px;
   color: #999;
   font-weight: 400;
@@ -50,8 +48,7 @@ ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-family: $body-semibold-font, sans-serif;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -73,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: $body-semibold-font, sans-serif;
   padding: 15px 30px;
   border: none;
   -webkit-transition: all 0.2s linear;

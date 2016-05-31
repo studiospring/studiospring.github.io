@@ -46,20 +46,33 @@
   src: url("/type/sansation/Sansation-Bold.ttf") format('truetype');
 }
 @font-face {
-  font-family: "Cantarell Regular";
-  src: url("/type/cantarell/Cantarell-Regular.otf") format('opentype');
+  font-family: "Source Sans Pro Light";
+  src: url("/type/source_sans_pro/SourceSansPro-Light.ttf") format('truetype');
 }
 @font-face {
-  font-family: "Cantarell Bold";
-  src: url("/type/cantarell/Cantarell-Bold.otf") format('opentype');
+  font-family: "Source Sans Pro Regular";
+  src: url("/type/source_sans_pro/SourceSansPro-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Source Sans Pro Semibold";
+  src: url("/type/source_sans_pro/SourceSansPro-Semibold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url("/type/source_sans_pro/SourceSansPro-Bold.ttf") format('truetype');
 }
 
 $red: #85000D;
-$base-font: "Dosis Book";
+$base-font: "Source Sans Pro Regular";
 /* $base-font: "Fira Sans Book"; */
 $display-light-font: "Sansation Light";
 $display-regular-font: "Sansation Regular";
 $display-bold-font: "Sansation Bold";
+$body-light-font: "Source Sans Pro Light";
+$body-regular-font: "Source Sans Pro Regular";
+$body-semibold-font: "Source Sans Pro Semibold";
+$body-bold-font: "Source Sans Pro Bold";
+
 $bold-font: "Dosis Bold";
 $heavy-font: "Fira Sans Heavy";
 $light-font: "Dosis Bold";
