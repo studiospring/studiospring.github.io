@@ -16,60 +16,12 @@ html
     = stylesheet_link_tag "engage/main"
     = stylesheet_link_tag "engage/responsive"
     /! Icon Fonts
-    link href="../assets/fonts/font-awesome/font-awesome.min.css" media="screen" rel="stylesheet" /
+    <!-- link href="../assets/fonts/font-awesome/font-awesome.min.css" media="screen" rel="stylesheet" / -->
     /! Extras
     link href="../assets/extras/animate.css" rel="stylesheet" type="text/css" /
   body
     = partial "partials/engage/nav"
-    /! Features Section
-    section#main-features
-      = yield
-      .feature-list.item-2
-        .container
-          .row
-            .col-sm-6.col-md-6
-              .feature-content.wow.fadeInLeft data-wow-duration="0.80s"
-                h3.small-title Minimal Product Landing Page for Your Product Page
-                p
-                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. Vivamus faucibus eros sed ligula rhoncus varius. Fusce quis sodales mi, at imperdiet nulla. Maecenas libero turpis, suscipit non odio eget, rutrum sollicitudin odio. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                a.btn.btn-common href="#"  Download Now
-            .col-sm-6.col-md-6
-              img.wow.fadeInRight alt="" data-wow-duration="0.80s" src="../assets/img/features/img2.png" /
-      .feature-list.item-3
-        .container
-          .row
-            .col-sm-6.col-md-6
-              img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="../assets/img/features/img3.png" /
-            .col-md-6
-              .feature-content.wow.fadeInRight data-wow-duration="0.80s"
-                h3.small-title Crafted-with Bootstrap 4, HTML5 and Other Trendy Addons
-                p
-                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue. Vivamus faucibus eros sed ligula rhoncus varius. Fusce quis sodales mi, at imperdiet nulla. Maecenas libero turpis, suscipit non odio eget, rutrum sollicitudin odio.
-                a.btn.btn-common href="#"  Give a Try
-    /! Features Section End
-    /! About Section
-    #about
-      .container
-        .row
-          h2.section-title Users Opinion
-          .col-sm-6.col-md-6.wow.fadeIn data-wow-duration="0.80s"
-            .client
-              .client-img
-                img alt="" src="../assets/img/clients/img1.jpg" /
-              .info-client
-                p " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue."
-                h4.name
-                  span Arman
-                  | DotPoint
-          .col-sm-6.col-md-6.wow.fadeIn data-wow-delay=".40s" data-wow-duration="0.80s"
-            .client
-              .client-img
-                img alt="" src="../assets/img/clients/img2.jpg" /
-              .info-client
-                p " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae mauris augue."
-                h4.name
-                  span Sabuj
-                  | Evatix Inc.
+    = yield
 
     footer.footer
       .container
