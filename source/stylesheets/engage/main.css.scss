@@ -162,20 +162,7 @@ i {
   }
 }
 
-#blog {
-  background: $spring-blue;
-  color: #fff;
-
-  a {
-    color: #fff;
-
-    &:focus, &:hover {
-      color: #999;
-    }
-  }
-}
-
-#main-features {
+#portfolio-section {
   border-top: 1px solid #DDD;
   border-bottom: 1px solid #DDD;
 
@@ -193,6 +180,31 @@ i {
 
   .item-2 {
     background: #ecf0f1;
+  }
+}
+
+#blog-section {
+  background: $spring-blue;
+  color: #fff;
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  .date {
+    font-size: .8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    color: #fff;
+
+    &:focus, &:hover {
+      color: #999;
+    }
   }
 }
 
