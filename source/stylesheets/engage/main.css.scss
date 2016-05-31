@@ -306,17 +306,6 @@ i {
   }
 }
 
-.footer {
-  padding: 2rem 2rem;
-  background-color: $spring-blue;
-
-  #copyright {
-    color: #fff;
-    font-family: $display-regular-font;
-    font-size: .6rem;
-  }
-}
-
 .form-control, .textarea-box {
   margin-bottom: 15px;
   margin-top: 15px;
@@ -353,3 +342,16 @@ i {
     box-shadow: none;
   }
 }
+
+.footer {
+  background-color: $spring-blue;
+  padding: 1rem 1rem;
+
+  #copyright {
+    // background-image: url('/images/spring_logo_red_25x25.png'), no-repeat;
+    color: #fff;
+    font-family: $display-regular-font;
+    font-size: .6rem;
+  }
+}
+
