@@ -1,8 +1,8 @@
 - title: KidsGive Crowdfunding Charity Site
   body: Foobar
-  url: kidsgive
+  url_path: kidsgive
   img: solution_map.png
 - title: Lindt Cafe
   body: Foobar
-  url: lindt
+  url_path: lindt
   img: solution_map.png
