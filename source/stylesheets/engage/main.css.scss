@@ -115,6 +115,15 @@ i {
   transition: all 0.2s linear;
 }
 
+#logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
 #home {
   background: url(/assets/img/backgrounds/bg.jpg);
   -webkit-background-size: cover;
@@ -123,11 +132,6 @@ i {
 
   .color-overlay {
     background: rgba(0, 0, 0, 0.3);
-  }
-
-  #logo {
-    width: 4rem;
-    height: 4rem;
   }
 
   .intro-section {
