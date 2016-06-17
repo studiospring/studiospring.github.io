@@ -120,8 +120,14 @@ i {
   height: 4rem;
 }
 
-.navbar {
-  background-color: #fff;
+#nav-link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  a {
+    display: inline-block;
+  }
 }
 
 #home {
