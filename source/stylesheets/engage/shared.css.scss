@@ -135,86 +135,6 @@ nav span {
   }
 }
 
-#home {
-  background: url(/assets/img/backgrounds/bg.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-
-  .color-overlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
-
-  .intro-section {
-    margin-bottom: 155px;
-    text-align: center;
-    color: #ffffff;
-
-    .intro {
-      font-size: 50px;
-      line-height: 76px;
-      font-weight: 800;
-      letter-spacing: 1px;
-    }
-
-    .sub-heading {
-      font-size: 18px;
-      line-height: 36px;
-    }
-
-    .btn-common {
-      margin-top: 20px;
-    }
-  }
-}
-
-#portfolio-section {
-  border-top: 1px solid #DDD;
-  border-bottom: 1px solid #DDD;
-
-  img {
-    width: 100%;
-  }
-
-  .feature-content {
-    padding: 76px 42px;
-
-    p {
-      margin-bottom: 22px;
-    }
-  }
-
-  .item-2 {
-    background: #ecf0f1;
-  }
-}
-
-#blog-section {
-  background: $spring-blue;
-  color: #fff;
-
-  h3 {
-    margin-bottom: 0;
-  }
-
-  .date {
-    font-size: .8rem;
-    // line-height: 0;
-  }
-
-  p {
-    font-size: 1.1rem;
-  }
-
-  a {
-    color: #fff;
-
-    &:focus, &:hover {
-      color: #999;
-    }
-  }
-}
-
 #footer {
   background-color: $spring-red;
 
@@ -226,3 +146,17 @@ nav span {
   }
 }
 
+.footer {
+  background-color: $spring-red;
+  position: absolute;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+
+  #copyright {
+    float: right;
+    color: #fff;
+    font-family: $light-font;
+    font-size: .6rem;
+  }
+}
