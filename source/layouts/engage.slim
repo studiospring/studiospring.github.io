@@ -22,12 +22,7 @@ html
     = partial "partials/engage/header"
     = yield
 
-    footer#footer
-      .container
-        .row
-          .col-sm-6
-          .col-sm-6
-            span#copyright.pull-md-right Design Studio Spring © 2016
+    = partial "partials/engage/footer"
 
     = javascript_include_tag "jquery-3.0.0-rc1.min"
     = javascript_include_tag "bootstrap-4/bootstrap.min"
