@@ -125,20 +125,19 @@ i {
     padding: 1.5rem 1rem;
   }
 
-  a {
-    font-size: 1.4rem;
-    font-family: $display-regular-font;
-    color: $spring-blue;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-
-  #nav-link-wrapper {
+  #logo-wrapper, #nav-link-wrapper {
+    // Required for nested links to transform.
     display: flex;
     align-items: center;
+  }
+
+  #logo {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+
+  #nav-link-wrapper {
     justify-content: flex-end;
 
     a {
@@ -146,12 +145,19 @@ i {
       margin-left: 1rem;
     }
   }
-}
 
-#logo {
-  width: 4rem;
-  height: 4rem;
-  margin-right: 2rem;
+  a {
+    font-size: 1.4rem;
+    font-family: $display-regular-font;
+    color: $spring-blue;
+
+    &:focus, &:active, &:hover {
+      color: $spring-red;
+      text-decoration: none;
+      transform: scale(1.1, 1.1);
+    }
+  }
+
 }
 
 #footer {
