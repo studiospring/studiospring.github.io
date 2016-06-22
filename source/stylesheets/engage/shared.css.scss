@@ -115,19 +115,25 @@ i {
   transition: all 0.2s linear;
 }
 
-#nav{
+#nav {
   max-width: none;
-  background-color: $spring-blue;
+  background-color: rgba(255,255,255,0.5);
+  border-bottom: 2px solid $spring-blue;
 
   .row {
     padding: 1rem;
   }
 
-  span, a{
+  a {
     font-size: 1.4rem;
     font-family: $display-regular-font;
-    color: #fff;
+    color: $spring-blue;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
+
 
   #nav-link-wrapper {
     display: flex;
@@ -136,7 +142,7 @@ i {
 
     a {
       display: inline-block;
-      margin-left: .5rem;
+      margin-left: 1rem;
     }
   }
 }
