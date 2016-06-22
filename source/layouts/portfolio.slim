@@ -11,10 +11,11 @@ html
       - else
         | Studio Spring: Sean Loughman's UX portfolio
 
-    = stylesheet_link_tag "shared"
+    = stylesheet_link_tag "engage/shared"
     = stylesheet_link_tag "portfolio/shared"
     - if current_page.data.curr_page
       = stylesheet_link_tag "portfolio/#{current_page.data.curr_page}"
+
   body
     = partial "partials/engage/nav"
     div#main role="main"

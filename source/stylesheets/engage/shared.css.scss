@@ -136,27 +136,18 @@ nav span {
 }
 
 #footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: $spring-red;
+  /* Set the fixed height of the footer here */
+  height: 6rem;
 
   #copyright {
     // background-image: url('/images/spring_logo_red_25x25.png'), no-repeat;
     color: #fff;
     font-family: $display-regular-font;
     font-size: .6rem;
-  }
-}
-
-.footer {
-  background-color: $spring-red;
-  position: absolute;
-  bottom: 0;
-  /* Set the fixed height of the footer here */
-  height: 40px;
-
-  #copyright {
-    float: right;
-    color: #fff;
-    font-family: $light-font;
-    font-size: .6rem;
+    padding-right: 2rem;
   }
 }
