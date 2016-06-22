@@ -61,6 +61,22 @@
   font-family: "Source Sans Pro Bold";
   src: url("/type/source_sans_pro/SourceSansPro-Bold.ttf") format('truetype');
 }
+@font-face {
+  font-family: "Merriweather Regular";
+  src: url("/type/merriweather/Merriweather-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Merriweather Bold";
+  src: url("/type/merriweather/Merriweather-Bold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Merriweather Light";
+  src: url("/type/merriweather/Merriweather Light.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Quattrocento Sans Regular";
+  src: url("/type/quattrocento_sans/QuattrocentoSans-Regular.ttf") format('truetype');
+}
 
 $red: #85000D;
 $base-font: "Source Sans Pro Regular";
@@ -70,6 +86,7 @@ $display-regular-font: "Sansation Regular";
 $display-bold-font: "Sansation Bold";
 $body-light-font: "Source Sans Pro Light";
 $body-regular-font: "Source Sans Pro Regular";
+$body-regular-font: "Quattrocento Sans Regular";
 $body-semibold-font: "Source Sans Pro Semibold";
 $body-bold-font: "Source Sans Pro Bold";
 
