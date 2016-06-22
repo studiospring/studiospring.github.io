@@ -115,24 +115,36 @@ i {
   transition: all 0.2s linear;
 }
 
-nav span {
-  color: $spring-blue;
+#nav{
+  max-width: none;
+  background-color: $spring-blue;
+
+  .row {
+    padding: 1rem;
+  }
+
+  span, a{
+    font-size: 1.4rem;
+    font-family: $display-regular-font;
+    color: #fff;
+  }
+
+  #nav-link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    a {
+      display: inline-block;
+      margin-left: .5rem;
+    }
+  }
 }
 
 #logo {
   width: 4rem;
   height: 4rem;
-  margin-right: 1rem;
-}
-
-#nav-link-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-
-  a {
-    display: inline-block;
-  }
+  margin-right: 2rem;
 }
 
 #footer {
