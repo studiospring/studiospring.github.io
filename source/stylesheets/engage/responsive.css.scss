@@ -5,7 +5,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  #home .intro-section .intro {
+  #home .intro-section h1 {
     font-size: 35px;
   }
 
@@ -35,7 +35,7 @@
     .intro-section {
       margin: 0;
 
-      .intro {
+      h1 {
         font-size: 20px;
         line-height: 22px;
       }
@@ -80,18 +80,15 @@
       padding: 0px 0;
     }
 
-    .intro-section {
+    h1 {
       margin: 0;
+      font-size: 15px;
+      line-height: 22px;
+    }
 
-      .intro {
-        font-size: 15px;
-        line-height: 22px;
-      }
-
-      .sub-heading {
-        font-size: 14px;
-        line-height: 22px;
-      }
+    .sub-heading {
+      font-size: 14px;
+      line-height: 22px;
     }
   }
 
