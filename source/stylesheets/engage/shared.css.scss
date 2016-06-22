@@ -120,6 +120,10 @@ i {
   background-color: rgba(255,255,255,0.5);
   border-bottom: 2px solid $spring-red;
   margin-bottom: 2rem;
+  
+  nav {
+    padding: 0;
+  }
 
   #logo-wrapper, #nav-link-wrapper {
     // Required for nested links to transform.
@@ -128,13 +132,14 @@ i {
   }
 
   #logo {
-    width: 4rem;
-    height: 4rem;
-    margin: 0rem 1rem;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
   }
 
   #nav-link-wrapper {
     justify-content: flex-end;
+    padding-right: 1rem;
 
     a {
       display: inline-block;
