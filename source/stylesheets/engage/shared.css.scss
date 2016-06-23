@@ -3,6 +3,8 @@
 @import "variables";
 
 body {
+  // Bleeding edge css to render text before font face is loaded
+  font-display: swap;
   background: #ffffff;
   font-family: $body-regular-font, sans-serif;
   font-size: 1.2rem;
