@@ -33,13 +33,16 @@ section{
   }
 }
 
-
 .project-stats span {
   display: inline-block;
   text-align: right;
   font-family: $body-bold-font;
   color: #000;
   padding-right: 1rem;
+}
+
+figcaption {
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 480px) {
