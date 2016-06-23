@@ -34,6 +34,8 @@
 }
 
 #portfolio-section {
+  max-width: 100%;
+  background: #ecf0f1;
   border-top: 1px solid #DDD;
   border-bottom: 1px solid #DDD;
 
@@ -48,14 +50,11 @@
       margin-bottom: 22px;
     }
   }
-
-  .item-2 {
-    background: #ecf0f1;
-  }
 }
 
 #blog-section {
   background: $spring-blue;
+  max-width: 100%;
   color: #fff;
 
   h3 {

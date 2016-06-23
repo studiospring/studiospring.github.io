@@ -4,15 +4,26 @@ layout: engage
 curr_page: portfolio
 ---
 
-section#portfolio-section
-  - data.portfolio_splash.each do |project|
-    = partial "partials/portfolio_splash",
-      :locals => { \
-        :title => project.title,
-        :body => project.body,
-        :url_path => project.url_path,
-        :img => project.img,
-      }
+section#portfolio-section.container
+  .row
+    .col-sm-6
+      .feature-content.wow.fadeInRight data-wow-duration="0.80s"
+        h1.small-title Crowdfunding Charity Site
+        blockquote &ldquo;Mind blown&hellip;&rdquo;
+        blockquote &ldquo;This is the dashboard we've been looking for!&rdquo;
+        cite Board Member
+        br
+        a.btn.btn-common href="/portfolio/kidsgive.html"  Read on
+    .col-sm-6
+      a href="/portfolio/kidsgive.html"
+        img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="/images/portfolio/.png"
 
-section#blog-section
-  = partial "partials/blog_feed"
+  .row
+    .col-sm-6
+      .feature-content.wow.fadeInRight data-wow-duration="0.80s"
+        h1.small-title Lindt Cafe
+        p
+        a.btn.btn-common href="/portfolio/lindt.html"  Read on
+    .col-sm-6
+      a href="/portfolio/lindt.html"
+        img.wow.fadeInLeft alt="" data-wow-duration="0.80s" src="/images/portfolio/solution_map.png"
