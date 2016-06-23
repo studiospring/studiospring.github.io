@@ -47,7 +47,7 @@ ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $body-semibold-font, sans-serif;
+  font-family: $body-bold-font, sans-serif;
 }
 
 h2 {
@@ -80,7 +80,7 @@ h4 {
 
 .btn {
   font-size: 16px;
-  font-family: $body-semibold-font, sans-serif;
+  font-family: $body-bold-font, sans-serif;
   padding: 15px 30px;
   border: none;
   -webkit-transition: all 0.2s linear;
