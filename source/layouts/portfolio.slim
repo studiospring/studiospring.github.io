@@ -12,9 +12,10 @@ html
         | Studio Spring: Sean Loughman's UX portfolio
 
     = stylesheet_link_tag "engage/shared"
-    = stylesheet_link_tag "portfolio/shared"
-    - if current_page.data.curr_page
-      = stylesheet_link_tag "portfolio/#{current_page.data.curr_page}"
+    / = stylesheet_link_tag "portfolio/shared"
+
+    / Insert stylesheets from views
+    = yield_content :assets
 
   body
     = partial "partials/engage/nav"

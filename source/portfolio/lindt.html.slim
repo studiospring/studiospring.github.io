@@ -4,13 +4,27 @@ layout: portfolio
 curr_page: lindt
 ---
 
-.container-fluid
-  section#brief
-    h2 Lindt cafe brief
-    p As part of a team of 3, I was tasked with helping Lindt retain and attract customers to its chocolate cafes in Australia.
+- content_for :assets do
+ = stylesheet_link_tag 'portfolio/lindt'
+
+.container
+  section.row
+    h1 Retain and attract customers to Lindt cafes
+    .col-sm-6
+      p
+        | Lindt chocolates have a strong brand presence in Australia, but Lindt cafes do not. How can Lindt's chocolate cafes become a more attractive destination within Australia's booming cafe culture?
+    .col-sm-6
+      ul.project_stats
+        li
+          span Team:
+            3 UX designers
+        li
+          span Time:
+            2 weeks
 
   section#research
-    h2 Research
+    h1 Research
+
     .row
       .col-md-5
         p To gain an understanding of Lindt cafe and its customers, we conducted the following research:
