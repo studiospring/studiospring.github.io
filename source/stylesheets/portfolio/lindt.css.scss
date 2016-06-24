@@ -3,53 +3,6 @@
 @import "variables";
 
 #solution-map-img {
-  height: 90vh;
+  // height: 90vh;
 }
 
-// Shared stuff (to be separated later)
-#main {
-  background-color: #ecf0f1;
-
-  .container {
-    padding-top: 4rem;
-  }
-
-  .container > section {
-    padding: 4rem 1rem;
-  }
-
-  h1 {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-}
-
-.project-stats span {
-  display: inline-block;
-  text-align: right;
-  font-family: $body-bold-font;
-  color: #000;
-  padding-right: 1rem;
-}
-
-figcaption {
-  margin-bottom: 1rem;
-}
-
-@media (min-width: 768px) {
-  #main .container {
-    max-width: 90vw;
-  }
-
-  .text-flow-columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-
-    p {
-      // Not supported by Gecko.
-      widows: 2;
-      orphans: 2;
-    }
-  }
-}

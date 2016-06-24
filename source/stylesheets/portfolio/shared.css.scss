@@ -2,102 +2,53 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-body{
-  h1, h2, h3, h4, h5, h6 {
-    font-family: $light-font;
+#main {
+  background-color: #ecf0f1;
+
+  .container {
+    padding-top: 4rem;
   }
 
-  span, p, a {
-    font-family: $base-font;
+  .container > section {
+    padding: 4rem 1rem;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
   }
 
   img {
-    background-repeat: no-repeat;
+    max-height: 90vh;
   }
 }
 
-.pos-f-t .navbar {
-  background-color: $moebius-primary-colour;
-  border-radius: 0;
-  border-bottom: 2px solid $moebius-complementary-colour;
+.project-stats span {
+  display: inline-block;
+  text-align: right;
+  font-family: $body-bold-font;
+  color: #000;
+  padding-right: 1rem;
+}
 
-  span {
-    padding-right: 1rem;
-    font: $bold-font;
-    font-size: 2rem;
+figcaption {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  #main .container {
+    max-width: 90vw;
   }
-}
 
-.nav-link {
-  color: #fff;
-}
+  .text-flow-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
 
-#logo{
-  height: $nav-height;
-  margin-right: 1rem;
-}
-
-.container-fluid {                             
-  padding: 0 0 !important;
-}                                              
-
-section:first-child {
-  margin-top: $nav-height + 1;
-}
-
-section {
-  background-color: #fff;
-  padding: 1rem 1rem 2rem 1rem;
-
-  h2 {
-    color: $moebius-primary-colour;
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-}
-
-/* https://css-tricks.com/seamless-responsive-photo-grid/ */
-.collage {
-  /* Prevent vertical gaps */
-  line-height: 0;
-  -webkit-column-count: 2;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    2;
-  -moz-column-gap:      0px;
-  column-count:         2;
-  column-gap:           0px;
-}
-
-@media (min-width: 48em) {
-  .collage {
-    -webkit-column-count: 3;
-    -moz-column-count:    3;
-    column-count:         3;
-  }
-}
-
-@media (min-width: 62em) {
-  .collage {
-    -webkit-column-count: 5;
-    -moz-column-count:    5;
-    column-count:         5;
-  }
-}
-
-.collage img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-}
-
-.footer {
-  background-color: $moebius-primary-colour;
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  #copyright {
-    color: #fff;
+    p {
+      // Not supported by Gecko.
+      widows: 2;
+      orphans: 2;
+    }
   }
 }
