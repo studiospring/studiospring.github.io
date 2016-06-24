@@ -2,16 +2,6 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-section{
-  /* display: flex;                 */
-  /* flex-wrap: wrap;               */
-  /* justify-content: space-around; */
-
-  // img {
-  //   width: 100%;
-  //   height: auto;  
-  // }
-}
 #solution-map-img {
   height: 90vh;
 }
@@ -25,7 +15,7 @@ section{
   }
 
   .container > section {
-    padding: 4rem;
+    padding: 4rem 1rem;
   }
 
   h1 {
@@ -47,6 +37,10 @@ figcaption {
 }
 
 @media (min-width: 768px) {
+  #main .container {
+    max-width: 90vw;
+  }
+
   .text-flow-columns {
     -webkit-column-count: 2;
     -moz-column-count: 2;
