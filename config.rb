@@ -68,10 +68,6 @@ activate :search do |search|
   }
 end
 
-activate :asset_hash do |asset_hash|
-  asset_hash.exts << '.json'
-end
-
 page "/feed.xml", layout: false
 
 # Build-specific configuration
