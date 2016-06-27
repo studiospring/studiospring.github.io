@@ -8,13 +8,13 @@ gem 'rack-contrib'
 gem 'puma'
 
 # Middleman Gems
-gem 'middleman', '>= 4.0.0'
+gem 'middleman'
 gem 'middleman-livereload'
-gem 'middleman-compass', '>= 4.0.0'
+gem 'middleman-compass'
 gem 'middleman-blog'
 gem 'middleman-search'
-gem 'builder', '~> 3.0'
-gem 'redcarpet', '~> 3.3', '~> 3.3.3'
+gem 'builder'
+gem 'redcarpet'
 gem 'therubyracer'
 gem 'oj'
 
