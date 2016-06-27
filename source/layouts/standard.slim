@@ -1,0 +1,26 @@
+doctype html
+html lang="en-gb"
+  head
+    meta[charset="UTF-8"]
+    meta[name="author" content="Studio Spring"]
+    meta[name="copyright" content="Studio Spring"]
+    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    title
+      - if current_page.data.title
+        = "#{current_page.data.title} | Studio Spring"
+      - else
+        | Studio Spring
+
+    = stylesheet_link_tag "engage/shared"
+
+    / Insert stylesheets from views
+    = yield_content :assets
+
+  body
+    = partial "partials/engage/nav"
+    div#main role="main"
+      = yield
+
+    = partial "partials/engage/footer"
+    / = javascript_include_tag "jquery-3.0.0.min"
+    / = javascript_include_tag "bootstrap-4/bootstrap.min"
