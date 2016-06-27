@@ -18,8 +18,19 @@
     margin-bottom: 1rem;
   }
 
+  figure{
+    display: flex;
+    justify-content: center;
+  }
+
+  figcaption {
+    margin-bottom: 1rem;
+  }
+
   img {
-    max-height: 90vh;
+    // max-height: 90vh;
+    // max-width: 90vw;
+    // display: block;
   }
 }
 
