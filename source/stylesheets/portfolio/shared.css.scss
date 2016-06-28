@@ -42,6 +42,16 @@
   padding-right: 1rem;
 }
 
+.figures {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+  figure {
+
+  }
+}
+
 #case-study-link {
   display: inline-block;
   float: right;
