@@ -147,14 +147,14 @@ i {
 
   #logo {
     display: block;
-    background: url('/images/spring_logo_blue.svg') center left / 5rem no-repeat;
+    background: url('/images/shared/spring_logo_blue.svg') center left / 5rem no-repeat;
     width: 15rem;
     height: 6rem;
     margin-left: 1rem;
     padding: 2rem 0 0 6rem;
 
     &:hover {
-      background-image: url('/images/spring_logo_red.min.svg');
+      background-image: url('/images/shared/spring_logo_red.min.svg');
     }
   }
 
@@ -195,7 +195,7 @@ i {
   height: 6rem;
 
   #copyright {
-    // background-image: url('/images/spring_logo_red_25x25.png'), no-repeat;
+    // background-image: url('/images/shared/spring_logo_red_25x25.png'), no-repeat;
     color: #fff;
     font-family: $display-regular-font;
     font-size: .6rem;
