@@ -145,25 +145,29 @@ i {
     padding: 0 1rem 0 0;
   }
 
-  #logo-wrapper, #nav-link-wrapper {
-    // Required for nested links to transform.
-    display: flex;
-    align-items: center;
-  }
-
   #logo {
-    width: 5rem;
-    height: 5rem;
-    margin: 1rem;
+    display: block;
+    background: url('/images/spring_logo_blue.svg') center left / 5rem no-repeat;
+    width: 15rem;
+    height: 6rem;
+    margin-left: 1rem;
+    padding: 2rem 0 0 6rem;
+
+    &:hover {
+      background-image: url('/images/spring_logo_red.min.svg');
+    }
   }
 
   #nav-link-wrapper {
+    // Required for nested links to transform.
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
     padding-right: 1rem;
 
     a {
       display: inline-block;
-      margin-left: 1rem;
+      margin: 0 1rem 0 1rem;
     }
   }
 

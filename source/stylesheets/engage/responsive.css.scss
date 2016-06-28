@@ -1,16 +1,30 @@
-@media (min-width: 1200px) {
+@media (min-width: 75em) {
   #home .intro-section {
     padding: 60px 0;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 62em) and (max-width: 75em) {
   #portfolio-section .feature-content {
     padding: 0;
   }
 }
 
-@media (max-width: 568px) {
+// @media (max-width: 62em) {
+// }
+
+@media (max-width: 34em) {
+  #nav #logo {
+    background-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 0;
+    padding-left: 0;
+    span {
+      display: none;
+    }
+  }
+
   .section-subtitle {
     font-size: 18px;
   }
@@ -54,9 +68,13 @@
   }
 }
 
-@media (max-width: 480px) {
-  #nav-link-wrapper {
-    margin-right: 0;
+@media (max-width: 24em){
+  #nav #nav-link-wrapper {
+    padding-right: 0;
+
+    a {
+      margin: .5rem;
+    }
   }
 
   .section-subtitle {
@@ -69,12 +87,6 @@
 
   .small-title {
     font-size: 20px;
-  }
-
-  #nav #logo {
-    width: 3rem;
-    height: 3rem;
-    margin: .5rem .5rem;
   }
 
   h1 {
