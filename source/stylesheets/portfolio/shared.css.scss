@@ -21,17 +21,18 @@
   figure{
     display: flex;
     justify-content: center;
+
+    img {
+      // max-height: 90vh;
+      max-width: 90vw;
+      display: block;
+    }
   }
 
   figcaption {
     margin-bottom: 1rem;
   }
 
-  img {
-    // max-height: 90vh;
-    // max-width: 90vw;
-    // display: block;
-  }
 }
 
 .project-stats span {
