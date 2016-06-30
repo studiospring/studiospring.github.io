@@ -71,12 +71,15 @@
 }
 
 #case-study-link {
-  display: inline-block;
-  float: right;
-  color: #111;
-  text-decoration: underline;
+  justify-content: flex-end;
 
-  &:focus, &:hover {
+  a {
+    color: #222;
+    display: inline-block;
+    text-decoration: underline;
+
+    &:focus, &:hover {
+    }
   }
 }
 
