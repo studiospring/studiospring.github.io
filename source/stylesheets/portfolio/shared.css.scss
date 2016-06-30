@@ -18,6 +18,11 @@
     margin-bottom: 1rem;
   }
 
+  // .figures {
+  //   max-width: 90vw;
+  //   display: block;
+  // }
+
   figure{
     display: flex;
     justify-content: center;
@@ -26,6 +31,7 @@
       // max-height: 90vh;
       max-width: 90vw;
       display: block;
+      margin: 0 .4rem;
     }
   }
 
