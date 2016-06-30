@@ -18,11 +18,6 @@
     margin-bottom: 1rem;
   }
 
-  // .figures {
-  //   max-width: 90vw;
-  //   display: block;
-  // }
-
   figure{
     display: flex;
     justify-content: center;
@@ -51,8 +46,8 @@
 
 .figures {
   display: flex;
-  align-items: top;
   justify-content: center;
+  flex-wrap: wrap;
 
   figure {
 
@@ -90,9 +85,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  #main section {
-    max-height: 100vh;
-  }
+  // #main section {
+  //   max-height: 100vh;
+  // }
 }
 
 
