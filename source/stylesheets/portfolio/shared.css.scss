@@ -15,23 +15,7 @@
 
   h1, h2 {
     text-align: center;
-    margin-bottom: 1rem;
-  }
-
-  figure{
-    display: flex;
-    justify-content: center;
-
-    img {
-      // max-height: 90vh;
-      max-width: 90vw;
-      display: block;
-      margin: 0 .4rem;
-    }
-  }
-
-  figcaption {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
 }
@@ -48,9 +32,16 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
 
-  figure {
+figure{
+  display: flex;
+  justify-content: center;
 
+  img {
+    max-width: 90vw;
+    display: block;
+    margin: 0 .4rem;
   }
 }
 
@@ -89,7 +80,6 @@
   //   max-height: 100vh;
   // }
 }
-
 
 @media (min-width: 768px) {
   #main .container {
