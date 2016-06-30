@@ -2,6 +2,12 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
+html {
+  // Required for sticky footer.
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   // Bleeding edge css to render text before font face is loaded
   font-display: swap;
@@ -14,6 +20,8 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  /* Margin bottom by footer height */
+  margin-bottom: $footer-height;
 }
 
 a {
@@ -67,11 +75,13 @@ h4 {
 }
 
 #main {
+
   .container {
     padding-top: 4rem;
   }
 
   p {
+    max-width: 30em;
     color: #222;
   }
 
@@ -189,10 +199,12 @@ i {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 2px;
   background-color: $spring-blue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   /* Set the fixed height of the footer here */
-  height: 6rem;
+  height: $footer-height;
 
   #copyright {
     // background-image: url('/images/shared/spring_logo_red_25x25.png'), no-repeat;
