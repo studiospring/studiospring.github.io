@@ -9,8 +9,8 @@ require 'bootstrap'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/*", :layout => :article
-page "/index.html", :layout => :permalinks
+# page "/*", :layout => :article
+# page "/index.html", :layout => :permalinks
 
 Time.zone = 'Sydney'
 
@@ -28,47 +28,47 @@ configure :development do
   set :debug_assets, true
 end
 
-activate :blog do |blog|
-  # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
+# activate :blog do |blog|
+#   # This will add a prefix to all links, template references and source paths
+#   # blog.prefix = "blog"
 
-  blog.permalink = "{title}.html"
-  # Matcher for blog source files
-  blog.sources = "{year}/{title}.html"
-  # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
-  blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
-  # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
+#   blog.permalink = "{title}.html"
+#   # Matcher for blog source files
+#   blog.sources = "{year}/{title}.html"
+#   # blog.taglink = "tags/{tag}.html"
+#   # blog.layout = "layout"
+#   blog.summary_separator = /(READMORE)/
+#   # blog.summary_length = 250
+#   # blog.year_link = "{year}.html"
+#   # blog.month_link = "{year}/{month}.html"
+#   # blog.day_link = "{year}/{month}/{day}.html"
+#   # blog.default_extension = ".markdown"
 
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
+#   blog.tag_template = "tag.html"
+#   blog.calendar_template = "calendar.html"
 
-  # Enable pagination
-  blog.paginate = true
-  blog.per_page = 10
-  # blog.page_link = "page/{num}"
-end
+#   # Enable pagination
+#   blog.paginate = true
+#   blog.per_page = 10
+#   # blog.page_link = "page/{num}"
+# end
 
 # Middleman-search
-activate :search do |search|
+# activate :search do |search|
 
-  search.resources = ['2016/']
+#   search.resources = ['2016/']
 
-  # search.index_path = 'source/search.json' # defaults to `search.json`
+#   # search.index_path = 'source/search.json' # defaults to `search.json`
 
-  search.fields = {
-    title:   {boost: 100, store: true, required: true},
-    content: {boost: 50},
-    url:     {index: false, store: true},
-    author:  {boost: 30}
-  }
-end
+#   search.fields = {
+#     title:   {boost: 100, store: true, required: true},
+#     content: {boost: 50},
+#     url:     {index: false, store: true},
+#     author:  {boost: 30}
+#   }
+# end
 
-page "/feed.xml", layout: false
+# page "/feed.xml", layout: false
 
 # Build-specific configuration
 configure :build do
