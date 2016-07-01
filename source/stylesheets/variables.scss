@@ -1,29 +1,4 @@
 @font-face {
-  font-family: "Fira Sans Book";
-  src: url("/type/fira/FiraSans-Book.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Light";
-  src: url("/type/fira/FiraSans-Light.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Extralight";
-  src: url("/type/fira/FiraSans-UltraLight.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Ultralight";
-  src: url("/type/fira/FiraSans-UltraLight.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Medium";
-  src: url("/type/fira/FiraSans-Medium.otf") format('opentype');
-}
-@font-face {
-  font-family: "Fira Sans Heavy";
-  src: url("/type/fira/FiraSans-Heavy.otf") format('opentype');
-}
-
-@font-face {
   font-family: "Sansation Light";
   src: url("/type/sansation/Sansation-light.ttf") format('truetype');
 }
@@ -53,16 +28,8 @@ $display-bold-font: "Sansation Bold";
 $body-regular-font: "Droid Sans";
 $body-bold-font: "Droid Sans Bold";
 
-$bold-font: "Dosis Bold";
-$heavy-font: "Fira Sans Heavy";
-$light-font: "Dosis Bold";
-$extralight-font: "Fira Sans Extralight";
-$ultralight-font: "Fira Sans Ultralight";
 $banner-text: #fff;
 $font-family-base: $base-font !default;
-$presentation-chrome-width: 7%;
-$slide-colour: #4E778F;
-$nav-height: 2rem;
 /* Colours from Ellsworth Kelly */
 $spring-light-blue: #3999F7;
 $spring-blue: #2563A0;
@@ -72,11 +39,3 @@ $spring-red: #DA170A;
 $spring-dark-red: #870E06;
 
 $footer-height: 6rem;
-
-// Unused
-$brand-primary: #DA170A;
-$brand-danger: #e74c3c;
-$gray-darkest: #222;
-$gray: #777;
-$gray-lighter: #f7f7f7;
-$placeholder-text: #bbbbbb;

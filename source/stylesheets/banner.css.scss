@@ -18,7 +18,7 @@
   position: absolute;
   top: 3rem;  
   left: .3rem;
-  font-family: $extralight-font;
+  font-family: $display-light-font;
   font-size: 1.7rem;
   color: $red;
   letter-spacing: .4rem;
@@ -26,7 +26,7 @@
 }
 
 #ux {
-  font-family: $ultralight-font;
+  font-family: $display-light-font;
   z-index: 1;
   letter-spacing: .4rem;
   margin-left: 2rem;
@@ -61,7 +61,7 @@ nav a {
     top: 3.3rem;  
     left: -1.7rem;
     /* border: 1px solid black; */
-    font-family: $extralight-font;
+    font-family: $display-light-font;
     font-size: 2rem;
     letter-spacing: 1.2rem;
   }
@@ -117,7 +117,7 @@ nav a {
 
     #copyright {
       color: #fff;
-      font-family: $light-font;
+      font-family: $body-light-font;
       font-size: .6rem;
     }
   }
