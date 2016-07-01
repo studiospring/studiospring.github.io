@@ -14,9 +14,9 @@ body{
   }
 }
 
-.container-fluid {                             
-  margin-top: 1rem;                            
-}                                              
+.container-fluid {
+  margin-top: 1rem;
+}
 
 /* @include media-breakpoint-up(sm) {              */
 /*   html {                                        */
@@ -38,12 +38,12 @@ body{
 
 #main {
   @include media-breakpoint-up(md) {
-    margin-left: 220px;             
-    max-width: 38rem;               
-  }                                 
+    margin-left: 220px;
+    max-width: 38rem;
+  }
 
   h1, h2, h3, h4, h5, h6 {
     color: $red;
   }
 
-}                                              
+}

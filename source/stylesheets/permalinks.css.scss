@@ -3,17 +3,17 @@
 @import "variables";
 
 #main{
-  header {                     
-    h1 {                      
-      margin-bottom: 0;       
-    }                         
+  header {
+    h1 {
+      margin-bottom: 0;
+    }
 
     h1 a {
       color: $red;
-    }                         
-  }                           
+    }
+  }
 
-  .permalink p {                  
-    font-size: 1.1rem;      
-  }                               
+  .permalink p {
+    font-size: 1.1rem;
+  }
 }
