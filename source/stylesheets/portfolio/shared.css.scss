@@ -21,14 +21,6 @@
 
 }
 
-.project-stats span {
-  display: inline-block;
-  text-align: right;
-  font-family: $body-bold-font;
-  color: #000;
-  padding-right: 1rem;
-}
-
 .figures {
   display: flex;
   justify-content: center;
@@ -59,6 +51,17 @@ figcaption {
 #solution-map img {
   max-height: 70vh;
 }
+
+#outcomes {
+  .text-flow-columns {
+    display: flex;
+    justify-content: center;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
 
 // KidsGive specific.
 #brief {
