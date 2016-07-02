@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Sansation Light";
+  src: url("/type/sansation/Sansation-light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Sansation Regular";
+  src: url("/type/sansation/Sansation-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Sansation Bold";
+  src: url("/type/sansation/Sansation-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Droid Sans";
+  src: url("/type/droid_sans/DroidSans.ttf") format("truetype"); }
+@font-face {
+  font-family: "Droid Sans Bold";
+  src: url("/type/droid_sans/DroidSans-Bold.ttf") format("truetype"); }
+/* $base-font: "Fira Sans Book"; */
+/* Colours from Ellsworth Kelly */

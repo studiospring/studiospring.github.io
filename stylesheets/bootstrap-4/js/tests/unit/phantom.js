@@ -1,0 +1,8 @@
+/*
+ * grunt-contrib-qunit
+ * http://gruntjs.com/
+ *
+ * Copyright (c) 2014 "Cowboy" Ben Alman, contributors
+ * Licensed under the MIT license.
+ */
+!function(){"use strict";function t(){var t=[].slice.call(arguments);alert(JSON.stringify(t))}QUnit.config.reorder=!1,QUnit.config.autorun=!1,QUnit.log(function(n){if("[object Object], undefined:undefined"!==n.message){var e,o;n.result||(e=QUnit.dump.parse(n.actual),o=QUnit.dump.parse(n.expected)),t("qunit.log",n.result,e,o,n.message,n.source)}}),QUnit.testStart(function(n){t("qunit.testStart",n.name)}),QUnit.testDone(function(n){t("qunit.testDone",n.name,n.failed,n.passed,n.total,n.duration)}),QUnit.moduleStart(function(n){t("qunit.moduleStart",n.name)}),QUnit.moduleDone(function(n){0===n.failed?console.log('\r\u221a All tests passed in "'+n.name+'" module'):console.log("\xd7 "+n.failed+' tests failed in "'+n.name+'" module'),t("qunit.moduleDone",n.name,n.failed,n.passed,n.total)}),QUnit.begin(function(){t("qunit.begin"),console.log("\n\nStarting test suite"),console.log("================================================\n")}),QUnit.done(function(n){t("qunit.done",n.failed,n.passed,n.total,n.runtime)})}(),Function.prototype.bind||(Function.prototype.bind=function(t){if("function"!=typeof this)throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");var n=Array.prototype.slice.call(arguments,1),e=this,o=function(){},i=function(){return e.apply(this instanceof o?this:t,n.concat(Array.prototype.slice.call(arguments)))};return this.prototype&&(o.prototype=this.prototype),i.prototype=new o,i});

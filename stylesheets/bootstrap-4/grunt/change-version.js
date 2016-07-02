@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+"use strict";function walkAsync(e,r,s,n){r.has(path.parse(e).base)||fs.readdir(e,function(o,t){return o?void n(o):void t.forEach(function(o){var t=path.join(e,o);fs.lstat(t,function(e,o){return e?void process.nextTick(n,e):void(o.isSymbolicLink()||(o.isDirectory()?process.nextTick(walkAsync,t,r,s,n):o.isFile()&&process.nextTick(s,t)))})})})}function replaceRecursively(e,r,s,n,o){n=new RegExp(RegExp.quote(n),"g"),o=RegExp.quoteReplacement(o);var t=DRY_RUN?function(e){s.has(path.parse(e).ext)?console.log("FILE: "+e):console.log("EXCLUDED:"+e)}:function(e){s.has(path.parse(e).ext)&&sed("-i",n,o,e)};walkAsync(".",r,t,function(e){console.error("ERROR while traversing directory!:"),console.error(e),process.exit(1)})}function main(e){2!==e.length&&(console.error("USAGE: change-version old_version new_version"),console.error("Got arguments:",e),process.exit(1));var r=e[0],s=e[1],n=new Set([".git","node_modules","vendor"]),o=new Set(["",".css",".html",".js",".json",".md",".scss",".txt",".yml"]);replaceRecursively(".",n,o,r,s)}/*!
+ * Script to update version number references in the project.
+ * Copyright 2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+var fs=require("fs"),path=require("path"),sh=require("shelljs");sh.config.fatal=!0;var sed=sh.sed;RegExp.quote=function(e){return e.replace(/[-\\^$*+?.()|[\]{}]/g,"\\$&")},RegExp.quoteReplacement=function(e){return e.replace(/[$]/g,"$$")};var DRY_RUN=!1;main(process.argv.slice(2));
