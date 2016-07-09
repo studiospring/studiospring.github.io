@@ -15,7 +15,7 @@
 
   h1, h2 {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
 }
@@ -38,9 +38,9 @@ figure{
 }
 
 figcaption {
-  margin-bottom: 1rem;
+  font-size: .9rem;
+  margin: 1.5rem 0 1rem 0;
 }
-
 
 // Lindt specific.
 #research img {
@@ -115,6 +115,28 @@ figcaption {
       // Not supported by Gecko.
       widows: 2;
       orphans: 2;
+    }
+  }
+}
+
+
+@media (max-width: 24em){
+  #main {
+    .container > section {
+      padding: 1rem 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    ul {
+      padding-left: 2rem !important;
     }
   }
 }
