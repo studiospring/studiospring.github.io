@@ -218,4 +218,14 @@ i {
     font-size: .6rem;
     padding-right: 2rem;
   }
+
+  a {
+    color: #fff;
+
+    &:focus, &:active, &:hover {
+      color: $spring-red;
+      text-decoration: none;
+      transform: scale(1.1, 1.1);
+    }
+  }
 }
