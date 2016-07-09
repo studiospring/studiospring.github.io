@@ -9,9 +9,6 @@
 }
 
 @media (min-width: 62em) and (max-width: 75em) {
-  #portfolio-section .feature-content {
-    padding: 0;
-  }
 }
 
 // @media (max-width: 62em) {
@@ -67,6 +64,7 @@
     }
 
     .feature-content {
+      margin-left: 0;
       padding: 12px;
     }
   }
