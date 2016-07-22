@@ -164,22 +164,22 @@ i {
     border: 1px solid blue;
   }
 
-  #logo {
+  #logo-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
 
-    #foo {
-      display: block;
-      background: url('/images/shared/spring_logo_blue.svg') center left / 5rem no-repeat;
-      width: 15rem;
-      height: 6rem;
-      margin-left: 1rem;
-      padding: 2rem 0 0 6rem;
+  #logo {
+    display: block;
+    background: url('/images/shared/spring_logo_blue.svg') center left / 5rem no-repeat;
+    width: 15rem;
+    height: 6rem;
+    margin-left: 1rem;
+    padding: 2rem 0 0 6rem;
 
-      &:hover {
-        background-image: url('/images/shared/spring_logo_red.min.svg');
-      }
+    &:hover {
+      background-image: url('/images/shared/spring_logo_red.min.svg');
     }
   }
 
@@ -190,8 +190,6 @@ i {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
-    // margin: 0 -50px;
-    // padding-right: 1rem;
 
     a {
       display: inline-block;
