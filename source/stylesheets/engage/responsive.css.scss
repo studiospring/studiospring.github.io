@@ -15,7 +15,7 @@
 // }
 
 @media (max-width: 34em) {
-  #nav #logo {
+  #nav #logo a{
     background-size: 3rem;
     width: 4rem;
     height: 4rem;
@@ -26,12 +26,20 @@
     }
   }
 
+  #nav #nav-link-wrapper {
+    padding: 0 -50px;
+    margin: 0 -20px;
+    a {
+      margin: .3rem;
+    }
+  }
+
   .section-subtitle {
     font-size: 18px;
   }
 
   .row {
-    padding: 40px 0;
+    padding: 0px 0;
   }
 
   .small-title {
@@ -71,20 +79,16 @@
 }
 
 @media (max-width: 24em){
-  #nav #nav-link-wrapper {
-    padding-right: 0;
-
-    a {
-      margin: .5rem;
-    }
-  }
+  // #logo a {
+  //   padding: 2rem 0 0 0;
+  // }
 
   .section-subtitle {
     font-size: 16px;
   }
 
   .row {
-    padding: 40px 0;
+    padding: 20px 0;
   }
 
   .small-title {
