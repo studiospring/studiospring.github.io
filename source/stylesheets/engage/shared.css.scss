@@ -160,11 +160,16 @@ i {
     padding: 1rem 0 1rem 0;
   }
 
+  .border {
+    border: 1px solid blue;
+  }
+
   #logo {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
-    a {
+    #foo {
       display: block;
       background: url('/images/shared/spring_logo_blue.svg') center left / 5rem no-repeat;
       width: 15rem;

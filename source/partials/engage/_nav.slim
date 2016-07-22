@@ -1,11 +1,11 @@
 #nav.container
   nav.row
-    #logo.col-xs-2.col-sm-2
-      a href="/"
+    #logo.col-xs-12.border
+      a#foo href="/"
         span.hidden-sm-down studio spring
-    #nav-link-wrapper.col-xs-9.col-sm-9
-      a.nav-link href="/portfolio.html" portfolio
-      a.nav-link href="/about.html" class=('active' if current_page.data.curr_page == 'about') about
-      a.nav-link href="/contact.html" contact
-      a.nav-link href="/feed.xml" rss
-      input#search.ui-autocomplete-input placeholder=" Search articles" type="text" role="search"
+      #nav-link-wrapper
+        a.nav-link href="/portfolio.html" portfolio
+        a.nav-link href="/about.html" class=('active' if current_page.data.curr_page == 'about') about
+        a.nav-link href="/contact.html" contact
+        a.nav-link href="/feed.xml" rss
+        input#search.ui-autocomplete-input placeholder=" Search articles" type="text" role="search"
