@@ -15,14 +15,14 @@ html
     = stylesheet_link_tag :permalinks
     = stylesheet_link_tag :articles
     = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
-    body
-      .container-fluid
-        = partial "partials/banner"
+    = stylesheet_link_tag "engage/shared"
+    = stylesheet_link_tag "engage/responsive"
 
-        div#main role="main"
-          = yield
-          .frame
-    = javascript_include_tag "trianglify.min"
+    body
+      = partial "partials/engage/_nav"
+
+      div#main role="main"
+        = yield
     = javascript_include_tag "jquery-2.2.0.min"
     = javascript_include_tag "jquery-ui/jquery-ui.min"
     / = javascript_include_tag "bootstrap-4/bootstrap.min"
