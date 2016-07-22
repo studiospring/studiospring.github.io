@@ -194,6 +194,14 @@ i {
     }
   }
 
+  #search {
+    width: 8rem;
+    border: 1px solid $spring-red;
+    border-radius: 0;
+    color: #222;
+    margin: 0.3rem;
+  }
+
   a {
     font-size: 1.4rem;
     font-family: $display-regular-font;
