@@ -15,6 +15,14 @@
 }
 
 @media (max-width: 34em) {
+  #main .container {
+    padding: 1rem .5rem;
+
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+
   #nav {
     #logo {
       background-size: 3rem;
@@ -80,10 +88,6 @@
 
   .small-title {
     font-size: 20px;
-  }
-
-  h1 {
-    font-size: 2rem;
   }
 
   #home {
