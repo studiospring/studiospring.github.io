@@ -1,4 +1,7 @@
-= wrap_layout :main do
+- content_for :assets do
+  = stylesheet_link_tag 'articles'
+
+= wrap_layout :layout do
   article
     header
       h1
