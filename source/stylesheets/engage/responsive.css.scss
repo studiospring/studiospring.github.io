@@ -2,11 +2,6 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-@media (min-width: 75em) {
-  #portfolio-header .intro-section {
-    padding: 60px 0;
-  }
-}
 
 @media (min-width: 62em) and (max-width: 75em) {
 }
@@ -15,14 +10,6 @@
 }
 
 @media (max-width: 34em) {
-  #main .container {
-    padding: 1rem .5rem;
-
-    h1 {
-      font-size: 1.6rem;
-    }
-  }
-
   #nav {
     #logo {
       background-size: 3rem;
