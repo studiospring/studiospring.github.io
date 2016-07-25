@@ -80,6 +80,7 @@ figcaption {
 }
 
 #case-study-link {
+  display: flex;
   justify-content: flex-end;
 
   a {
@@ -117,6 +118,47 @@ figcaption {
   }
 }
 
+@media (max-width: 34em) {
+  .row {
+    padding: 0px 0;
+  }
+
+  .small-title {
+    font-size: 22px;
+  }
+
+  #portfolio-header {
+    .row {
+      padding: 30px 0;
+    }
+
+    .intro-section {
+
+      h1 {
+        font-size: 24px;
+        line-height: 22px;
+        margin: 1rem 0 2rem 0;
+      }
+
+      .sub-heading {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  #portfolio-section {
+    .row {
+      padding: 20px 0;
+    }
+
+    .feature-content {
+      margin-left: 0;
+      padding: 12px;
+    }
+  }
+
+}
 
 @media (max-width: 24em){
   #main {
@@ -135,6 +177,42 @@ figcaption {
 
     ul {
       padding-left: 2rem !important;
+    }
+  }
+
+  .row {
+    padding: 20px 0;
+  }
+
+  .small-title {
+    font-size: 20px;
+  }
+
+  #portfolio-header {
+
+    .row {
+      padding: 0px 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .sub-heading {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  #portfolio-section {
+    .row {
+      padding: 20px 0;
+    }
+
+    .feature-content {
+      padding: 12px;
     }
   }
 }
