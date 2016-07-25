@@ -10,11 +10,12 @@ html
         = "#{current_page.data.title } | Studio Spring"
       -else
         | Studio Spring
-    = stylesheet_link_tag "global"
-    = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
 
     / Insert stylesheets from views
     = yield_content :assets
+
+    = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
+    = stylesheet_link_tag "global"
 
     body
       = partial "partials/nav"
