@@ -35,12 +35,6 @@ a {
   &:focus, &:hover {
     outline: inherit;
     color: $spring-dark-blue;
-    text-decoration: underline;
-  }
-
-  &:visited {
-    color: #999;
-    text-decoration: underline;
   }
 }
 
@@ -62,16 +56,17 @@ ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $body-bold-font, sans-serif;
+  font-family: $body-regular-font, sans-serif;
   color: #000;
 }
 
 h1 {
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: .3rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -88,6 +83,7 @@ h4 {
   padding-bottom: 2rem;
 
   p {
+    font-size: 1rem;
     max-width: 30em;
     color: #222;
   }
@@ -97,6 +93,14 @@ h4 {
     text-decoration: underline;
 
     &:focus, &:hover {
+    }
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:visited {
+      color: #999;
     }
   }
 }
@@ -199,8 +203,14 @@ h4 {
     padding: 1rem .5rem;
 
     h1 {
-      font-size: 1.6rem;
+      font-size: 1.1rem;
     }
+
+    p {
+      font-size: .9rem;
+      line-height: 1.3;
+    }
+
   }
 
   #nav {
