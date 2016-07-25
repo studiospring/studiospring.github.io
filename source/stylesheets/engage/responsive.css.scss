@@ -10,24 +10,6 @@
 }
 
 @media (max-width: 34em) {
-  #nav {
-    #logo {
-      background-size: 3rem;
-      width: 4rem;
-      height: 4rem;
-      margin-left: 0;
-      padding-left: 0;
-      span {
-        display: none;
-      }
-    }
-
-    #nav-link-wrapper a {
-      font-size: 1.1rem;
-      margin: 0 .3rem;
-    }
-  }
-
   .row {
     padding: 0px 0;
   }
