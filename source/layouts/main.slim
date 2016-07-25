@@ -17,10 +17,12 @@ html
     = stylesheet_link_tag "engage/responsive"
 
     body
-      = partial "partials/engage/_nav"
+      = partial "partials/nav"
 
       div#main role="main"
         = yield
+
+      = partial "partials/footer"
     = javascript_include_tag "jquery-2.2.0.min"
     = javascript_include_tag "jquery-ui/jquery-ui.min"
     / = javascript_include_tag "bootstrap-4/bootstrap.min"

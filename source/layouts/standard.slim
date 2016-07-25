@@ -18,9 +18,9 @@ html lang="en-gb"
     = yield_content :assets
 
   body
-    = partial "partials/engage/nav"
+    = partial "partials/nav"
     div#main role="main"
       = yield
-    = partial "partials/engage/footer"
+    = partial "partials/footer"
     / = javascript_include_tag "jquery-3.0.0.min"
     / = javascript_include_tag "bootstrap-4/bootstrap.min"
