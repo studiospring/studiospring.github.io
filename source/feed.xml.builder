@@ -1,11 +1,11 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  site_url = "http://redux.info"
-  xml.title "RedUX"
-  xml.subtitle "User eXperience Design from the frontlines"
-  xml.id "http://redux.info"
-  xml.link "href" =>  "http://redux.info"
-  xml.link "href" => "http://redux.info/feed.xml", "rel" => "self"
+  site_url = "http://studiospring.com.au"
+  xml.title "Studio Spring Blog"
+  xml.subtitle "UX"
+  xml.id "http://studiospring.com.au"
+  xml.link "href" =>  "http://studiospring.com.au"
+  xml.link "href" => "http://studiospring.com.au/feed.xml", "rel" => "self"
   xml.updated(blog.articles.first.date.to_time.iso8601) unless blog.articles.empty?
   xml.author { xml.name "Sean Loughman" }
 
