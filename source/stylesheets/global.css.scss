@@ -99,50 +99,6 @@ h4 {
   }
 }
 
-.btn {
-  &:focus, &:active, &:hover {
-    outline: inherit;
-    border-color: inherit;
-  }
-
-  outline: inherit;
-  border-color: inherit;
-}
-
-.open .dropdown-toggle.btn {
-  outline: inherit;
-  border-color: inherit;
-}
-
-.btn {
-  font-size: 16px;
-  font-family: $body-bold-font, sans-serif;
-  padding: 15px 30px;
-  border: none;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.btn-common {
-  color: #ffffff;
-  font-weight: 400;
-  background: $spring-red;
-
-  &:hover {
-    background: $spring-light-red;
-    color: #fff;
-  }
-}
-
-i {
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
 #nav {
   max-width: none;
   background-color: rgba(255,255,255,0.5);
