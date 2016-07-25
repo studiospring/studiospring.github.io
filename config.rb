@@ -9,8 +9,8 @@ require 'bootstrap'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/*", :layout => :article
-page "/index.html", :layout => :layout
+# page "/*", :layout => :lay
+# page "/index.html", :layout => :layout
 
 Time.zone = 'Sydney'
 
@@ -36,7 +36,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   blog.sources = "{year}/{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
+  blog.layout = "article"
   blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
