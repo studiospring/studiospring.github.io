@@ -49,17 +49,6 @@
     }
   }
 
-  $footer-height: 3rem;
-
-  body {
-    /* Margin bottom by footer height */
-    margin-bottom: $footer-height - 1 !important;
-  }
-
-  #footer {
-    height: $footer-height;
-  }
-
 }
 
 @media (max-width: 24em){
