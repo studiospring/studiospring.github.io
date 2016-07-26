@@ -1,21 +1,12 @@
 doctype html
-html lang="en-gb"
+html lang="en-au"
   head
-    meta[charset="UTF-8"]
-    meta[name="author" content="Studio Spring"]
-    meta[name="copyright" content="Studio Spring"]
-    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    title
-      - if current_page.data.title
-        = "#{current_page.data.title} | Studio Spring"
-      - else
-        | Studio Spring: Sean Loughman's UX portfolio
-
-    = stylesheet_link_tag "global"
-    = stylesheet_link_tag "portfolio/shared"
+    = partial "partials/head"
 
     / Insert stylesheets from views
     = yield_content :assets
+    = stylesheet_link_tag "global"
+    = stylesheet_link_tag "portfolio/shared"
 
   body
     = partial "partials/nav"

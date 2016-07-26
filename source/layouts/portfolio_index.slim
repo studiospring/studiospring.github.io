@@ -1,19 +1,10 @@
 doctype html
-html lang="en-gb"
+html lang="en-au"
   head
-    meta[charset="UTF-8"]
-    meta[name="author" content="Design Studio Spring."]
-    meta[name="copyright" content="Design Studio Spring."]
-    meta[name="keywords" content="UX, design"]
-    meta[name="description" content="UX, design"]
-    meta[name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"]
+    = partial "partials/head"
 
-    title
-      - if current_page.data.title
-        = "#{current_page.data.title} | Studio Spring"
-      - else
-        | Studio Spring
-
+    / Insert stylesheets from views
+    = yield_content :assets
     = stylesheet_link_tag "global"
     = stylesheet_link_tag "portfolio/index"
     = stylesheet_link_tag "portfolio/shared"

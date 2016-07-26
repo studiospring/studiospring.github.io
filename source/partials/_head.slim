@@ -1,0 +1,19 @@
+meta[charset="UTF-8"]
+meta[name="author" content="Design Studio Spring"]
+meta[name="copyright" content="Design Studio Spring"]
+meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+
+meta[name="keywords" content="#{current_page.data.keywords}"]
+meta[name="description" content="#{current_page.data.description}"]
+
+/ Touch Icons - iOS and Android 2.1+ 180x180 pixels in size.
+link rel="apple-touch-icon-precomposed" href="/images/shared/apple_touch_favicon.png"
+
+/ Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size.
+link rel="icon" href="/images/shared/favicon.png"
+
+title
+  - if current_page.data.title
+    = "#{current_page.data.title } | Studio Spring"
+  -else
+    | Studio Spring

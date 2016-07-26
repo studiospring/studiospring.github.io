@@ -1,29 +1,21 @@
 doctype html
-html
+html lang="en-au"
   head
-    meta[charset="UTF-8"]
-    meta[name="author" content="Design Studio Spring"]
-    meta[name="copyright" content="Design Studio Spring"]
-    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    title
-      - if current_page.data.title
-        = "#{current_page.data.title } | Studio Spring"
-      -else
-        | Studio Spring
+    = partial "partials/head"
 
     / Insert stylesheets from views
     = yield_content :assets
-
     = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
     = stylesheet_link_tag "global"
 
-    body
-      = partial "partials/nav"
+  body
+    = partial "partials/nav"
 
-      #main.container role="main"
-        = yield
+    #main.container role="main"
+      = yield
 
-      = partial "partials/footer"
+    = partial "partials/footer"
+
     = javascript_include_tag "jquery-3.0.0.min"
     = javascript_include_tag "jquery-ui/jquery-ui.min"
     = javascript_include_tag "lodash"
