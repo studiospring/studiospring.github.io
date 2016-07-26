@@ -198,14 +198,31 @@ h4 {
     }
   }
 }
+@media (max-width: 46em) {
+  #nav {
+    .row {
+      padding: 0 0;
+    }
+
+    #logo {
+      width: 13rem;
+    }
+
+    #logo span, h1 {
+      font-size: 1.1rem;
+    }
+
+
+    #nav-link-wrapper a {
+      font-size: 1.1rem;
+      margin: 0 .3rem;
+    }
+  }
+}
 
 @media (max-width: 34em) {
   #main {
     padding: 1rem .5rem;
-
-    h1 {
-      font-size: 1.1rem;
-    }
 
     p {
       font-size: .9rem;
