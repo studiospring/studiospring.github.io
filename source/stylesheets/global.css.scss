@@ -148,11 +148,17 @@ h4 {
 
   #search {
     width: 8rem;
-    border: 1px solid $spring-red;
+    border: 1px solid $spring-blue;
     border-radius: 0;
     color: #222;
+    background-color: #eee;
     margin: 0.3rem;
     font-size: .9rem;
+
+    &:focus {
+      border: 1px solid $spring-red;
+    }
+
   }
 
   a {
