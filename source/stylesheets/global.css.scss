@@ -128,7 +128,7 @@ h4 {
     width: 15rem;
     height: 6rem;
     margin-left: 1rem;
-    padding: 2.2rem 0 0 6rem;
+    padding: 2rem 0 0 6rem;
 
     &:hover {
       background-image: url('/images/shared/spring_logo_red.min.svg');
@@ -141,6 +141,7 @@ h4 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 1rem;
 
     a {
       display: inline-block;
