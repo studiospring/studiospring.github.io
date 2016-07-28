@@ -92,7 +92,7 @@ h4 {
     color: #222;
   }
 
-  p > a, li > a{
+  a {
     // color: #111;
     text-decoration: underline;
 
@@ -102,6 +102,7 @@ h4 {
     }
 
     &:focus, &:hover {
+      color: $spring-red;
     }
   }
 }
