@@ -93,18 +93,15 @@ h4 {
   }
 
   p > a, li > a{
-    color: #111;
+    // color: #111;
     text-decoration: underline;
 
-    &:focus, &:hover {
-    }
-  }
-
-  a {
-    text-decoration: underline;
 
     &:visited {
-      color: #999;
+      color: #333;
+    }
+
+    &:focus, &:hover {
     }
   }
 }
