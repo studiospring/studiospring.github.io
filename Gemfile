@@ -19,4 +19,5 @@ gem 'therubyracer'
 gem 'oj'
 
 gem 'slim'
+gem 'html2slim'
 gem 'bootstrap', '>= 4.0.0.alpha3'
