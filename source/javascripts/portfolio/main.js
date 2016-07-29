@@ -8,16 +8,21 @@ window.onload = function() {
 
   var lastScrollTop = $(window).scrollTop()
   $(window).scroll(function(event){
-    event.preventDefault();
     var st = $(this).scrollTop();
     if (st > lastScrollTop){
       // downscroll code
-      alert('scroll down');
+      $('#collapseOne').collapse('toggle')
+      // $('#collapseOne').collapse({
+      //   toggle: true
+      // })
+      // alert('scroll down');
     } else {
       // upscroll code
-      alert('scroll up');
+      // alert('scroll up');
     }
     lastScrollTop = st;
+    event.preventDefault();
+    event.stopImmediatePropagation();
   });
 
   var waypoint = new Waypoint({
