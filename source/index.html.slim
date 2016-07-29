@@ -7,16 +7,22 @@ description: UX design blog
 - content_for :assets do
   = stylesheet_link_tag :articles
 
-= partial "partials/prev_page"
+h1 Design and design process
+.row
+  aside#about.hidden-xs-down.col-lg-3
+    p Hi, I'm Sean Loughman, a UX designer based in Sydney, Australia.
 
-- articles.each do |article|
-  article.permalink
-    header
-      h1
-        a href="#{article.url}"
-          = article.title
-      time datetime="#{article.date.strftime("%Y-%m-%d")}"
-        = article.date.strftime("%-d %b %Y")
-    = article.summary
+  section.col-lg-9
+    = partial "partials/prev_page"
 
-= partial "partials/next_page"
+    - articles.each do |article|
+      article.permalink
+        header
+          h1
+            a href="#{article.url}"
+              = article.title
+          time datetime="#{article.date.strftime("%Y-%m-%d")}"
+            = article.date.strftime("%-d %b %Y")
+        = article.summary
+
+    = partial "partials/next_page"

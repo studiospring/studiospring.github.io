@@ -2,8 +2,9 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
+
 .permalink {
-  margin-bottom:  1.8rem;
+  margin-bottom:  1.4rem;
 }
 
 header {
@@ -21,8 +22,16 @@ time {
   font-size: .8rem;
 }
 
-@media (max-width: 34em) {
+@include media-breakpoint-up(lg) {
   .permalink {
-    margin-bottom:  1.4rem;
+    margin-bottom:  1.8rem;
+  }
+
+  #about {
+    order: 2;
+  }
+
+  section {
+    order: 1;
   }
 }
