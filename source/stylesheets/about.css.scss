@@ -2,6 +2,55 @@
 @import "bootstrap-4/scss/bootstrap";
 @import "variables";
 
-#ux-superstar {
-  max-width: 100%
+#about, #contact {
+  display: flex;
+}
+
+#contact {
+  max-width: 30rem;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-bottom: 2rem;
+
+}
+
+#img-container {
+  background: url(/images/mugshot.jpg);
+  width: 178px;
+  height: 178px;
+  margin-bottom: 1rem;
+}
+
+#contact-details {
+  margin-left: 0;
+
+  p {
+    margin-bottom: .3rem;
+  }
+}
+
+// @include media-breakpoint-up(xs) { ... }
+// @include media-breakpoint-up(sm) { ... }
+// @include media-breakpoint-up(lg) { ... }
+// @include media-breakpoint-up(xl) { ... }
+
+
+@include media-breakpoint-up(md) {
+  #contact-details {
+    margin-left: 1rem;
+  }
+}
+
+@include media-breakpoint-up(lg) { 
+  #contact {
+    order: 2;
+  }
+
+  #contact-details {
+    margin-left: 0;
+  }
+
+  section {
+    order: 1;
+  }
 }
