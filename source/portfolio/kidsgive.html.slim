@@ -7,28 +7,6 @@ curr_page: kidsgive
 .container
   h1 KidsGive crowd-funded charity
 
-  #accordion[role="tablist" aria-multiselectable="true"]
-    .panel.panel-default
-      #headingOne.panel-heading[role="tab"]
-        h4.panel-title
-          a[data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"]
-            |  Collapsible Group Item #1
-      #collapseOne.panel-collapse.collapse.in[role="tabpanel" aria-labelledby="headingOne"]
-        |  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-    .panel.panel-default
-      #headingTwo.panel-heading[role="tab"]
-        h4.panel-title
-          a.collapsed[data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"]
-            |  Collapsible Group Item #2
-      #collapseTwo.panel-collapse.collapse.in[role="tabpanel" aria-labelledby="headingTwo"]
-        |  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-    .panel.panel-default
-      #headingThree.panel-heading[role="tab"]
-        h4.panel-title
-          a.collapsed[data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"]
-            |  Collapsible Group Item #3
-      #collapseThree.panel-collapse.collapse.in[role="tabpanel" aria-labelledby="headingThree"]
-        |  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
   section#brief
     .row
       .col-sm-4
@@ -50,34 +28,46 @@ curr_page: kidsgive
           figcaption Figure 2: After: final prototype of campaign page.
           img src='/images/kidsgive/public_campaign_final.png' alt="Screenshot of redesign is more compact, hides walls of text within accordion tabs and puts messages at the bottom of the page. Information about the organiser, beneficiary charity, how the money is spent and the role of KidsGive is also available."
 
-  section#research
-    h2 Lack of understanding weakens confidence and enjoyment
-    .text-flow-columns
-      p In-depth interviews with children, parents, teachers and KidsGive staff gave us insight into the emotional rollercoaster of creating a crowd-funded charity campaign.
-      p Creating a successful campaign isn't easy and success is key to developing a child's confidence. Understanding the whole process and the roles of various stakeholders is vital to a fun and stress-free campaign.
+  #accordion2[role="tablist" aria-multiselectable="true"]
+    .panel.panel-default
+      #research.panel-heading[role="tab"]
+        h4.panel-title
+          a[data-toggle="collapse" data-parent="#accordion2" href="#research-panel" aria-expanded="true" aria-controls="research-panel"]
+            | Lack of understanding weakens confidence and enjoyment
+      #research-panel.panel-collapse.collapse.in[role="tabpanel" aria-labelledby="research"]
+        .text-flow-columns
+          p In-depth interviews with children, parents, teachers and KidsGive staff gave us insight into the emotional rollercoaster of creating a crowd-funded charity campaign.
+          p Creating a successful campaign isn't easy and success is key to developing a child's confidence. Understanding the whole process and the roles of various stakeholders is vital to a fun and stress-free campaign.
+        / figure
+        /   .img-wrapper
+        /     figcaption Figure 3: Problems identified through research.
+        /     img src='/images/kidsgive/.png' srcset="/images/kidsgive/.png 3x, /images/kidsgive/.png 2x, /images/kidsgive/.png 1x" alt=""
 
-    / figure
-    /   .img-wrapper
-    /     figcaption Figure 3: Problems identified through research.
-    /     img src='/images/kidsgive/.png' srcset="/images/kidsgive/.png 3x, /images/kidsgive/.png 2x, /images/kidsgive/.png 1x" alt=""
+    .panel.panel-default
+      #personas.panel-heading[role="tab"]
+        h4.panel-title
+          a[data-toggle="collapse" data-parent="#accordion2" href="#personas-panel" aria-expanded="true" aria-controls="personas-panel"]
+            |  Seven stakeholders with different needs
+      #personas-panel.panel-collapse.collapse.in[role="tabpanel" aria-labelledby="personas"]
+        .text-flow-columns
+          p We identified seven stakeholders: the child, parent, KidsGive administrator, beneficiary charity, donor and teacher. As well as their different needs and pain points, the different relationships between each stakeholder created some challenges. For example, parents had different needs of staff (understanding of administration fees, etc) compared to children.
+        figure
+          .img-wrapper
+            figcaption Figure 4: Persona of Olly, the campaign organiser.
+            img src="/images/kidsgive/persona_olly.min.svg" alt=""
 
-  section#personas
-    h2 Seven stakeholders with different needs
-    .text-flow-columns
-      p We identified seven stakeholders: the child, parent, KidsGive administrator, beneficiary charity, donor and teacher. As well as their different needs and pain points, the different relationships between each stakeholder created some challenges. For example, parents had different needs of staff (understanding of administration fees, etc) compared to children.
-    figure
-      .img-wrapper
-        figcaption Figure 4: Persona of Olly, the campaign organiser.
-        img src="/images/kidsgive/persona_olly.min.svg" alt=""
-
-  section#service-blueprint
-    h2 Roller coasters should be fun!
-    .text-flow-columns
-      p A service blueprint clarified many of our research findings and communicated them clearly to the clients. It became apparent that organising a campaign can be an emotional roller coaster. Making key decisions about the campaign and holding events were identified as stressful.
-    figure
-      .img-wrapper
-        figcaption Figure 5: The child and parents' experience in running a fund raising campaign with support from other stakeholders.
-        img src='/images/kidsgive/service_blueprint.min.svg' alt=""
+    .panel.panel-default
+      #service-blueprint.panel-heading[role="tab"]
+        h4.panel-title
+          a[data-toggle="collapse" data-parent="#accordion2" href="#service-blueprint-panel" aria-expanded="true" aria-controls="service-blueprint-panel"]
+            | Roller coasters should be fun!
+      #service-blueprint-panel.panel-collapse.collapse.in[role="tabpanel" aria-labelledby="service-blueprint"]
+        .text-flow-columns
+          p A service blueprint clarified many of our research findings and communicated them clearly to the clients. It became apparent that organising a campaign can be an emotional roller coaster. Making key decisions about the campaign and holding events were identified as stressful.
+        figure
+          .img-wrapper
+            figcaption Figure 5: The child and parents' experience in running a fund raising campaign with support from other stakeholders.
+            img src='/images/kidsgive/service_blueprint.min.svg' alt=""
 
   section#in-reach
     h2 Empowering kids: close connections to tangible achievements
