@@ -1,5 +1,6 @@
-header#portfolio-header
+header#header
   .container
     .row
       .intro-section.col-sm-10.col-sm-offset-1.col-xs-12
-        h1 Sean Loughman's UX Portfolio
+        h1
+          = "#{current_page.data.header_title}"
