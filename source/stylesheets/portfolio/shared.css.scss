@@ -5,10 +5,6 @@
 #main {
   background-color: #ecf0f1;
 
-  .container > section {
-    padding: 4rem 1rem;
-  }
-
   h1, h2 {
     text-align: center;
     margin-bottom: 2rem;
@@ -57,10 +53,8 @@ figcaption {
   }
 }
 
-
 // KidsGive specific.
 #brief {
-
   h2 {
     text-align: right;
     margin: 0 2rem 0 0;
@@ -90,14 +84,6 @@ figcaption {
 }
 
 @media (min-width: 75em) {
-  #portfolio-header .intro-section {
-    padding: 60px 0;
-  }
-
-  #main .container {
-    max-width: 90vw;
-  }
-
   .text-flow-columns {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -122,46 +108,10 @@ figcaption {
   .small-title {
     font-size: 22px;
   }
-
-  #portfolio-header {
-    .row {
-      padding: 30px 0;
-    }
-
-    .intro-section {
-
-      h1 {
-        font-size: 24px;
-        line-height: 22px;
-        margin: 1rem 0 2rem 0;
-      }
-
-      .sub-heading {
-        font-size: 14px;
-        line-height: 22px;
-      }
-    }
-  }
-
-  #portfolio-section {
-    .row {
-      padding: 20px 0;
-    }
-
-    .feature-content {
-      margin-left: 0;
-      padding: 12px;
-    }
-  }
-
 }
 
 @media (max-width: 24em){
   #main {
-    .container > section {
-      padding: 1rem 0;
-    }
-
     h1 {
       font-size: 2rem;
     }
@@ -182,33 +132,5 @@ figcaption {
 
   .small-title {
     font-size: 20px;
-  }
-
-  #portfolio-header {
-
-    .row {
-      padding: 0px 0;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 16px;
-      line-height: 22px;
-    }
-
-    .sub-heading {
-      font-size: 14px;
-      line-height: 22px;
-    }
-  }
-
-  #portfolio-section {
-    .row {
-      padding: 20px 0;
-    }
-
-    .feature-content {
-      padding: 12px;
-    }
   }
 }

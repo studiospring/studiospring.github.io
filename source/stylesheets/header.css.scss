@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import "bootstrap-4/scss/bootstrap";
+@import "variables";
+
+#main {
+  padding: 1rem 2rem;
+  max-width: 100%;
+}
+
+#portfolio-header {
+  background: url(/images/shared/bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+
+  .intro-section {
+    font-family: $body-regular-font;
+    color: #fff;
+
+    h1 {
+      font-family: $display-regular-font;
+      font-size: 30px;
+      line-height: 76px;
+      // font-weight: 800;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+@media (min-width: 75em) {
+  #portfolio-header .intro-section {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 34em) {
+  .row {
+    padding: 0px 0;
+  }
+
+  #portfolio-header {
+    .row {
+      padding: 30px 0;
+    }
+
+    .intro-section {
+
+      h1 {
+        font-size: 24px;
+        line-height: 22px;
+        margin: 1rem 0 2rem 0;
+      }
+
+      .sub-heading {
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width: 24em){
+  #main {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  #portfolio-header {
+    .row {
+      padding: 0px 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 16px;
+    }
+  }
+}
