@@ -11,8 +11,8 @@ layout: index
 
 .row
   = partial "partials/aside"
-  section.col-lg-9
-    h1 Latest articles
+  section.col-sm-12.col-md-9
+    h1.hidden-sm-down Latest articles
     = partial "partials/prev_page"
 
     - articles.each do |article|
