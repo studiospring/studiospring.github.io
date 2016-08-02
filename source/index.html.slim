@@ -10,10 +10,7 @@ layout: index
   = stylesheet_link_tag :articles
 
 .row
-  aside#about.hidden-xs-down.col-lg-3
-    h2 What The Blog?!
-    p Short, sharp observations about design and whatever gets sucked in to its orbit from the perspective of a design thinker.
-
+  = partial "partials/aside"
   section.col-lg-9
     h1 Latest articles
     = partial "partials/prev_page"
