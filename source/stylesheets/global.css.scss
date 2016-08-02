@@ -156,7 +156,7 @@ h4 {
     width: 8rem;
     border: 1px solid $spring-blue;
     border-radius: 0;
-    color: #222;
+    color: #000;
     background-color: #eee;
     margin: 0.3rem;
     font-size: .9rem;
@@ -164,7 +164,20 @@ h4 {
     &:focus {
       border: 1px solid $spring-red;
     }
+  }
 
+  // Does not seem to work in Firefox
+  #search:-ms-input-placeholder {
+     color: #000;
+  }
+  #search::-webkit-input-placeholder {
+     color: #000;
+  } 
+  #search:-moz-placeholder  {
+     color: #000;
+  }
+  #search::-moz-placeholder {
+     color: #000;
   }
 
   a {
