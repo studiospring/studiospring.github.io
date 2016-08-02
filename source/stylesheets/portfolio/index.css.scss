@@ -2,42 +2,54 @@
 @import "bootstrap-4.0.0-alpha.3/scss/bootstrap";
 @import "variables";
 
-.small-title {
-  font-size: 30px;
-  color: #666;
-  font-weight: 800;
-  padding-bottom: 22px;
-  line-height: 40px;
+.portfolio-section {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
 }
 
-.btn {
-  font-size: 16px;
-  font-family: $body-bold-font, sans-serif;
-  padding: 15px 30px;
-  border: none;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  outline: inherit;
-  border-color: inherit;
-  margin-top: 2rem;
-
-  &:focus, &:active, &:hover {
+#main {
+  background-color: #ecf0f1;
+  .btn {
+    font-size: 16px;
+    font-family: $body-bold-font, sans-serif;
+    padding: 15px 30px;
+    border: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
     outline: inherit;
     border-color: inherit;
+    margin-top: 1rem;
+    color: #ffffff;
+
+    &:focus, &:active, &:hover {
+      outline: inherit;
+      border-color: inherit;
+    }
+  }
+
+  .btn-common {
+    color: #ffffff;
+    font-weight: 400;
+    background: $spring-red;
+
+    &:hover {
+      background: $spring-light-red;
+      color: #fff;
+    }
   }
 }
 
-.btn-common {
-  color: #ffffff;
-  font-weight: 400;
-  background: $spring-red;
-
-  &:hover {
-    background: $spring-light-red;
-    color: #fff;
-  }
+#solution-map img {
+  max-width: 70vw;
 }
 
 blockquote {
@@ -80,26 +92,20 @@ blockquote {
   }
 }
 
-@media (max-width: 34em) {
-  #portfolio-section {
-    .row {
-      padding: 20px 0;
-    }
+@include media-breakpoint-up(sm) {
+}
 
-    .feature-content {
-      margin-left: 0;
-      padding: 12px;
-    }
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+  .portfolio-section {
+    padding: 1rem 2rem;
   }
 }
-@media (max-width: 24em){
-  #portfolio-section {
-    .row {
-      padding: 20px 0;
-    }
 
-    .feature-content {
-      padding: 12px;
-    }
-  }
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
 }
