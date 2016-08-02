@@ -107,93 +107,6 @@ h4 {
   }
 }
 
-#nav {
-  max-width: none;
-  background-color: rgba(255,255,255,0.5);
-  border-bottom: 2px solid $spring-red;
-  
-  nav {
-    padding: 1rem 0 1rem 0;
-  }
-
-  #logo-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #logo {
-    display: block;
-    background: url('/images/shared/spring_logo_blue.svg') center left / 5rem no-repeat;
-    width: 15rem;
-    height: 6rem;
-    margin-left: 1rem;
-    padding: 2rem 0 0 6rem;
-
-    &:hover {
-      background-image: url('/images/shared/spring_logo_red.min.svg');
-    }
-
-    span {
-      line-height: 1.9rem;
-    }
-  }
-
-  #nav-link-wrapper {
-    // Required for nested links to transform.
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-end;
-
-    a {
-      display: inline-block;
-      margin: 0 1rem 0 1rem;
-    }
-  }
-
-  #search {
-    width: 8rem;
-    border: 1px solid $spring-blue;
-    border-radius: 0;
-    color: #000;
-    background-color: #eee;
-    margin: 0.3rem;
-    font-size: .9rem;
-
-    &:focus {
-      border: 1px solid $spring-red;
-    }
-  }
-
-  // Does not seem to work in Firefox
-  #search:-ms-input-placeholder {
-     color: #000;
-  }
-  #search::-webkit-input-placeholder {
-     color: #000;
-  } 
-  #search:-moz-placeholder  {
-     color: #000;
-  }
-  #search::-moz-placeholder {
-     color: #000;
-  }
-
-  a {
-    font-size: 1.4rem;
-    font-family: $display-regular-font;
-    color: $spring-blue;
-
-    &:focus, &:active, &:hover {
-      color: $spring-red;
-      text-decoration: none;
-      transform: scale(1.1, 1.1);
-    }
-  }
-
-}
-
 #footer {
   display: flex;
   justify-content: flex-end;
@@ -223,54 +136,15 @@ h4 {
     }
   }
 }
-@media (max-width: 46em) {
-  #nav {
-    .row {
-      padding: 0 0;
-    }
 
-    #logo {
-      width: 13rem;
-    }
-
-    #logo span, h1 {
-      font-size: 1.1rem;
-    }
-
-
-    #nav-link-wrapper a {
-      font-size: 1.1rem;
-      margin: 0 .3rem;
-    }
-  }
-}
-
-@media (max-width: 34em) {
+// Small devices (landscape phones, 544px and up)
+@media (min-width: 544px) {
   #main {
     padding: 1rem .5rem;
 
     p {
       font-size: .9rem;
       line-height: 1.3;
-    }
-
-  }
-
-  #nav {
-    #logo {
-      background-size: 3rem;
-      width: 4rem;
-      height: 4rem;
-      margin-left: 0;
-      padding-left: 0;
-      span {
-        display: none;
-      }
-    }
-
-    #nav-link-wrapper a {
-      font-size: 1.1rem;
-      margin: 0 .3rem;
     }
   }
 
@@ -284,4 +158,16 @@ h4 {
   #footer {
     height: $footer-height;
   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
