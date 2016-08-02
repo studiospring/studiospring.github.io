@@ -7,10 +7,6 @@
   background-color: rgba(255,255,255,0.5);
   border-bottom: 2px solid $spring-red;
   
-  nav {
-    padding: 1rem 0 1rem 0;
-  }
-
   #logo-wrapper {
     display: flex;
     align-items: center;
@@ -19,11 +15,9 @@
 
   #logo {
     display: block;
-    background: url('/images/shared/spring_logo_blue.svg') center left / 5rem no-repeat;
-    width: 15rem;
-    height: 6rem;
-    margin-left: 1rem;
-    padding: 2rem 0 0 6rem;
+    background: url('/images/shared/spring_logo_blue.svg') center left / 3rem no-repeat;
+    width: 4rem;
+    height: 4rem;
 
     &:hover {
       background-image: url('/images/shared/spring_logo_red.min.svg');
@@ -44,6 +38,7 @@
     a {
       display: inline-block;
       margin: 0 1rem 0 1rem;
+      font-size: 1.2rem;
     }
   }
 
@@ -86,49 +81,31 @@
       transform: scale(1.1, 1.1);
     }
   }
-
 }
 
 // Small devices (landscape phones, 544px and up)
-@media (min-width: 544px) {
+@include media-breakpoint-up(sm) {
   #nav {
     #logo {
-      background-size: 3rem;
-      width: 4rem;
-      height: 4rem;
-      margin-left: 0;
-      padding-left: 0;
-      span {
-        display: none;
-      }
+      background-size: 4rem;
+      width: 5rem;
+      height: 5rem;
     }
 
     #nav-link-wrapper a {
-      font-size: 1.1rem;
-      margin: 0 .3rem;
+      font-size: 1.4rem;
     }
   }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@include media-breakpoint-up(md) {
   #nav {
-    .row {
-      padding: 0 0;
-    }
-
     #logo {
-      width: 13rem;
-    }
-
-    #logo span, h1 {
-      font-size: 1.1rem;
-    }
-
-
-    #nav-link-wrapper a {
-      font-size: 1.1rem;
-      margin: 0 .3rem;
+      width: 15rem;
+      height: 6rem;
+      margin-left: 1rem;
+      padding: 2rem 0 0 6rem;
     }
   }
 }
