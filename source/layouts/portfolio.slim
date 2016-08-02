@@ -5,8 +5,8 @@ html lang="en-au"
 
     / Insert stylesheets from views
     = yield_content :assets
-    = stylesheet_link_tag "global"
     = stylesheet_link_tag "portfolio/shared"
+    = stylesheet_link_tag "global"
 
   body
     = partial "partials/nav"
