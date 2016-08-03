@@ -9,43 +9,56 @@
     text-align: center;
     margin-bottom: 2rem;
   }
-}
 
-.text-flow-columns {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 3em; // Chrome, Safari, Opera
-  -moz-column-gap: 3em; // Firefox
-  column-gap: 3em;
+  .text-flow-columns {
+    p {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
-  p {
-    // Not supported by Gecko.
-    widows: 2;
-    orphans: 2;
+  .figures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  figure{
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 90vw;
+      display: block;
+      margin: 0 .4rem;
+    }
+  }
+
+  figcaption {
+    font-size: .9rem;
+    margin: 1.5rem 0 1rem 0;
   }
 }
 
-.figures {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-figure{
-  display: flex;
-  justify-content: center;
-
-  img {
-    max-width: 90vw;
-    display: block;
-    margin: 0 .4rem;
+#brief {
+  h2 {
+    text-align: right;
+    margin: 0 2rem 0 0;
   }
 }
 
-figcaption {
-  font-size: .9rem;
-  margin: 1.5rem 0 1rem 0;
+#case-study-link {
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    color: #222;
+    display: inline-block;
+    text-decoration: underline;
+
+    &:focus, &:hover {
+    }
+  }
 }
 
 // Lindt specific.
@@ -68,13 +81,6 @@ figcaption {
 }
 
 // KidsGive specific.
-#brief {
-  h2 {
-    text-align: right;
-    margin: 0 2rem 0 0;
-  }
-}
-
 #brief-list {
   font-size: 1.8rem;
 
@@ -83,48 +89,8 @@ figcaption {
   }
 }
 
-#case-study-link {
-  display: flex;
-  justify-content: flex-end;
-
-  a {
-    color: #222;
-    display: inline-block;
-    text-decoration: underline;
-
-    &:focus, &:hover {
-    }
-  }
-}
-
-@media (min-width: 75em) {
-  // .text-flow-columns {
-  //   -webkit-column-count: 2;
-  //   -moz-column-count: 2;
-  //   column-count: 2;
-  //   -webkit-column-gap: 3em; [> Chrome, Safari, Opera <]
-  //   -moz-column-gap: 3em; [> Firefox <]
-  //   column-gap: 3em;
-
-  //   p {
-  //     // Not supported by Gecko.
-  //     widows: 2;
-  //     orphans: 2;
-  //   }
-  // }
-}
-
-@media (max-width: 34em) {
-  // .row {
-  //   padding: 0px 0;
-  // }
-
-  // .small-title {
-  //   font-size: 22px;
-  // }
-}
-
-@media (max-width: 24em){
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
   // #main {
   //   h1 {
   //     font-size: 2rem;
@@ -149,15 +115,36 @@ figcaption {
   // }
 }
 
-// Small devices (landscape phones, 544px and up)
-@include media-breakpoint-up(sm) {}
-
 // Medium devices (tablets, 768px and up)
-@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(md) {
+  .text-flow-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3em; // Chrome, Safari, Opera
+    -moz-column-gap: 3em; // Firefox
+    column-gap: 3em;
+
+    p {
+      // Not supported by Gecko.
+      widows: 2;
+      orphans: 2;
+    }
+  }
+
+  // .row {
+  //   padding: 0px 0;
+  // }
+
+  // .small-title {
+  //   font-size: 22px;
+  // }
+}
 
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
 }
+
 
 // Extra large devices (large desktops, 1200px and up)
 @include media-breakpoint-up(xl) {}
