@@ -83,7 +83,7 @@ h4 {
 }
 
 #main {
-  padding: 2rem 2rem;
+  padding: 2rem 1rem;
   max-width: 100%;
 
   p {
@@ -140,7 +140,7 @@ h4 {
 // Small devices (landscape phones, 544px and up)
 @media (min-width: 544px) {
   #main {
-    padding: 1rem .5rem;
+    padding: 2rem 2rem;
 
     p {
       font-size: .9rem;
