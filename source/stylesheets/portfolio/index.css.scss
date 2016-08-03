@@ -3,7 +3,6 @@
 @import "variables";
 
 .portfolio-section {
-  padding: 1rem 1rem;
   margin-bottom: 2rem;
 
   h2 {
@@ -16,34 +15,35 @@
 
 #main {
   background-color: #ecf0f1;
-  .btn {
-    font-size: 16px;
-    font-family: $body-bold-font, sans-serif;
-    padding: 15px 30px;
-    border: none;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-    outline: inherit;
-    border-color: inherit;
-    margin-top: 1rem;
-    color: #ffffff;
-
-    &:focus, &:active, &:hover {
+  .portfolio-section {
+    .btn {
+      font-size: 16px;
+      font-family: $body-bold-font, sans-serif;
+      padding: 15px 30px;
+      border: none;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
       outline: inherit;
       border-color: inherit;
+      margin-top: 1rem;
+
+      &:focus, &:active, &:hover {
+        outline: inherit;
+        border-color: inherit;
+      }
     }
-  }
 
-  .btn-common {
-    color: #ffffff;
-    font-weight: 400;
-    background: $spring-red;
+    .btn-common {
+      color: #ffffff;
+      font-weight: 400;
+      background: $spring-red;
 
-    &:hover {
-      background: $spring-light-red;
-      color: #fff;
+      &:hover {
+        background: $spring-light-red;
+        color: #fff;
+      }
     }
   }
 }
@@ -96,6 +96,7 @@ blockquote {
 }
 
 @include media-breakpoint-up(sm) {
+  padding: 1rem 1rem;
 }
 
 // Medium devices (tablets, 768px and up)
