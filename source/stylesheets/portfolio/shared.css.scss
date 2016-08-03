@@ -11,6 +11,21 @@
   }
 }
 
+.text-flow-columns {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 3em; // Chrome, Safari, Opera
+  -moz-column-gap: 3em; // Firefox
+  column-gap: 3em;
+
+  p {
+    // Not supported by Gecko.
+    widows: 2;
+    orphans: 2;
+  }
+}
+
 .figures {
   display: flex;
   justify-content: center;
@@ -83,53 +98,66 @@ figcaption {
 }
 
 @media (min-width: 75em) {
-  .text-flow-columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-gap: 3em; /* Chrome, Safari, Opera */
-    -moz-column-gap: 3em; /* Firefox */
-    column-gap: 3em;
+  // .text-flow-columns {
+  //   -webkit-column-count: 2;
+  //   -moz-column-count: 2;
+  //   column-count: 2;
+  //   -webkit-column-gap: 3em; [> Chrome, Safari, Opera <]
+  //   -moz-column-gap: 3em; [> Firefox <]
+  //   column-gap: 3em;
 
-    p {
-      // Not supported by Gecko.
-      widows: 2;
-      orphans: 2;
-    }
-  }
+  //   p {
+  //     // Not supported by Gecko.
+  //     widows: 2;
+  //     orphans: 2;
+  //   }
+  // }
 }
 
 @media (max-width: 34em) {
-  .row {
-    padding: 0px 0;
-  }
+  // .row {
+  //   padding: 0px 0;
+  // }
 
-  .small-title {
-    font-size: 22px;
-  }
+  // .small-title {
+  //   font-size: 22px;
+  // }
 }
 
 @media (max-width: 24em){
-  #main {
-    h1 {
-      font-size: 2rem;
-    }
+  // #main {
+  //   h1 {
+  //     font-size: 2rem;
+  //   }
 
-    h2 {
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-    }
+  //   h2 {
+  //     margin-bottom: 1rem;
+  //     font-size: 1.5rem;
+  //   }
 
-    ul {
-      padding-left: 2rem !important;
-    }
-  }
+  //   ul {
+  //     padding-left: 2rem !important;
+  //   }
+  // }
 
-  .row {
-    padding: 20px 0;
-  }
+  // .row {
+  //   padding: 20px 0;
+  // }
 
-  .small-title {
-    font-size: 20px;
-  }
+  // .small-title {
+  //   font-size: 20px;
+  // }
 }
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {}
