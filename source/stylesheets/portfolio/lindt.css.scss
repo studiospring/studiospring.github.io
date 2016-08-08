@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "bootstrap-4.0.0-alpha.3/scss/bootstrap";
+@import "variables";
+
+// Lindt specific.
+#research img {
+  max-width: 600px;
+}
+
+#solution-map img {
+  max-height: 70vh;
+}
+
+#outcomes {
+  .text-flow-columns {
+    display: flex;
+    justify-content: center;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
