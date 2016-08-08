@@ -5,9 +5,22 @@
 #main {
   background-color: #ecf0f1;
 
-  h1, h2 {
+  h1 {
     text-align: center;
+    font-size: 2rem;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 1.6rem;
+  }
+
+  h1 {
     margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin: 2rem 0 1rem 0;
   }
 
   .text-flow-columns {
@@ -30,48 +43,36 @@
     img {
       max-width: 90vw;
       display: block;
-      margin: 0 .4rem;
+      margin: 0 .6rem;
     }
   }
 
   figcaption {
     font-size: .9rem;
-    margin: 1.5rem 0 1rem 0;
+    margin: .5rem 1rem;
+    line-height: 1.1rem;
+  }
+
+  #case-study-link {
+    background-color: $spring-blue;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover { 
+      background-color: $spring-dark-blue;
+      color: #fff;
+    }
   }
 }
 
-#brief {
-  h2 {
-    text-align: right;
-    margin: 0 2rem 0 0;
-  }
-}
-
-// Lindt specific.
-#research img {
-  max-width: 600px;
-}
-
-#solution-map img {
-  max-height: 70vh;
-}
-
-#outcomes {
-  .text-flow-columns {
-    display: flex;
-    justify-content: center;
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
-}
-
-// KidsGive specific.
 #brief-list {
-  font-size: 1.8rem;
+  margin-left: .5rem;
+  font-size: 1rem;
 
   li {
-    list-style-type: square;
+    line-height: 1.2rem;
+    margin-bottom: .4rem;
+    list-style-type: circle;
   }
 }
 
