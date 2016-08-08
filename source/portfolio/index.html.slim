@@ -4,19 +4,24 @@ layout: portfolio
 curr_page: kidsgive
 ---
 
+- content_for :assets do
+  = stylesheet_link_tag 'portfolio/kidsgive'
+
 h1 KidsGive crowd-funded charity
+img src="/images/kidsgive/kidsgive_logo.jpg" alt="KidsGive Logo"
+
+section#intro
+  .text-flow-columns
+    p <a href="http://www.kidsgive.com.au">KidsGive</a> educates and empowers children through philanthropy. Their crowd-funded charity site give children the tools to change the world, giving them hope for the future and confidence in themselves.
+    p In a team of two for a two week student project, with insights gathered from various stakeholders, I presented medium fidelity prototypes and recommendations for the KidsGive website to improve its service offering.
 
 section#brief
-  .row
-    .col-sm-4
-      h2 The brief:
-    ul#brief-list.col-sm-8
-      li help children become more socially aware and active through philanthropy
-      li measure changes in children's attitudes
-      li increase success of charity campaigns
-  .text-flow-columns
-    p KidsGive educates and empowers children through philanthropy. Their crowd-funded charity site give children the tools to change the world, giving them hope for the future and confidence in themselves.
-    p Our task was to make the children's charity campaigns more successful and increase and measure the benefits to the child.
+  h2 The challenge:
+  p Our task was to make the children's charity campaigns more successful and increase and measure the benefits to the child by:
+ul#brief-list
+  li helping children become more socially aware and active through philanthropy
+  li measuring changes in children's attitudes
+  li increasing success of charity campaigns
   .figures
     figure
       .img-wrapper
@@ -28,18 +33,18 @@ section#brief
         img src='/images/kidsgive/public_campaign_final.png' alt="Screenshot of redesign is more compact, hides walls of text within accordion tabs and puts messages at the bottom of the page. Information about the organiser, beneficiary charity, how the money is spent and the role of KidsGive is also available."
 
 section#research
-    h2 Lack of understanding weakens confidence and enjoyment
-    .text-flow-columns
-      p In-depth interviews with children, parents, teachers and KidsGive staff gave us insight into the emotional rollercoaster of creating a crowd-funded charity campaign.
-      p Creating a successful campaign isn't easy and success is key to developing a child's confidence. Understanding the whole process and the roles of various stakeholders is vital to a fun and stress-free campaign.
+  h2 User interviews: fund-raising campaigns are fun if the process is clear
+  .text-flow-columns
+    p In-depth interviews with children, parents, teachers and KidsGive staff gave us insight into the emotional rollercoaster of creating a crowd-funded charity campaign.
+    p Creating a successful campaign isn't easy and success is key to developing a child's confidence. Understanding the whole process and the roles of various stakeholders is vital to a fun and stress-free campaign.
 
-    / figure
-    /   .img-wrapper
-    /     figcaption Figure 3: Problems identified through research.
-    /     img src='/images/kidsgive/.png' srcset="/images/kidsgive/.png 3x, /images/kidsgive/.png 2x, /images/kidsgive/.png 1x" alt=""
+  / figure
+  /   .img-wrapper
+  /     figcaption Figure 3: Problems identified through research.
+  /     img src='/images/kidsgive/.png' srcset="/images/kidsgive/.png 3x, /images/kidsgive/.png 2x, /images/kidsgive/.png 1x" alt=""
 
 section#personas
-  h2 Seven stakeholders with different needs
+  h2 Personas for the seven stakeholders
   .text-flow-columns
     p We identified seven stakeholders: the child, parent, KidsGive administrator, beneficiary charity, donor and teacher. As well as their different needs and pain points, the different relationships between each stakeholder created some challenges. For example, parents had different needs of staff (understanding of administration fees, etc) compared to children.
   figure
@@ -48,16 +53,16 @@ section#personas
       img src="/images/kidsgive/persona_olly.min.svg" alt=""
 
 section#service-blueprint
-  h2 Roller coasters should be fun!
+  h2 A service blueprint identified pain points
   .text-flow-columns
     p A user journey clarified many of our research findings and communicated them clearly to the clients. It became apparent that organising a campaign can be an emotional roller coaster. Making key decisions about the campaign and holding events were identified as stressful.
   figure
     .img-wrapper
       figcaption Figure 5: The child and parents' journey in running a fund raising campaign with support from other stakeholders.
-      img src='/images/kidsgive/user_journey.min.svg' alt=""
+      img src='/images/kidsgive/service_blueprint.min.svg' alt=""
 
 section#sketch
-  h2 Initial sketches and feedback
+  h2 Usability tests with initial prototypes
   .text-flow-columns
     p Mock ups were shown to actual campaign organisers and other people with a range of tech savviness. We discovered there still was not enough information about how KidsGive worked, but also had to make all that information available at glance.
   figure
@@ -66,11 +71,10 @@ section#sketch
       img src='/images/kidsgive/public_campaign_iteration.png' alt=""
 
 section#iteration
-  h2 The dashboard they'd been looking for
+  h2 A dashboard with easy navigation and relevant metrics
   .text-flow-columns
     p By incorporating listening to users' needs and their feedback from earlier prototypes, we gave them the features they needed without overwhelming them on the devices that they most commonly used.
     p We delivered on our brief by providing a number of tools, including a visualisations of the personal development of the child quantitatively and qualitatively in a dashboard. We made sure that campaigns were easy to navigate for the administrator with a searchable and sortable side nav.
-    p The clients were so impressed with our presentation that we were asked to present again to the full board.
   figure
     .img-wrapper
       figcaption Figure 8: Child's dashboard to monitor campaign progress.
@@ -88,6 +92,13 @@ section#iteration
     .img-wrapper
       figcaption Figure 11: Admin dashboard to view statistics of all campaigns.
       img src='/images/kidsgive/admin_dashboard_all.png'
+
+section#outcomes
+  h2 Outcomes
+  .text-flow-columns
+    p The clients were so impressed with our presentation that we were asked to present again to the full board.
+    p We delivered on our brief by providing a number of tools, including a visualisations of the personal development of the child quantitatively and qualitatively in a dashboard. We made sure that campaigns were easy to navigate for the administrator with a searchable and sortable side nav.
+    p The clients were so impressed with our presentation that we were asked to present again to the full board.
 
 #case-study-link
   a href="/portfolio/lindt.html" See how I developed a strategy to increase and retain customers to the Lindt cafés with another team.
