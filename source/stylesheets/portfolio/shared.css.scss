@@ -81,6 +81,7 @@
 @include media-breakpoint-up(sm) {
   #main {
     h2 {
+      font-size: 1.6rem;
       text-align: center;
       margin: 1.6rem 0 1rem 0;
       // max-width: 30rem;
@@ -113,7 +114,10 @@
 
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
-  .text-flow-columns {
+  #main .text-flow-columns {
+    max-width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
