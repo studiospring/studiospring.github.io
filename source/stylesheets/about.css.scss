@@ -4,14 +4,13 @@
 
 #about, #contact {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #contact {
   max-width: 30rem;
-  flex-wrap: wrap;
   align-content: flex-start;
   margin-bottom: 2rem;
-
 }
 
 #img-container {
@@ -29,28 +28,29 @@
   }
 }
 
-// @include media-breakpoint-up(xs) { ... }
-// @include media-breakpoint-up(sm) { ... }
-// @include media-breakpoint-up(lg) { ... }
-// @include media-breakpoint-up(xl) { ... }
-
+@include media-breakpoint-up(sm) {
+}
 
 @include media-breakpoint-up(md) {
+  #about {
+    flex-wrap: nowrap;
+  }
+
   #contact-details {
     margin-left: 1rem;
   }
-}
 
-@include media-breakpoint-up(lg) { 
   #contact {
     order: 2;
   }
 
-  #contact-details {
-    margin-left: 0;
-  }
-
   section {
     order: 1;
+  }
+}
+
+@include media-breakpoint-up(lg) { 
+  #contact-details {
+    margin-left: 0;
   }
 }
