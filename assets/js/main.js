@@ -1,1 +1,0 @@
-var wow=new WOW({mobile:!1,offset:100});wow.init();

@@ -1,1 +1,0 @@
-$(function(){alert("HI"),$(".carousel").carousel()});

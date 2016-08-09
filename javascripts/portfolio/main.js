@@ -1,0 +1,1 @@
+window.onload=function(){$(".collapse").collapse();var o=$(window).scrollTop();$(window).scroll(function(l){var e=$(this).scrollTop();e>o&&$("#collapseOne").collapse("toggle"),o=e,l.preventDefault(),l.stopImmediatePropagation()});new Waypoint({element:$("#personas"),handler:function(){alert("hi")}})};
