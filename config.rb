@@ -9,7 +9,8 @@ require 'bootstrap'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page "/*", layout: :index
+# Don't use this or the css files will have a layout applied to it, causing preprocessing errors!
+# page "/*", layout: :index
 
 Time.zone = 'Sydney'
 
