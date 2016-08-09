@@ -3,10 +3,10 @@ html lang="en-au"
   head
     = partial "partials/head"
 
-    = stylesheet_link_tag "portfolio/shared"
+    = stylesheet_link_tag "global"
     = stylesheet_link_tag "nav"
     = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
-    = stylesheet_link_tag "global"
+    = stylesheet_link_tag "portfolio/shared"
     / Insert stylesheets from views
     = yield_content :assets
 
