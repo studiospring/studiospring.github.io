@@ -72,7 +72,7 @@ page "/feed.xml", layout: false
 configure :build do
   # Minify CSS on build
   activate :minify_css
-
+  activate :gzip
   activate :minify_html
 
   # Minify Javascript on build
