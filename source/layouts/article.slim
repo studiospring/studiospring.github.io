@@ -22,8 +22,8 @@ html lang="en-au"
             header
               h1
                 = current_page.data.title
-              time datetime="#{current_page.data.date}"
-                = current_page.data.date
+              time datetime="#{current_page.data.date.strftime("%Y-%m-%d")}"
+                = current_page.data.date.strftime("%-d %b %Y")
             = yield
           section
             | Related
