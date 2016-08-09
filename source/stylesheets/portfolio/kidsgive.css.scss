@@ -11,13 +11,34 @@
   margin-bottom: 1rem;
 }
 
+#brief {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 #brief-list {
-  margin-left: .5rem;
-  font-size: 1rem;
+  margin-left: 1rem;
+  // font-size: 1rem;
 
   li {
     line-height: 1.2rem;
     margin-bottom: .4rem;
-    list-style-type: circle;
+    list-style-type: disc;
+  }
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+  #brief-list {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    max-width: 28rem;
   }
 }
