@@ -2,6 +2,10 @@
 @import "bootstrap-4.0.0-alpha.3/scss/bootstrap";
 @import "variables";
 
+#current-article aside {
+  display: none;
+}
+
 .permalink {
   margin-bottom:  1.4rem;
 
