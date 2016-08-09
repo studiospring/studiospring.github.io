@@ -3,8 +3,11 @@
 @import "variables";
 
 .permalink {
-  // margin: auto;
   margin-bottom:  1.4rem;
+
+  aside {
+    max-width: 30rem;
+  }
 }
 
 #main {
