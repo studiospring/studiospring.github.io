@@ -9,8 +9,7 @@ require 'bootstrap'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-# page "/*", :layout => :lay
-# page "/index.html", :layout => :layout
+page "/*", layout: :index
 
 Time.zone = 'Sydney'
 
