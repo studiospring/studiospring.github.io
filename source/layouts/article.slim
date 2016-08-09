@@ -26,7 +26,7 @@ html lang="en-au"
                 = current_page.data.date.strftime("%-d %b %Y")
             = yield
           section
-            | Related
+            h2 Related articles
             - related_articles = blog.tags.values.flatten.uniq.take(5).delete_if do |a|
               - a.title == current_page.data.title
             ul
