@@ -12,15 +12,11 @@
 
   h2 {
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   h1 {
     margin-bottom: 2rem;
-  }
-
-  h2 {
-    margin: 2rem 0 1rem 0;
   }
 
   .text-flow-columns {
@@ -39,6 +35,7 @@
   figure{
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 
     img {
       max-width: 90vw;
@@ -48,36 +45,48 @@
   }
 
   figcaption {
+    font-family: $body-bold-font;
     font-size: .9rem;
     margin: .5rem 1rem;
     line-height: 1.1rem;
   }
 
-  #case-study-link {
-    background-color: $spring-blue;
-    color: #fff;
-    text-decoration: none;
+  #next-case-study {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    // flex-wrap: nowrap;
+    flex-direction: column;
 
-    &:hover { 
-      background-color: $spring-dark-blue;
+    a {
+      background-color: $spring-blue;
       color: #fff;
+      text-decoration: none;
+
+      &:hover { 
+        background-color: $spring-dark-blue;
+        color: #fff;
+      }
     }
-  }
-}
 
-#brief-list {
-  margin-left: .5rem;
-  font-size: 1rem;
-
-  li {
-    line-height: 1.2rem;
-    margin-bottom: .4rem;
-    list-style-type: circle;
+    p {
+      font-family: $body-bold-font;
+      font-size: 1rem;
+      max-width: 100%;
+    }
   }
 }
 
 // Small devices (landscape phones, 544px and up)
 @include media-breakpoint-up(sm) {
+  #main {
+    h2 {
+      text-align: center;
+      margin: 1.6rem 0 1rem 0;
+      // max-width: 30rem;
+    }
+  }
+
   // #main {
   //   h1 {
   //     font-size: 2rem;
