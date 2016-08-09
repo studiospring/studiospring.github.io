@@ -3,12 +3,12 @@ html lang="en-au"
   head
     = partial "partials/head"
 
-    / Insert stylesheets from views
-    = yield_content :assets
-    = stylesheet_link_tag 'articles'
+    = stylesheet_link_tag "global"
     = stylesheet_link_tag "nav"
     = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
-    = stylesheet_link_tag "global"
+    = stylesheet_link_tag 'articles'
+    / Insert stylesheets from views
+    = yield_content :assets
 
   body
     = partial "partials/nav"
@@ -17,25 +17,27 @@ html lang="en-au"
     #main.container role="main" tabindex="-1"
       .row
         = partial "partials/aside"
-        article
-          header
-            h1
-              = current_page.data.title
-            time datetime="#{current_page.data.date}"
-              = current_page.data.date
-          = yield
-        section
-          | Related
-          - related_articles = blog.tags.values.flatten.uniq.take(5).delete_if do |a|
-            - a.title == current_page.data.title
-          ul
-            - related_articles.each do |article|
-              li
-                a href="#{article.url}"
-              = article.title
+        section.col-sm-12.col-md-9
+          article
+            header
+              h1
+                = current_page.data.title
+              time datetime="#{current_page.data.date}"
+                = current_page.data.date
+            = yield
+          section
+            | Related
+            - related_articles = blog.tags.values.flatten.uniq.take(5).delete_if do |a|
+              - a.title == current_page.data.title
+            ul
+              - related_articles.each do |article|
+                li
+                  a href="#{article.url}"
+                    = article.title
 
     = partial "partials/footer"
 
+    = partial "partials/next_page"
     = javascript_include_tag "jquery-3.0.0.min"
     = javascript_include_tag "jquery-ui/jquery-ui.min"
     = javascript_include_tag "lodash"
