@@ -5,6 +5,7 @@ html lang="en-au"
 
     = stylesheet_link_tag "global"
     = stylesheet_link_tag "nav"
+    = stylesheet_link_tag "header"
     = stylesheet_link_tag "jquery-ui/jquery-ui.min.css"
     = stylesheet_link_tag "portfolio/shared"
     / Insert stylesheets from views
@@ -12,6 +13,7 @@ html lang="en-au"
 
   body
     = partial "partials/nav"
+    = partial "partials/header"
     #main.container role="main" tabindex="-1"
       = yield
 
