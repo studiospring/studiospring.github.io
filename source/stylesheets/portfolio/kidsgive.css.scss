@@ -32,6 +32,11 @@
   }
 }
 
+#inreach-map {
+  background-color: #FFF;
+  padding-left: 1px;
+}
+
 // Small devices (landscape phones, 544px and up)
 @include media-breakpoint-up(sm) {
   #brief-list {
