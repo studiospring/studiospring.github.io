@@ -28,8 +28,17 @@ time {
   font-size: .8rem;
 }
 
+figure img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
 // Small devices (landscape phones, 544px and up)
-@include media-breakpoint-up(sm) {}
+@include media-breakpoint-up(sm) {
+  figure img {
+    max-width: 30em;
+  }
+}
 
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {}
