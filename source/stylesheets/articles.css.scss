@@ -33,10 +33,20 @@ figure img {
   margin-top: 1rem;
 }
 
+#double-doughnut {
+  object-fit: cover;
+  object-position: top;
+  height: 65vw;
+}
+
 // Small devices (landscape phones, 544px and up)
 @include media-breakpoint-up(sm) {
   figure img {
     max-width: 30em;
+  }
+
+  #double-doughnut {
+    height: 21rem;
   }
 }
 
