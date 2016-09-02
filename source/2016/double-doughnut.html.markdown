@@ -1,13 +1,13 @@
 ---
-title: The process of design and innovation
+title: A new model for design and innovation
 date: 2016-09-02
-tags: lean, agile, process
+tags: lean, agile, process, double diamond
 layout: article
-published: false
+published: true
 ---
 
 <aside>
-  Design has embraced lean and agile workflows and best practice has evolved. Innovation is becoming more important and these practices, adopted from the start up world, are becoming indispensable. Yet models like the double diamond have not kept up. How can we better describe the process of design and innovation which designers follow today, so that team members and decision makers can understand it and make it a whole-of-organisation process?
+  Design has embraced lean and agile workflows and best practice has evolved. Innovation is becoming more important and these practices, adopted from the start up world, are becoming indispensable. Yet models like the double diamond remain unchanged. How can we better describe the process of design and innovation which designers follow today, so that team members and decision makers can understand it and make it a whole-of-organisation process?
 </aside>
 
 READMORE
@@ -21,7 +21,7 @@ If you are a designer, you are probably familiar with the [double diamond](http:
 
 First, let's set the scene with a little history about design process models. The earliest model that I am aware of is the <a href="https://www.goodreads.com/book/show/592952.Universal_Traveler"><em>Universal Traveler's</em></a> ["Traveler's Map"](https://www.brainpickings.org/2011/11/11/the-universal-traveler-koberg-bagnall/). This was developed in the 1970s and is remarkably similar to the models that have developed since, suggesting that there is a fundamental approach to creative problem solving. Compared to current thinking, it is a little light on user-centredness, focusing more on the creative process, now known as [design thinking](https://en.wikipedia.org/wiki/Design_thinking#cite_note-21).
 
-Next came the double diamond. What is nice about this model is that it reveals the broadening and narrowing of scope along the design process. The **discovery** phase is one of casting a broad research net to understand the problem, then distill that in to a clearly **defined** problem. **Development** also expands in scope as you let go of constraints and ideate, only to narrow down and refine the solutions that you ultimately **deliver**.
+Next came the double diamond. What is nice about this model is that it reveals the broadening and narrowing of scope along the design process. The **discovery** phase is one of casting a broad research net to understand the problem, then distilling that in to a clearly **defined** problem. **Development** also expands in scope as you let go of constraints and ideate, only to narrow down and refine the solutions that you ultimately **deliver**.
 
 The other well known model is the Stanford d.school [design thinking process](http://dschool.stanford.edu/redesigningtheater/the-design-thinking-process/). This model is also linear and follows a similar process, but is presented somewhat simplistically. It has since been [updated](https://dschool.stanford.edu/groups/k12/wiki/17cff/Steps_in_a_Design_Thinking_Process.html) to be more cyclical, at the expense of simplicity.
 
@@ -32,7 +32,7 @@ The other well known model is the Stanford d.school [design thinking process](ht
 
 Most recently, there have been a number of lean and agile [models](http://lithespeed.com/lean-ux-dont-part-1-3-2/) which try to show how design fits in. Because agile was developed by programmers, most models are very developer focused and lack a design thinking approach or user focus. The other notable difference is that they are emphatically cyclical unlike previous models. Yet, to my knowledge, there is no authoritative model that designers turn to in order to explain how design can be lean and agile.
  
-To solve this problem, I have created a new model and in (a cheeky) homage to the double diamond, named it <strong><em>The Double Doughnut</em></strong>. It can be divided in to two parts: <strong>problem identification</strong> and <strong>solution development</strong>, and 6 steps. Though I have broken this process into discrete steps, I prefer to see it as a seamless process with ill-defined boundaries at best.
+To solve this problem, I have created a new model and in (a cheeky) homage to the double diamond, named it <strong><em>The Double Doughnut</em></strong>. It can be divided in to two parts and 6 steps. Though I have broken this process into discrete steps, I prefer to see it as a seamless process with ill-defined boundaries at best.
 
 <figure>
   <figcaption>Figure 3: The double doughnut.</figcaption>
