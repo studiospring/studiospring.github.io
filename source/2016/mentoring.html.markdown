@@ -3,7 +3,7 @@ title: The what and why of design mentoring
 date: 2016-11-28
 tags: mentoring
 layout: article
-published: false
+published: true
 ---
 
 <aside>
@@ -24,6 +24,6 @@ Although mentoring is a great tool for professional development with unique and 
 
 Perhaps the biggest barrier to mentoring is actually finding a suitable mentor (or even any mentor). The supply of mentors rarely keeps up with the demand from mentees. This may partly be because it is difficult to see the benefits of becoming a mentor, while the benefits to a mentee are quite clear. So, let's have a look at the benefits of being a mentor.
 
-Not only does mentoring broaden your professional network and look good on your resume, it also solidifies your knowledge and deepens your understanding. If you have a good mentee, your own ideas will be challenged and you can see things from a fresh perspective. Mentoring is also a great chance to practise the fine art of giving feedback and critiquing design. The best mentors give hints so that a mentee can make the journey of discovery for themselves and own the solution rather than prescriptive solutions. It also happens to be good fun.
+Not only does mentoring broaden your professional network and look good on your resume, it also solidifies your knowledge and deepens your understanding. If you have a good mentee, your own ideas will be challenged and you can see things from a beginner's perspective. It keeps your thinking fresh and breaks down your mental models of design that harden with experience by forcing you to return to the underlying principles of design. Mentoring is also a great chance to practise the fine art of giving feedback and critiquing design. The best mentors give hints so that a mentee can make the journey of discovery for themselves and own the solution rather than provide prescriptive solutions. It also happens to be good fun.
 
-Industry is short of senior designers and many designers are the sole designer in an organisation. Mentoring can elevate practical skills across the industry in a way that few other techniques can. Mentoring should be a prerequisite to being recognised as a senior designer, especially when soft skills are so highly valued. We need employers to expect their senior designers to be mentors. There should also be an obligation that mentees become mentors as a way of paying it forward. If we can raise the prestige of mentoring, designers and design will be better of for it.
+Industry is short of senior designers and many designers are the sole designer in an organisation. Mentoring can elevate practical skills across the industry in a way that few other techniques can. Mentoring should be a prerequisite to being recognised as a senior designer, especially when soft skills are so highly valued. We need employers to expect their senior designers to be mentors. There should also be an obligation that mentees become mentors as a way of paying it forward. If we can raise the prestige and value of mentoring, designers and design will be better off for it.
