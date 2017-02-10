@@ -1,40 +1,42 @@
 @font-face {
-  font-family: "Sansation Light";
-  src: url("/type/sansation/Sansation-light.ttf") format('truetype');
+  font-family: 'Sansation Light';
+  src: url('/type/sansation/Sansation-light.ttf') format('truetype');
 }
 @font-face {
-  font-family: "Sansation Regular";
-  src: url("/type/sansation/Sansation-Regular.ttf") format('truetype');
+  font-family: 'Sansation Regular';
+  src: url('/type/sansation/Sansation-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: "Sansation Bold";
-  src: url("/type/sansation/Sansation-Bold.ttf") format('truetype');
+  font-family: 'Sansation Bold';
+  src: url('/type/sansation/Sansation-Bold.ttf') format('truetype');
 }
 @font-face {
-  font-family: "Droid Sans";
-  src: url("/type/droid_sans/DroidSans.ttf") format('truetype');
+  font-family: 'Droid Sans';
+  src: url('/type/droid_sans/DroidSans.ttf') format('truetype');
 }
 @font-face {
-  font-family: "Droid Sans Bold";
-  src: url("/type/droid_sans/DroidSans-Bold.ttf") format('truetype');
+  font-family: 'Droid Sans Bold';
+  src: url('/type/droid_sans/DroidSans-Bold.ttf') format('truetype');
 }
 
-$base-font: "Droid Sans";
-/* $base-font: "Fira Sans Book"; */
-$display-light-font: "Sansation Light";
-$display-regular-font: "Sansation Regular";
-$display-bold-font: "Sansation Bold";
-$body-regular-font: "Droid Sans";
-$body-bold-font: "Droid Sans Bold";
+$base-font: 'Droid Sans';
+// $base-font: 'Fira Sans Book';
+$display-light-font: 'Sansation Light';
+$display-regular-font: 'Sansation Regular';
+$display-bold-font: 'Sansation Bold';
+$body-regular-font: 'Droid Sans';
+$body-bold-font: 'Droid Sans Bold';
+$paragraph-text-size: 1.2rem;
+
 
 $banner-text: #fff;
 $font-family-base: $base-font !default;
-/* Colours from Ellsworth Kelly */
-$spring-light-blue: #3999F7;
-$spring-blue: #2563A0;
-$spring-dark-blue: #19426B;
-$spring-light-red: #EC5B52;
-$spring-red: #DA170A;
-$spring-dark-red: #870E06;
+// Colours from Ellsworth Kelly
+$spring-light-blue: #3999f7;
+$spring-blue: #2563a0;
+$spring-dark-blue: #19426b;
+$spring-light-red: #ec5b52;
+$spring-red: #da170a;
+$spring-dark-red: #870e06;
 
 $footer-height: 4rem;
