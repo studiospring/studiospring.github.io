@@ -28,14 +28,15 @@ body {
 ul {
   margin: 0;
   padding: 0;
+
+  li {
+    list-style: none;
+  }
 }
 
-li {
-  list-style: none;
-}
-
-ul, ol {
-  padding-left: 0 !important;
+ul,
+ol {
+  padding-left: 0;
 }
 
 // .row {
@@ -84,11 +85,12 @@ ul, ol {
 
   }
 
-  p {
-    font-size: .9rem;
-    max-width: 30em;
+  p,
+  li {
     color: #222;
     line-height: 1.3rem;
+    max-width: 30em;
+    font-size: .9rem;
   }
 
   a {
