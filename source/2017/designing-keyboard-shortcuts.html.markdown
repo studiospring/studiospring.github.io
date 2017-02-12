@@ -21,7 +21,7 @@ Reducing frequent (and especially unnatural) movements is important in reducing 
 
 I prefer shortcuts pressed by the left hand. This way you can keep your hand on the mouse more, unless you are one of the those [people who uses the mouse with your left hand](http://www.dailyinfographic.com/left-handed-facts-and-statistics-infographic).
 
-Another problem here is that not everyone uses a qwerty keyboard. Some people deliberately change their layout to [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard), [Colemak](https://en.wikipedia.org/wiki/Keyboard_layout#Colemak) or other for precisely ergonomic reasons, others use localised keyboards. Some crazies, like myself, customise the layout even further. This means you won't know exactly where all users' keys are. I discuss a solution to this problem of various set ups in the [next article](/2017/future-of-keyboard-shortcuts.html).
+Another problem here is that not everyone uses a qwerty keyboard. Some people deliberately change their layout to [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard), [Colemak](https://en.wikipedia.org/wiki/Keyboard_layout#Colemak) or other for precisely ergonomic reasons, others use localised keyboards. Some crazies, like myself, customise the layout even further. This means you won't know exactly where all users' keys are. I discuss a solution to this problem of various set ups in the next article.
 
 ##Speed##
 In reducing movement, particularly between [mouse and keyboard](https://ux.stackexchange.com/questions/16155/is-there-any-research-into-the-cost-of-switching-between-using-a-keyboard-and-a), and use of mice there tends to be a corresponding [increase in speed](https://ux.stackexchange.com/questions/30682/are-there-any-recent-studies-of-the-keyboard-vs-mouse-issue). How much of a difference will depend on [Fitts's law](https://en.wikipedia.org/wiki/Fitts's_law). However, this speed comes at the cost of the dreaded learning curve, which I will cover later.
@@ -90,14 +90,14 @@ Let's have a look at the popular cut-copy-paste command and see what happens to 
 account of the motivations and context behind the design](http://worrydream.com/refs/Tesler%20-%20A%20Personal%20History%20of%20Modeless%20Text%20Editing%20and%20Cut-Copy-Paste.pdf) (pdf). However, the [shortcut keys for these commands were popularised by the Apple Lisa in 1983](https://en.wikipedia.org/wiki/Cut,_copy,_and_paste).
 
 <figure>
-  <a href="https://www.flickr.com/photos/blakespot/2385128334"><img src="/images/2017/apple_lisa_keyboard.jpg" alt="Apple Lisa keyboard and aluminium keyboard compared."></a>
-  <figcaption>Figure 1: The Apple Lisa Keyboard. Photo credits: <a href="https://www.flickr.com/photos/blakespot/">Blake Patterson</a> <a href="https://creativecommons.org/licenses/by/2.0/"><img class="cc-logo-text" src="/images/shared/cc.svg" alt="Creative Commons Attribution 2.0"></a></figcaption>
+  <a href="https://www.flickr.com/photos/blakespot/2385128334"><img src="/images/2017/apple_lisa_keyboard.jpg"></a>
+  <figcaption>Figure 1: The Apple Lisa Keyboard. Photo credits: <a href="https://www.flickr.com/photos/blakespot/">Blake Patterson</a> <a href="https://creativecommons.org/licenses/by/2.0/"><img class="cc-logo-text" src="/images/shared/cc.min.svg" alt="Creative Commons Attribution 2.0"></a></figcaption>
 </figure>
 
 At that point, Emacs and vi already had keyboard commands for copy pasting, but Apple being Apple (and the Emacs/vi commands not being so intuitive), they decided to do things differently. Collisions have obviously been avoided, most particularly with "P" for print. Although there is a mnemonic with &#8984;-C, the other keys seem to have been clustered together for ergonomic reasons since the commands are used together. With so many competing needs, choosing a key is clearly a fine balancing act, even for something as important as copy-paste and even so early in computing history.
 
 ##Conclusions##
-Designing the perfect keyboard shortcut seems all but impossible. There are so many variables regarding the users, their work space and work flow, so you are almost guaranteed to produce an unsatisfactory solution for some users. Furthermore, the user base is probably a minority. However, there is an answer that neatly side-steps a lot of the issues I have raised. In my [next post](/2017/future-of-keyboard-shortcuts.html), I will look at this solution that is gaining popularity and how it can be improved even further.
+Designing the perfect keyboard shortcut seems all but impossible. There are so many variables regarding the users, their work space and work flow, so you are almost guaranteed to produce an unsatisfactory solution for some users. Furthermore, the user base is probably a minority. However, there is an answer that neatly side-steps a lot of the issues I have raised. In my next post, I will look at this solution that is gaining popularity and how it can be improved even further.
 
 ##Footnotes##
 <ol id="footnotes">
