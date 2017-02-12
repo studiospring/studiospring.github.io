@@ -2,307 +2,349 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://studiospring.com.au/javascripts/jquery-ui/index.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/javascripts/waypoints/test/fixtures/infinite.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/javascripts/waypoints/test/fixtures/standard.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/javascripts/waypoints/test/fixtures/sticky.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/index.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/alert.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/button.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/carousel.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/collapse.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/dropdown.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/modal.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/popover.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/scrollspy.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/tab.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4/js/tests/visual/tooltip.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/index.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/alert.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/button.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/carousel.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/collapse.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/dropdown.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/modal.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/popover.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/scrollspy.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/tab.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/stylesheets/bootstrap-4.0.0-alpha.3/js/tests/visual/tooltip.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/heuristics-and-communication.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/double-doughnut.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/mentoring.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/portfolio/lindt.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/portfolio/index.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/404.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/about.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/index.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://studiospring.com.au/2017/designing-keyboard-shortcuts.html</loc>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/heuristics.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/facilitation.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/influence.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/communication.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/soft-skills.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/lean.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/agile.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/process.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/double-diamond.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/tags/mentoring.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://studiospring.com.au/tags/keyboard.html</loc>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://studiospring.com.au/tags/shortcuts.html</loc>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://studiospring.com.au/tags/input.html</loc>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://studiospring.com.au/2017.html</loc>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://studiospring.com.au/2017/02.html</loc>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://studiospring.com.au/2017/02/10.html</loc>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/11.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/11/28.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/09.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/09/02.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/08.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://studiospring.com.au/2016/08/09.html</loc>
-    <lastmod>2016-11-28T11:03:25+11:00</lastmod>
+    <lastmod>2017-02-13T09:12:26+11:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
